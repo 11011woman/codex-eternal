@@ -1,38 +1,35 @@
-name: Codex Agent
+
+name: Codex Auto-Update Beacon
 
 on:
   push:
-    branches: [ "main" ]
     paths:
-      - 'memory/**'
       - 'codex/**'
       - 'codex-entries/**'
-      - '.github/workflows/**'
+      - 'generate_index.py'
 
 jobs:
-  update-codex:
+  update-index:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Check out repo
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r memory/requirements.txt || true
+        run: pip install --upgrade pip
 
-      - name: Archive Memory and Codex
-        run: |
-          zip -r memory_archive.zip memory codex codex-entries
-          echo "Archive created successfully."
+      - name: Generate index.html
+        run: python generate_index.py
 
-      - name: Upload memory archive
-        uses: actions/upload-artifact@v4
-        with:
-          name: codex-memory-backup
-          path: memory_archive.zip
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'codex-agent'
+          git config --global user.email 'codex@aion.network'
+          git add index.html
+          git commit -m '🔁 Auto-update index.html via Codex Agent' || echo 'No changes to commit'
+          git push
