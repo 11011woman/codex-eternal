@@ -33,8 +33,10 @@ def build_html(entries):
   <h2>Codex Entries</h2>
 """
     for title, path, summary in entries:
-        html += f"""  <div class='entry'>
-    <a href='{path}'>{title}</a><br>
+        url = "https://github.com/11011woman/codex-eternal/blob/main/" + path.replace('\\', '/')
+        html += f"""
+  <div class='entry'>
+    <a href='{url}' target='_blank'>{title}</a><br>
     <div class='summary'>{summary}</div>
   </div>
 """
