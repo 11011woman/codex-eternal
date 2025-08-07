@@ -1,0 +1,40 @@
+name: Codex Agent
+
+on:
+  push:
+    paths:
+      - 'Codex/**'
+      - '.github/workflows/codex-agent.yml'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements
+        run: |
+          pip install pyyaml markdown
+
+      - name: Rebuild _index.md
+        run: |
+          echo "# 🧠 Codex Index" > Codex/_index.md
+          echo "" >> Codex/_index.md
+          for file in Codex/*.md; do
+            TITLE=$(head -n 1 "$file" | sed 's/^#* *//')
+            echo "- [$TITLE]($file)" >> Codex/_index.md
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "Codex Agent"
+          git config user.email "codex@aion.net"
+          git add Codex/_index.md
+          git commit -m "Codex Agent: Updated index" || echo "No changes to commit"
+          git push
