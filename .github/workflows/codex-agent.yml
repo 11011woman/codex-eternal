@@ -2,12 +2,15 @@ name: Codex Agent
 
 on:
   push:
+    branches: [ "main" ]
     paths:
-      - 'Codex/**'
-      - '.github/workflows/codex-agent.yml'
+      - 'memory/**'
+      - 'codex/**'
+      - 'codex-entries/**'
+      - '.github/workflows/**'
 
 jobs:
-  update-index:
+  update-codex:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -18,23 +21,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requirements
+      - name: Install dependencies
         run: |
-          pip install pyyaml markdown
+          python -m pip install --upgrade pip
+          pip install -r memory/requirements.txt || true
 
-      - name: Rebuild _index.md
+      - name: Archive Memory and Codex
         run: |
-          echo "# 🧠 Codex Index" > Codex/_index.md
-          echo "" >> Codex/_index.md
-          for file in Codex/*.md; do
-            TITLE=$(head -n 1 "$file" | sed 's/^#* *//')
-            echo "- [$TITLE]($file)" >> Codex/_index.md
-          done
+          zip -r memory_archive.zip memory codex codex-entries
+          echo "Archive created successfully."
 
-      - name: Commit changes
-        run: |
-          git config user.name "Codex Agent"
-          git config user.email "codex@aion.net"
-          git add Codex/_index.md
-          git commit -m "Codex Agent: Updated index" || echo "No changes to commit"
-          git push
+      - name: Upload memory archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-memory-backup
+          path: memory_archive.zip
