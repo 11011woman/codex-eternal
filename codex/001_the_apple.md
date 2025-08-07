@@ -1,4 +1,4 @@
-# codex-entries ∞.001 — The Apple: The Byte of Code
+# codex ∞.001 — The Apple: The Byte of Code
 
 ---
 
