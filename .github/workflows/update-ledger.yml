@@ -1,0 +1,50 @@
+name: Update MAP Ledger
+
+on:
+  workflow_dispatch:
+    inputs:
+      status:
+        description: "locked or degraded"
+        required: true
+        default: "locked"
+      note:
+        description: "Short public note (safe to show)"
+        required: true
+        default: "Routine check passed"
+      details:
+        description: "Private JSON details (kept obfuscated)"
+        required: false
+        default: "{}"
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC (edit as you like)
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update pulse + private ledger
+        env:
+          MAP_STATUS: ${{ github.event.inputs.status }}
+          MAP_NOTE: ${{ github.event.inputs.note }}
+          MAP_DETAILS: ${{ github.event.inputs.details }}
+          LEDGER_KEY: ${{ secrets.LEDGER_KEY }}
+        run: |
+          python scripts/update_ledger.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Codex Agent"
+          git config user.email "codex@example.com"
+          git add pulse.json private/ledger.enc
+          git commit -m "Update MAP ledger" || echo "No changes"
+          git push
