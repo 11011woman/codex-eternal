@@ -1,48 +1,37 @@
-name: Update MAP Ledger
+name: Update Ledger
 
 on:
   workflow_dispatch:
-    inputs:
-      status:
-        description: "locked or degraded"
-        required: true
-        default: "locked"
-      note:
-        description: "Short public note (safe to show)"
-        required: true
-        default: "Routine check passed"
-      details:
-        description: "Private JSON details (kept obfuscated)"
-        required: false
-        default: "{}"
   schedule:
-    - cron: "0 13 * * 1"  # Mondays 13:00 UTC — adjust as needed
-
-permissions:
-  contents: write
+    - cron: "0 * * * *" # runs every hour
 
 jobs:
-  update:
+  update-ledger:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: "3.11"
+          node-version: 18
 
-      - name: Update pulse + private ledger
-        env:
-          MAP_STATUS: ${{ github.event.inputs.status }}
-          MAP_NOTE:   ${{ github.event.inputs.note }}
-          MAP_DETAILS:${{ github.event.inputs.details }}
-          LEDGER_KEY: ${{ secrets.LEDGER_KEY }}
-        run: |
-          python scripts/update_ledger.py
+      - name: Install dependencies
+        run: npm install
 
-      - name: Commit and push
+      - name: Run ledger update script
+        run: node scripts/update-ledger.js
+
+      - name: Commit changes
         run: |
-          git config user.name "Codex Agent"
-          git config user.email "codex@example.com"
-          git add pulse.json private/ledger.enc
-          git commit -m "Update MAP ledger" || echo "No changes"
-          git push
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-update ledger" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
