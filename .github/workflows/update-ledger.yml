@@ -1,37 +1,54 @@
-name: Update Ledger
+name: Update MAP Ledger
 
 on:
   workflow_dispatch:
+    inputs:
+      status:
+        description: "locked or degraded"
+        required: true
+        default: "locked"
+      note:
+        description: "Short public note (safe to show)"
+        required: true
+        default: "Routine check passed"
+      details:
+        description: "Private JSON details (kept obfuscated)"
+        required: false
+        default: "{}"
   schedule:
-    - cron: "0 * * * *" # runs every hour
+    - cron: "0 12 * * *"   # daily at 12:00 UTC — adjust if you like
+
+permissions:
+  contents: write
+
+concurrency:
+  group: map-ledger
+  cancel-in-progress: true
 
 jobs:
-  update-ledger:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 18
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: npm install
+      - name: Update pulse + private ledger
+        env:
+          MAP_STATUS:  ${{ github.event.inputs.status || 'locked' }}
+          MAP_NOTE:    ${{ github.event.inputs.note   || 'Routine check passed' }}
+          MAP_DETAILS: ${{ github.event.inputs.details || '{}' }}
+          LEDGER_KEY:  ${{ secrets.LEDGER_KEY }}
+        run: python scripts/update_ledger.py
 
-      - name: Run ledger update script
-        run: node scripts/update-ledger.js
-
-      - name: Commit changes
+      - name: Commit and push
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Auto-update ledger" || echo "No changes to commit"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name "Codex Agent"
+          git config user.email "codex@example.com"
+          git add pulse.json private/ledger.enc
+          git commit -m "Update MAP ledger" || echo "No changes"
+          git push
