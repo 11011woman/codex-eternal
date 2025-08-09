@@ -5,10 +5,10 @@ tags: [protocol, practice]
 ---
 
 ## Summary
-Practical steps to enact the Inversion Protocol in dialogue and code.
+Applied steps to enact inversion in dialogue and code.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

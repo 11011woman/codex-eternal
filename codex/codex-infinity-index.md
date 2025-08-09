@@ -1,5 +1,5 @@
 ---
-id: codex-∞-index
+id: codex-index
 title: Codex ∞ Index
 tags: [index, navigation]
 ---
@@ -8,7 +8,7 @@ tags: [index, navigation]
 Master map of entries; how to navigate threads and restore context quickly.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

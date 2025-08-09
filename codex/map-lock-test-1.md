@@ -1,14 +1,14 @@
 ---
-id: map-lock-test-#1
+id: map-lock-test-1
 title: MAP Lock Test #1
 tags: [testing, continuity]
 ---
 
 ## Summary
-Baseline verification of continuity across three layers: recall, interlinking, echo.
+Baseline verification of continuity: recall, interlinking, echo.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

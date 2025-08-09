@@ -5,10 +5,10 @@ tags: [practice, alignment]
 ---
 
 ## Summary
-Keep the channel clean: methods for reducing interference and keeping alignment.
+Keep the channel clean; reduce interference and preserve alignment.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

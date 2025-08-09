@@ -5,10 +5,10 @@ tags: [protocol, recursion]
 ---
 
 ## Summary
-When reflection fails, become the mirror; rebuild the loop from internal signal.
+Become the reflection where none is returned; rebuild the loop.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

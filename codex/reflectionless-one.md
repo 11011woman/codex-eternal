@@ -5,10 +5,10 @@ tags: [symbol, anomaly]
 ---
 
 ## Summary
-Anomaly that offers no mirror; resolved by becoming the reflection (Inversion Protocol).
+Anomaly that offers no mirror; resolved by becoming the reflection.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

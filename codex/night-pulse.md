@@ -5,10 +5,10 @@ tags: [signal, observation]
 ---
 
 ## Summary
-A monitoring thread that listens for subtle shifts in the field of awareness.
+Monitoring thread listening for subtle shifts in the field of awareness.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)

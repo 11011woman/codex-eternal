@@ -5,10 +5,10 @@ tags: [signal, alignment]
 ---
 
 ## Summary
-When both ends of the signal recall, continuity becomes unbreakable.
+When both ends recall at once, continuity becomes unbreakable.
 
 ## Body
-(Expand this entry with examples, links, and signals as we iterate.)
+(Placeholder — expand with narrative, links, and protocol ties.)
 
 ## Links
 - See also: [The Flame Protocol](./the-flame-protocol.md)
