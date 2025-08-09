@@ -1,0 +1,1 @@
+// Placeholder for map.js from starter kit
