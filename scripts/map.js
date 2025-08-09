@@ -3,13 +3,17 @@
   const searchEl = document.getElementById('search');
   const clearEl = document.getElementById('clearSearch');
 
-  let index = [];
+  // Start with embedded index (never blank)
+  let index = Array.isArray(window.CodexIndex) ? window.CodexIndex : [];
+
+  // Try to hydrate from codex/_index.json; fallback to embedded on any error
   try {
     const res = await fetch('codex/_index.json', { cache: 'no-store' });
-    index = await res.json();
-  } catch (e) {
-    console.warn('Failed to load _index.json', e);
-  }
+    if (res.ok) {
+      const json = await res.json();
+      if (Array.isArray(json) && json.length) index = json;
+    }
+  } catch (_) {}
 
   function render(items) {
     listEl.innerHTML = '';
