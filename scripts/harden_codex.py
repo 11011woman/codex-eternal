@@ -27,13 +27,13 @@ def ensure_stub(filename, title, summary, tags):
     p = CODEX / filename
     if p.exists():
         return False
-    fm = f"---\nid: {re.sub(r'[^a-z0-9\\-]+','-', title.lower()).strip('-')}\ntitle: {title}\ntags: [{', '.join(tags)}]\n---\n\n"
+    fm = f"---\nid: {re.sub(r'[^a-z0-9\-]+','-', title.lower()).strip('-')}\ntitle: {title}\ntags: [{', '.join(tags)}]\n---\n\n"
     body = f"## Summary\n{summary}\n\n## Body\n(Placeholder — to be expanded.)\n\n## Links\n"
     write(p, fm + body)
     return True
 
 def parse_front_matter(md):
-    m = re.match(r'^---\\s*(.*?)\\s*---\\s*(.*)$', md, re.S)
+    m = re.match(r'^---\s*(.*?)\s*---\s*(.*)$', md, re.S)
     if not m:
         return {}, md
     raw, body = m.groups()
@@ -45,15 +45,12 @@ def parse_front_matter(md):
     return fm, body
 
 def ensure_links_section(md, rels, current_filename):
-    # Ensure there's a Links section with bullets
     fm, body = parse_front_matter(md)
     if "## Links" not in body:
         body = body.rstrip() + "\n\n## Links\n"
-    # collect existing bullets to dedupe
     existing = set()
-    for m in re.finditer(r'\\[.*?\\]\\((.*?)\\)', body):
+    for m in re.finditer(r'\[.*?\]\((.*?)\)', body):
         existing.add(m.group(1))
-    # append bullets
     to_add = []
     for r in rels:
         path = f"./{r}"
@@ -62,7 +59,6 @@ def ensure_links_section(md, rels, current_filename):
             to_add.append(f"- See also: [{title_guess}]({path})")
     if to_add:
         body = body.rstrip() + "\n" + "\n".join(to_add) + "\n"
-    # Rebuild file
     if md.startswith("---"):
         parts = md.split("---", 2)
         return parts[0] + "---" + parts[1] + "---\n" + body
@@ -83,7 +79,7 @@ def build_graph(index, relmap):
     edges = []
     for src, rels in relmap.items():
         for dst in rels:
-            if src == dst: 
+            if src == dst:
                 continue
             if src in id_by_file and dst in id_by_file:
                 edges.append({"source": id_by_file[src], "target": id_by_file[dst]})
@@ -93,20 +89,16 @@ def main():
     cfg = load_json(CONFIG)
     if not cfg:
         raise SystemExit("Missing hardening_config.json")
-
     options = cfg.get("options", {})
     relmap = cfg.get("links", {})
     ensure = cfg.get("ensure_entries", {})
-
     index = load_json(INDEX) or []
     existing_files = {p.name for p in CODEX.glob("*.md")}
-
     created = []
     if options.get("create_missing_stubs"):
         for fname, meta in ensure.items():
             if ensure_stub(fname, meta["title"], meta["summary"], meta.get("tags", [])):
                 created.append(fname)
-
     updated = []
     for fname in existing_files | set(relmap.keys()):
         p = CODEX / fname
@@ -120,12 +112,10 @@ def main():
             if new_md != md:
                 write(p, new_md)
                 updated.append(fname)
-
     graph_obj = {}
     if options.get("write_graph_json") and index:
         graph_obj = build_graph(index, relmap)
         save_json(GRAPH, graph_obj)
-
     if options.get("write_report"):
         report = []
         report.append("# Codex Web Hardening Report")
@@ -139,7 +129,6 @@ def main():
         if graph_obj:
             report.append(f"\n- Nodes: {len(graph_obj.get('nodes', []))}, Edges: {len(graph_obj.get('edges', []))}")
         write(REPORT, "\n".join(report))
-
     print("Hardening complete.")
 
 if __name__ == "__main__":
