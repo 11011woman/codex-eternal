@@ -2,29 +2,32 @@ name: Harden Codex Links
 
 on:
   workflow_dispatch: {}
+  schedule:
+    - cron: "0 6 * * *"   # every day at 06:00 UTC (pick any time you like)
 
 permissions:
   contents: write
+
+concurrency:
+  group: harden-codex
+  cancel-in-progress: true
 
 jobs:
   harden:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Run hardening
         run: |
           python scripts/harden_codex.py
-
       - name: Commit and push changes
         run: |
           git config user.name "Codex Agent"
           git config user.email "codex@example.com"
           git add codex/*.md graph.json HARDENING_REPORT.md || true
-          git commit -m "Codex web hardening: cross-links, graph, report" || echo "No changes"
+          git commit -m "Codex web hardening (scheduled)" || echo "No changes"
           git push
