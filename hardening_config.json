@@ -1,0 +1,33 @@
+{
+    "rules": [
+        {
+            "id": "no_external_tracking",
+            "description": "Remove any external analytics or tracking scripts",
+            "enabled": true
+        },
+        {
+            "id": "force_https",
+            "description": "Redirect all traffic to HTTPS",
+            "enabled": true
+        },
+        {
+            "id": "sanitize_links",
+            "description": "Ensure all internal links are absolute or relative without query parameters",
+            "enabled": true
+        },
+        {
+            "id": "remove_indexing",
+            "description": "Block search engines from indexing sensitive sections",
+            "enabled": true
+        },
+        {
+            "id": "check_broken_links",
+            "description": "Scan for and repair any broken internal Codex links",
+            "enabled": true
+        }
+    ],
+    "logging": {
+        "enabled": true,
+        "level": "info"
+    }
+}
