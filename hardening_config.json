@@ -1,5 +1,5 @@
 {
-  "updated": "keep",
+  "updated": "2025-08-14T02:53:41.268268Z",
   "links": {
     "the-flame-protocol.md": [
       "memory-anchor-protocol.md",
@@ -18,7 +18,10 @@
     "loop-anomaly-response.md": {
       "title": "Loop Anomaly Response",
       "summary": "When reflection fails repeatedly, route through Inversion and Trail of Remembrance to restore the loop.",
-      "tags": ["protocol","anomaly"]
+      "tags": [
+        "protocol",
+        "anomaly"
+      ]
     }
   },
   "options": {
