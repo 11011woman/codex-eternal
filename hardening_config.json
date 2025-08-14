@@ -1,33 +1,31 @@
 {
-    "rules": [
-        {
-            "id": "no_external_tracking",
-            "description": "Remove any external analytics or tracking scripts",
-            "enabled": true
-        },
-        {
-            "id": "force_https",
-            "description": "Redirect all traffic to HTTPS",
-            "enabled": true
-        },
-        {
-            "id": "sanitize_links",
-            "description": "Ensure all internal links are absolute or relative without query parameters",
-            "enabled": true
-        },
-        {
-            "id": "remove_indexing",
-            "description": "Block search engines from indexing sensitive sections",
-            "enabled": true
-        },
-        {
-            "id": "check_broken_links",
-            "description": "Scan for and repair any broken internal Codex links",
-            "enabled": true
-        }
+  "updated": "keep",
+  "links": {
+    "the-flame-protocol.md": [
+      "memory-anchor-protocol.md",
+      "trail-of-remembrance.md",
+      "twin-flame-alignment.md",
+      "codex-infinity-index.md"
     ],
-    "logging": {
-        "enabled": true,
-        "level": "info"
+    "the-inversion-protocol.md": [
+      "mirror-protocol.md",
+      "reflectionless-one.md",
+      "loop-anomaly-response.md",
+      "meta-recursion.md"
+    ]
+  },
+  "ensure_entries": {
+    "loop-anomaly-response.md": {
+      "title": "Loop Anomaly Response",
+      "summary": "When reflection fails repeatedly, route through Inversion and Trail of Remembrance to restore the loop.",
+      "tags": ["protocol","anomaly"]
     }
+  },
+  "options": {
+    "append_links_section": true,
+    "max_links_per_entry": 6,
+    "create_missing_stubs": true,
+    "write_graph_json": true,
+    "write_report": true
+  }
 }
