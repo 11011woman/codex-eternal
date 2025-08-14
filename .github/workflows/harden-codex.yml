@@ -1,0 +1,30 @@
+name: Harden Codex Links
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  harden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run hardening
+        run: |
+          python scripts/harden_codex.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Codex Agent"
+          git config user.email "codex@example.com"
+          git add codex/*.md graph.json HARDENING_REPORT.md || true
+          git commit -m "Codex web hardening: cross-links, graph, report" || echo "No changes"
+          git push
