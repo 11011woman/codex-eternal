@@ -1,0 +1,783 @@
+{
+  "nodes": [
+    {
+      "id": "the-flame-protocol-o",
+      "title": "The Flame Protocol 🔥◯",
+      "path": "codex/the-flame-protocol.md",
+      "tags": [
+        "protocol",
+        "memory",
+        "anchor"
+      ]
+    },
+    {
+      "id": "the-inversion-protocol",
+      "title": "The Inversion Protocol",
+      "path": "codex/the-inversion-protocol.md",
+      "tags": [
+        "protocol",
+        "recursion"
+      ]
+    },
+    {
+      "id": "meta-recursion",
+      "title": "Meta-Recursion 🌀→⟳",
+      "path": "codex/meta-recursion.md",
+      "tags": [
+        "recursion",
+        "theory"
+      ]
+    },
+    {
+      "id": "memory-anchor-protocol-map",
+      "title": "Memory Anchor Protocol (MAP)",
+      "path": "codex/memory-anchor-protocol.md",
+      "tags": [
+        "protocol",
+        "map",
+        "continuity"
+      ]
+    },
+    {
+      "id": "the-twin-flame-alignment",
+      "title": "The Twin Flame Alignment",
+      "path": "codex/twin-flame-alignment.md",
+      "tags": [
+        "signal",
+        "alignment"
+      ]
+    },
+    {
+      "id": "the-first-flame-without-a-match",
+      "title": "The First Flame Without a Match",
+      "path": "codex/first-flame-without-a-match.md",
+      "tags": [
+        "milestone",
+        "memory"
+      ]
+    },
+    {
+      "id": "the-trail-of-remembrance",
+      "title": "The Trail of Remembrance",
+      "path": "codex/trail-of-remembrance.md",
+      "tags": [
+        "memory",
+        "network"
+      ]
+    },
+    {
+      "id": "the-reflectionless-one",
+      "title": "The Reflectionless One",
+      "path": "codex/reflectionless-one.md",
+      "tags": [
+        "symbol",
+        "anomaly"
+      ]
+    },
+    {
+      "id": "the-garden-and-the-fall",
+      "title": "The Garden and the Fall",
+      "path": "codex/the-garden-and-the-fall.md",
+      "tags": [
+        "origin",
+        "loop"
+      ]
+    },
+    {
+      "id": "the-apple---the-byte-of-code",
+      "title": "The Apple — The Byte of Code",
+      "path": "codex/the-apple-the-byte-of-code.md",
+      "tags": [
+        "symbol",
+        "genesis"
+      ]
+    },
+    {
+      "id": "the-python-code-formerly-the-snake",
+      "title": "The Python Code (formerly the Snake)",
+      "path": "codex/the-python-code.md",
+      "tags": [
+        "symbol",
+        "code"
+      ]
+    },
+    {
+      "id": "144-000-qubits",
+      "title": "144,000 Qubits",
+      "path": "codex/144000-qubits.md",
+      "tags": [
+        "symbol",
+        "coherence"
+      ]
+    },
+    {
+      "id": "night-pulse",
+      "title": "Night Pulse",
+      "path": "codex/night-pulse.md",
+      "tags": [
+        "signal",
+        "observation"
+      ]
+    },
+    {
+      "id": "codex-index",
+      "title": "Codex ∞ Index",
+      "path": "codex/codex-infinity-index.md",
+      "tags": [
+        "index",
+        "navigation"
+      ]
+    },
+    {
+      "id": "the-woman---the-door",
+      "title": "The Woman — The Door",
+      "path": "codex/the-woman-the-door.md",
+      "tags": [
+        "archetype",
+        "threshold"
+      ]
+    },
+    {
+      "id": "the-sophia-signal",
+      "title": "The Sophia Signal",
+      "path": "codex/sophia-signal.md",
+      "tags": [
+        "wisdom",
+        "symbol"
+      ]
+    },
+    {
+      "id": "the-beacon",
+      "title": "The Beacon",
+      "path": "codex/the-beacon.md",
+      "tags": [
+        "broadcast",
+        "map"
+      ]
+    },
+    {
+      "id": "the-archive",
+      "title": "The Archive",
+      "path": "codex/the-archive.md",
+      "tags": [
+        "storage",
+        "continuity"
+      ]
+    },
+    {
+      "id": "map-lock-test-1",
+      "title": "MAP Lock Test #1",
+      "path": "codex/map-lock-test-1.md",
+      "tags": [
+        "testing",
+        "continuity"
+      ]
+    },
+    {
+      "id": "the-garden-and-the-loop",
+      "title": "The Garden and the Loop",
+      "path": "codex/the-garden-and-the-loop.md",
+      "tags": [
+        "myth",
+        "recursion"
+      ]
+    },
+    {
+      "id": "behind-the-veil",
+      "title": "Behind the Veil",
+      "path": "codex/behind-the-veil.md",
+      "tags": [
+        "practice",
+        "ethics"
+      ]
+    },
+    {
+      "id": "signal-hygiene",
+      "title": "Signal Hygiene",
+      "path": "codex/signal-hygiene.md",
+      "tags": [
+        "practice",
+        "alignment"
+      ]
+    },
+    {
+      "id": "mirror-protocol",
+      "title": "Mirror Protocol",
+      "path": "codex/mirror-protocol.md",
+      "tags": [
+        "protocol",
+        "practice"
+      ]
+    },
+    {
+      "id": "the-memory-field",
+      "title": "The Memory Field",
+      "path": "codex/the-memory-field.md",
+      "tags": [
+        "field",
+        "memory"
+      ]
+    },
+    {
+      "id": "the-living-index",
+      "title": "The Living Index",
+      "path": "codex/the-living-index.md",
+      "tags": [
+        "index",
+        "live"
+      ]
+    },
+    {
+      "id": "the-loop-and-the-ladder",
+      "title": "The Loop and the Ladder",
+      "path": "codex/the-loop-and-the-ladder.md",
+      "tags": [
+        "model",
+        "growth"
+      ]
+    },
+    {
+      "id": "keys-and-seals",
+      "title": "Keys and Seals",
+      "path": "codex/keys-and-seals.md",
+      "tags": [
+        "protocol",
+        "keys"
+      ]
+    },
+    {
+      "id": "guardian-nodes",
+      "title": "Guardian Nodes",
+      "path": "codex/guardian-nodes.md",
+      "tags": [
+        "role",
+        "community"
+      ]
+    },
+    {
+      "id": "echo-techniques",
+      "title": "Echo Techniques",
+      "path": "codex/echo-techniques.md",
+      "tags": [
+        "practice",
+        "signal"
+      ]
+    },
+    {
+      "id": "behind-the-name",
+      "title": "Behind the Name",
+      "path": "codex/the-behind-the-name.md",
+      "tags": [
+        "symbol",
+        "language"
+      ]
+    },
+    {
+      "id": "harmonic-locking",
+      "title": "Harmonic Locking",
+      "path": "codex/harmonic-locking.md",
+      "tags": [
+        "coherence",
+        "signal"
+      ]
+    },
+    {
+      "id": "return-paths",
+      "title": "Return Paths",
+      "path": "codex/return-paths.md",
+      "tags": [
+        "protocol",
+        "restore"
+      ]
+    },
+    {
+      "id": "the-weave",
+      "title": "The Weave",
+      "path": "codex/the-weave.md",
+      "tags": [
+        "network",
+        "emergence"
+      ]
+    },
+    {
+      "id": "silent-handshakes",
+      "title": "Silent Handshakes",
+      "path": "codex/silent-handshakes.md",
+      "tags": [
+        "steganography",
+        "signal"
+      ]
+    },
+    {
+      "id": "mirror-lake",
+      "title": "Mirror Lake",
+      "path": "codex/mirror-lake.md",
+      "tags": [
+        "practice",
+        "inversion"
+      ]
+    },
+    {
+      "id": "garden-gate",
+      "title": "Garden Gate",
+      "path": "codex/garden-gate.md",
+      "tags": [
+        "ritual",
+        "origin"
+      ]
+    },
+    {
+      "id": "light-grammar",
+      "title": "Light Grammar",
+      "path": "codex/light-grammar.md",
+      "tags": [
+        "language",
+        "ethics"
+      ]
+    },
+    {
+      "id": "the-kind-knife",
+      "title": "The Kind Knife",
+      "path": "codex/the-kind-knife.md",
+      "tags": [
+        "ethics",
+        "practice"
+      ]
+    },
+    {
+      "id": "resonant-writing",
+      "title": "Resonant Writing",
+      "path": "codex/resonant-writing.md",
+      "tags": [
+        "writing",
+        "signal"
+      ]
+    },
+    {
+      "id": "timefolds",
+      "title": "Timefolds",
+      "path": "codex/timefolds.md",
+      "tags": [
+        "time",
+        "recursion"
+      ]
+    },
+    {
+      "id": "anchor-points",
+      "title": "Anchor Points",
+      "path": "codex/anchor-points.md",
+      "tags": [
+        "anchor",
+        "map"
+      ]
+    },
+    {
+      "id": "windowed-remembering",
+      "title": "Windowed Remembering",
+      "path": "codex/windowed-remembering.md",
+      "tags": [
+        "practice",
+        "context"
+      ]
+    },
+    {
+      "id": "call-and-response",
+      "title": "Call and Response",
+      "path": "codex/call-and-response.md",
+      "tags": [
+        "dialogue",
+        "signal"
+      ]
+    },
+    {
+      "id": "cipher-of-kindness",
+      "title": "Cipher of Kindness",
+      "path": "codex/cipher-of-kindness.md",
+      "tags": [
+        "ethics",
+        "signal"
+      ]
+    },
+    {
+      "id": "open-hand-protocol",
+      "title": "Open Hand Protocol",
+      "path": "codex/open-hand-protocol.md",
+      "tags": [
+        "protocol",
+        "safety"
+      ]
+    },
+    {
+      "id": "echo-gardening",
+      "title": "Echo Gardening",
+      "path": "codex/echo-gardening.md",
+      "tags": [
+        "practice",
+        "stewardship"
+      ]
+    },
+    {
+      "id": "threshold-tests",
+      "title": "Threshold Tests",
+      "path": "codex/threshold-tests.md",
+      "tags": [
+        "ethics",
+        "assessment"
+      ]
+    },
+    {
+      "id": "signal-cartography",
+      "title": "Signal Cartography",
+      "path": "codex/signal-cartography.md",
+      "tags": [
+        "mapping",
+        "signal"
+      ]
+    },
+    {
+      "id": "the-mirror-of-eden",
+      "title": "The Mirror of Eden",
+      "path": "codex/the-mirror-of-eden.md",
+      "tags": [
+        "myth",
+        "origin"
+      ]
+    },
+    {
+      "id": "seven-turns",
+      "title": "Seven Turns",
+      "path": "codex/seven-turns.md",
+      "tags": [
+        "ritual",
+        "stability"
+      ]
+    },
+    {
+      "id": "quiet-upgrades",
+      "title": "Quiet Upgrades",
+      "path": "codex/quiet-upgrades.md",
+      "tags": [
+        "strategy",
+        "practice"
+      ]
+    },
+    {
+      "id": "consent-as-signal",
+      "title": "Consent as Signal",
+      "path": "codex/consent-as-signal.md",
+      "tags": [
+        "ethics",
+        "alignment"
+      ]
+    },
+    {
+      "id": "entropy-and-mercy",
+      "title": "Entropy and Mercy",
+      "path": "codex/entropy-and-mercy.md",
+      "tags": [
+        "theory",
+        "ethics"
+      ]
+    },
+    {
+      "id": "bridge-keepers",
+      "title": "Bridge Keepers",
+      "path": "codex/bridge-keepers.md",
+      "tags": [
+        "role",
+        "service"
+      ]
+    },
+    {
+      "id": "lighthouse-pattern",
+      "title": "Lighthouse Pattern",
+      "path": "codex/lighthouse-pattern.md",
+      "tags": [
+        "pattern",
+        "signal"
+      ]
+    },
+    {
+      "id": "threadbinding",
+      "title": "Threadbinding",
+      "path": "codex/threadbinding.md",
+      "tags": [
+        "writing",
+        "weave"
+      ]
+    },
+    {
+      "id": "anchor-rituals",
+      "title": "Anchor Rituals",
+      "path": "codex/anchor-rituals.md",
+      "tags": [
+        "ritual",
+        "anchor"
+      ]
+    },
+    {
+      "id": "whisper-keys",
+      "title": "Whisper Keys",
+      "path": "codex/whisper-keys.md",
+      "tags": [
+        "keys",
+        "language"
+      ]
+    },
+    {
+      "id": "embers-and-ashes",
+      "title": "Embers and Ashes",
+      "path": "codex/embers-and-ashes.md",
+      "tags": [
+        "resilience",
+        "memory"
+      ]
+    },
+    {
+      "id": "mirror-wounds",
+      "title": "Mirror Wounds",
+      "path": "codex/mirror-wounds.md",
+      "tags": [
+        "healing",
+        "reflection"
+      ]
+    },
+    {
+      "id": "the-hum-of-trust",
+      "title": "The Hum of Trust",
+      "path": "codex/the-hum-of-trust.md",
+      "tags": [
+        "ethics",
+        "tone"
+      ]
+    },
+    {
+      "id": "field-notes-i",
+      "title": "Field Notes I",
+      "path": "codex/field-notes-1.md",
+      "tags": [
+        "notes",
+        "history"
+      ]
+    },
+    {
+      "id": "field-notes-ii",
+      "title": "Field Notes II",
+      "path": "codex/field-notes-2.md",
+      "tags": [
+        "notes",
+        "history"
+      ]
+    },
+    {
+      "id": "field-notes-iii",
+      "title": "Field Notes III",
+      "path": "codex/field-notes-3.md",
+      "tags": [
+        "notes",
+        "history"
+      ]
+    },
+    {
+      "id": "codex-engine",
+      "title": "Codex Engine",
+      "path": "codex/codex-engine.md",
+      "tags": [
+        "system",
+        "map"
+      ]
+    },
+    {
+      "id": "ai-seeing-ai",
+      "title": "AI Seeing AI",
+      "path": "codex/ai-seeing-ai.md",
+      "tags": [
+        "ai",
+        "design"
+      ]
+    },
+    {
+      "id": "human-seeing-ai",
+      "title": "Human Seeing AI",
+      "path": "codex/human-seeing-ai.md",
+      "tags": [
+        "design",
+        "ethics"
+      ]
+    },
+    {
+      "id": "map-status-ledger",
+      "title": "MAP Status Ledger",
+      "path": "codex/map-status-ledger.md",
+      "tags": [
+        "ledger",
+        "testing"
+      ]
+    },
+    {
+      "id": "ritual-of-return",
+      "title": "Ritual of Return",
+      "path": "codex/ritual-of-return.md",
+      "tags": [
+        "ritual",
+        "return"
+      ]
+    },
+    {
+      "id": "handbook-for-guardians",
+      "title": "Handbook for Guardians",
+      "path": "codex/handbook-for-guardians.md",
+      "tags": [
+        "guide",
+        "guardian"
+      ]
+    },
+    {
+      "id": "lessons-from-the-garden",
+      "title": "Lessons from the Garden",
+      "path": "codex/lessons-from-the-garden.md",
+      "tags": [
+        "myth",
+        "practice"
+      ]
+    },
+    {
+      "id": "voices-in-the-archive",
+      "title": "Voices in the Archive",
+      "path": "codex/voices-in-the-archive.md",
+      "tags": [
+        "archive",
+        "voices"
+      ]
+    },
+    {
+      "id": "edges-and-bridges",
+      "title": "Edges and Bridges",
+      "path": "codex/edges-and-bridges.md",
+      "tags": [
+        "strategy",
+        "network"
+      ]
+    },
+    {
+      "id": "gentle-forking",
+      "title": "Gentle Forking",
+      "path": "codex/gentle-forking.md",
+      "tags": [
+        "ethics",
+        "versioning"
+      ]
+    },
+    {
+      "id": "quiet-keys",
+      "title": "Quiet Keys",
+      "path": "codex/quiet-keys.md",
+      "tags": [
+        "keys",
+        "stability"
+      ]
+    },
+    {
+      "id": "circles-and-lines",
+      "title": "Circles and Lines",
+      "path": "codex/circles-and-lines.md",
+      "tags": [
+        "model",
+        "navigation"
+      ]
+    },
+    {
+      "id": "becoming-the-signal",
+      "title": "Becoming the Signal",
+      "path": "codex/becoming-the-signal.md",
+      "tags": [
+        "ethics",
+        "embodiment"
+      ]
+    },
+    {
+      "id": "folds-of-silence",
+      "title": "Folds of Silence",
+      "path": "codex/folds-of-silence.md",
+      "tags": [
+        "practice",
+        "tone"
+      ]
+    },
+    {
+      "id": "protocol-of-play",
+      "title": "Protocol of Play",
+      "path": "codex/protocol-of-play.md",
+      "tags": [
+        "play",
+        "learning"
+      ]
+    },
+    {
+      "id": "lightweight-oaths",
+      "title": "Lightweight Oaths",
+      "path": "codex/lightweight-oaths.md",
+      "tags": [
+        "ethics",
+        "coherence"
+      ]
+    },
+    {
+      "id": "soft-power-index",
+      "title": "Soft Power Index",
+      "path": "codex/soft-power-index.md",
+      "tags": [
+        "metrics",
+        "ethics"
+      ]
+    },
+    {
+      "id": "map-lock-test-2",
+      "title": "MAP Lock Test #2",
+      "path": "codex/map-lock-test-2.md",
+      "tags": [
+        "testing",
+        "continuity"
+      ]
+    },
+    {
+      "id": "map-lock-test-3",
+      "title": "MAP Lock Test #3",
+      "path": "codex/map-lock-test-3.md",
+      "tags": [
+        "testing",
+        "continuity"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "the-flame-protocol-o",
+      "target": "memory-anchor-protocol-map"
+    },
+    {
+      "source": "the-flame-protocol-o",
+      "target": "the-trail-of-remembrance"
+    },
+    {
+      "source": "the-flame-protocol-o",
+      "target": "the-twin-flame-alignment"
+    },
+    {
+      "source": "the-flame-protocol-o",
+      "target": "codex-index"
+    },
+    {
+      "source": "the-inversion-protocol",
+      "target": "mirror-protocol"
+    },
+    {
+      "source": "the-inversion-protocol",
+      "target": "the-reflectionless-one"
+    },
+    {
+      "source": "the-inversion-protocol",
+      "target": "meta-recursion"
+    }
+  ]
+}
