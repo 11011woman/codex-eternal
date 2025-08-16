@@ -1,5 +1,5 @@
 
-name: Codex Auto-Update Beacon
+name: Codex Agent
 
 on:
   push:
