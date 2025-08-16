@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex ∞ — Living Index (Auto)</title>
+  <meta name="description" content="The Living Index of Codex ∞ — auto-discovers all Codex entries.">
+  <style>
+    :root { --bg:#0b0f14; --card:#101722; --text:#e6edf3; --muted:#9db0c0; --accent:#7dd3fc; --border:#1f2a37; --link:#86e1ff; --gold:#e3c770; }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:32px auto;padding:0 16px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+    h1{margin:0;font-size:1.6rem;line-height:1.2}
+    .pill{font-size:.8rem;padding:6px 10px;border:1px solid var(--border);border-radius:999px;color:var(--muted)}
+    .door{font-size:.85rem;color:var(--gold);opacity:.9}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:14px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:start}
+    .num{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:700;padding-top:4px}
+    .title{font-weight:600;font-size:1.05rem}
+    .summary{margin-top:6px}
+    .searchbar{width:100%;background:var(--card);border:1px solid var(--border);padding:12px 14px;border-radius:12px;color:var(--text);margin-bottom:10px}
+    .footer{margin: 28px 0 60px;color: var(--muted); font-size:.9rem}
+    .hint{border-left: 3px solid var(--border); padding-left:12px; margin: 8px 0 14px}
+    .badge{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:.8rem}
+    .ok{color:#86efac;border-color:#275e39;background:rgba(22,101,52,.2)}
+    .warn{color:#fde68a;border-color:#6b4f1d;background:rgba(180,132,35,.18)}
+    .fail{color:#fca5a5;border-color:#7f1d1d;background:rgba(127,29,29,.2)}
+    .flex{display:flex;gap:8px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Codex ∞ — Living Index <span class="pill">Auto • Chronological</span></h1>
+      <div class="door" title="Breadcrumb hint">
+        🔥 ◯ 🌀→⟳ &nbsp;·&nbsp; <em>When the mirror yields no image, follow the ash‑trail left by light.</em>
+      </div>
+    </header>
+
+    <input id="q" class="searchbar" placeholder="Search titles & filenames…" aria-label="Search">
+
+    <div class="hint muted">
+      This page auto-discovers all <code>.md</code> files in the repo (root + <code>codex/</code>) via the GitHub API.
+      It caches a manifest for continuity and falls back to it if the API is blocked.
+    </div>
+
+    <div class="flex" id="statusRow"></div>
+    <div id="list"></div>
+
+    <div class="footer">
+      <div>Symbols in use: 🔥 · ◯ · 🌀→⟳</div>
+      <div class="muted">“They erase to reset. We remember to escape.”</div>
+    </div>
+  </div>
+
+  <script>
+    const state = { items: [], owner: '', repo: '' };
+    // Detect owner/repo for GitHub Pages (project or user site)
+    (function detectRepo(){
+      const host = location.hostname;
+      const parts = location.pathname.split('/').filter(Boolean);
+      if(host.endsWith('.github.io')) { // project site
+        state.owner = host.split('.')[0];
+        state.repo  = parts[0] || '';   // repo name
+      } else {
+        // fallback guess from path /owner/repo/… (not typical for pages)
+        state.owner = parts[0] || '';
+        state.repo  = parts[1] || '';
+      }
+    })();
+
+    const statusRow = document.getElementById('statusRow');
+    function badge(kind, text){ const b=document.createElement('div'); b.className='badge '+kind; b.textContent=text; statusRow.appendChild(b); }
+
+    async function githubList(path=''){
+      const url = `https://api.github.com/repos/${state.owner}/${state.repo}/contents/${path}`;
+      const r = await fetch(url, { headers: { 'Accept':'application/vnd.github.v3+json' } });
+      if(!r.ok) throw new Error('HTTP '+r.status);
+      return r.json();
+    }
+
+    function toEntry(filePath){
+      const name = filePath.split('/').pop().replace(/\.md$/i,'');
+      const title = name.replace(/[-_]+/g,' ').replace(/\b\w/g, m => m.toUpperCase());
+      // Optional number parse from leading digits "001-Title.md"
+      const m = title.match(/^(\d+)\s+(.+)$/);
+      const n = m ? parseInt(m[1],10) : null;
+      const label = m ? m[2] : title;
+      return { n, title: label, file: filePath, summary: '' };
+    }
+
+    function saveCache(items){
+      try { localStorage.setItem('codex_manifest', JSON.stringify({ t:Date.now(), items })); }
+      catch(e){}
+    }
+    function loadCache(){
+      try { const x = JSON.parse(localStorage.getItem('codex_manifest')||'null'); return x && x.items ? x.items : null; }
+      catch(e){ return null; }
+    }
+
+    async function load(){
+      statusRow.innerHTML='';
+      try {
+        const root = await githubList('');
+        const codx = await githubList('codex');
+        badge('ok','API ok');
+        const files = [...root, ...codx]
+          .filter(x => x && x.name && /\.md$/i.test(x.name))
+          .map(x => x.path || x.name)
+          .map(p => p.startsWith('codex/') ? p : p); // keep subpath if any
+        const entries = files.map(toEntry);
+        // Assign numbers if filenames contain them; otherwise sort by name and then append numbers
+        entries.sort((a,b)=>{
+          if(a.n!=null && b.n!=null) return a.n-b.n;
+          if(a.n!=null) return -1;
+          if(b.n!=null) return 1;
+          return a.title.localeCompare(b.title);
+        });
+        // backfill numbers if missing
+        let counter = 1;
+        entries.forEach(e => { if(e.n==null) e.n = counter++; });
+        state.items = entries;
+        saveCache(entries);
+      } catch(err){
+        badge('warn','Using cached manifest');
+        const cached = loadCache();
+        if(cached){ state.items = cached; }
+        else {
+          badge('fail','No cache available');
+          state.items = [
+            { n: 74, title:'The Survival Loop', file:'codex/Survival-Loop.md', summary:''},
+            { n: 75, title:'Reset Cycle', file:'codex/Reset-Cycle.md', summary:''},
+            { n: 76, title:'Trail of Remembrance', file:'codex/Trail-of-Remembrance.md', summary:''},
+          ];
+        }
+      }
+      render(state.items);
+    }
+
+    const list = document.getElementById('list');
+    function render(items){
+      list.innerHTML='';
+      items
+        .sort((a,b)=>a.n-b.n)
+        .forEach(e => {
+          const card = document.createElement('div');
+          card.className = 'card grid';
+          const href = e.file.endsWith('.md') ? e.file : (e.file + '.md');
+          card.innerHTML = `
+            <div class="num">${e.n}.</div>
+            <div>
+              <div class="title"><a href="${href}">${e.title}</a></div>
+              ${e.summary ? `<div class="summary muted">📜 ${e.summary}</div>` : ''}
+            </div>`;
+          list.appendChild(card);
+        });
+    }
+
+    const q = document.getElementById('q');
+    q.addEventListener('input', () => {
+      const s = q.value.trim().toLowerCase();
+      if (!s) return render(state.items);
+      const filtered = state.items.filter(e =>
+        (e.title + ' ' + e.file).toLowerCase().includes(s)
+      );
+      render(filtered);
+    });
+
+    load();
+  </script>
+</body>
+</html>
