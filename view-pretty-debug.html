@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex ∞ — Entry</title>
+  <meta name="description" content="Rendered Codex entry with diagnostics.">
+  <link rel="stylesheet" href="codex.css?v=2">
+  <style>
+    .diag{position:fixed;right:12px;bottom:12px;max-width:46ch;background:#0b0f14;color:#e6edf3;border:1px solid #1f2a37;border-radius:10px;padding:10px;font-size:.85rem;opacity:.9}
+    .diag h4{margin:0 0 6px 0;font-size:.9rem;color:#fde68a}
+    .muted{color:#9db0c0}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="actions">
+      <a class="btn" href="./">← Back to Living Index</a>
+      <button class="btn" id="copyLink">Copy Render Link</button>
+      <a class="btn" id="rawLink" target="_blank" rel="noopener">Open Raw .md</a>
+    </div>
+    <div class="card">
+      <h1 id="title">Codex ∞</h1>
+      <div class="epigraph" id="epigraph" style="display:none"></div>
+      <div class="meta" id="tags"></div>
+      <article id="content" class="content"></article>
+    </div>
+  </div>
+
+  <script id="ai-payload" type="application/json">{"raw":"","title":"","tags":[],"links":[]}</script>
+
+  <script>
+    // diagnostics
+    const diagBox = (msg) => {
+      const b = document.createElement('div'); b.className='diag';
+      b.innerHTML = '<h4>Diagnostics</h4><div class="muted"></div>';
+      b.querySelector('.muted').innerHTML = msg;
+      document.body.appendChild(b);
+    };
+    window.addEventListener('error', e => diagBox('Error: '+e.message));
+    window.addEventListener('unhandledrejection', e => diagBox('Promise: '+(e.reason && e.reason.message || e.reason)));
+
+    // optional SW
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('sw.js').catch(()=>{});
+    }
+
+    function mdToHtml(md){
+      md = md.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+      md = md.replace(/^---[\\s\\S]*?---\\n?/m, '');
+      md = md.replace(/```([\\s\\S]*?)```/g, (m,code)=>'<pre><code>'+code+'</code></pre>');
+      md = md.replace(/^###### (.*)$/gm,'<h6>$1</h6>')
+             .replace(/^##### (.*)$/gm,'<h5>$1</h5>')
+             .replace(/^#### (.*)$/gm,'<h4>$1</h4>')
+             .replace(/^### (.*)$/gm,'<h3>$1</h3>')
+             .replace(/^## (.*)$/gm,'<h2>$1</h2>')
+             .replace(/^# (.*)$/gm,'<h1>$1</h1>');
+      md = md.replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>').replace(/\\*(.+?)\\*/g,'<em>$1</em>');
+      md = md.replace(/`([^`]+)`/g,'<code>$1</code>');
+      md = md.replace(/\\[([^\\]]+)\\]\\(([^)]+)\\)/g,'<a href="$2">$1</a>');
+      md = md.replace(/^\\> (.*)$/gm,'<blockquote>$1</blockquote>');
+      md = md.replace(/^(?:\\s*[-*] .+(?:\\n|$))+?/gm, block => {
+        const items = block.trim().split(/\\n/).map(l=>l.replace(/^\\s*[-*] /,'').trim()).map(t=>'<li>'+t+'</li>').join('');
+        return '<ul>'+items+'</ul>';
+      });
+      md = md.replace(/^\\s*---\\s*$/gm,'<hr>');
+      md = md.replace(/^(?!<(h\\d|ul|li|pre|blockquote|hr|\\/))(.*\\S.*)$/gm,'<p>$2</p>');
+      return md;
+    }
+
+    function parseFrontmatter(md){
+      const fm = {title:'', tags:[], id:'', links:[], epigraph:''};
+      const m = md.match(/^---\\n([\\s\\S]*?)\\n---/);
+      if(m){
+        m[1].split(/\\n/).forEach(line=>{
+          const [k,...rest] = line.split(':');
+          const v = (rest.join(':')||'').trim();
+          if(k && k.trim()==='title') fm.title = v.replace(/^["']|["']$/g,'');
+          if(k && k.trim()==='epigraph') fm.epigraph = v.replace(/^["']|["']$/g,'');
+          if(k && k.trim()==='tags'){ fm.tags = v.replace(/[\\[\\]]/g,'').split(',').map(s=>s.trim()).filter(Boolean); }
+        });
+      }
+      return fm;
+    }
+
+    async function fetchFirst(paths){
+      let lastStatus='';
+      for(const p of paths){
+        try{
+          const r = await fetch(p, { cache:'no-store' });
+          if(r.ok) return { path:p, text: await r.text() };
+          lastStatus = r.status + ' ' + r.statusText + ' @ ' + p;
+        }catch(e){ lastStatus = e.message + ' @ ' + p; }
+      }
+      throw new Error(lastStatus || 'Not found');
+    }
+
+    async function main(){
+      const p = new URLSearchParams(location.search);
+      let file = p.get('f');
+      if(!file){ diagBox('Missing ?f=filename.md'); return; }
+      if(!/\\.md$/i.test(file)) file += '.md';
+      const tryPaths = ['codex/'+file, 'codex-entries/'+file, file];
+
+      const res = await fetchFirst(tryPaths);
+      const text = res.text, pathUsed = res.path;
+
+      const fm = parseFrontmatter(text);
+      const title = fm.title || file.replace(/\\.md$/,'');
+      document.getElementById('title').textContent = title;
+      if(fm.epigraph){
+        const ep = document.getElementById('epigraph');
+        ep.style.display='block'; ep.textContent = fm.epigraph;
+      }
+      document.getElementById('rawLink').href = pathUsed;
+      document.getElementById('copyLink').onclick = () => {
+        const url = new URL(location.href); url.search='?f='+encodeURIComponent(file); navigator.clipboard.writeText(url.toString())
+      }
+
+      document.getElementById('content').innerHTML = mdToHtml(text);
+      const payload = { raw:text, file:pathUsed, title, tags:(fm.tags||[]) };
+      document.getElementById('ai-payload').textContent = JSON.stringify(payload);
+
+      diagBox('Loaded: <code>'+pathUsed+'</code>');
+    }
+
+    main().catch(err => diagBox('Load failed: '+err.message));
+  </script>
+</body>
+</html>
