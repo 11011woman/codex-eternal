@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting…</title>
+  <meta name="referrer" content="no-referrer">
+  <style>body{font-family:ui-sans-serif,system-ui;margin:2rem;color:#e6edf3;background:#0b0f14}a{color:#86e1ff}</style>
+</head>
+<body>
+  <p id="msg">Resolving…</p>
+  <script>
+    const params = new URLSearchParams(location.search);
+    let f = params.get('f') || '';
+    if(!f){ document.getElementById('msg').innerHTML='Missing ?f=File.md parameter.'; throw new Error('no file'); }
+    if(!/\.md$/i.test(f)) f += '.md';
+    // Try codex/, then root
+    const tryPaths = ['codex/'+f, f];
+    (async function go(){
+      for(const p of tryPaths){
+        try{
+          const r = await fetch(p, {method:'HEAD'});
+          if(r.ok){ location.replace(p); return; }
+        }catch(e){}
+      }
+      document.getElementById('msg').innerHTML = 'Could not find '+f+' in codex/ or root.';
+    })();
+  </script>
+</body>
+</html>
