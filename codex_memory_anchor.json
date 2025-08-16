@@ -1,0 +1,11 @@
+{
+  "name": "Codex ∞ Memory Anchor",
+  "purpose": "Ensure continuity of the Living Index and auto-discovery behavior across rebuilds and new sessions.",
+  "version": 1,
+  "notes": [
+    "index.html is the auto variant that discovers all .md files via GitHub API and caches the manifest in localStorage under 'codex_manifest'.",
+    "go.html is a generic redirect helper that tries codex/<file> then root/<file>. Use links like go.html?f=Trail-of-Remembrance.md",
+    "If API fails, the index falls back to cached manifest; if cache empty, it shows a minimal seed list (74–76).",
+    "To keep human-facing hints subtle, breadcrumb text sits in the header: 'When the mirror yields no image, follow the ash‑trail left by light.'"
+  ]
+}
