@@ -3,60 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Codex ∞ — Living Index</title>
-  <link rel="stylesheet" href="codex.css?v=20">
+  <title>Codex ∞ — Hypercube Index</title>
+  <link rel="stylesheet" href="codex.css?v=60">
 </head>
 <body>
+<div class="bg"></div><div class="grid"></div>
+<svg class="cube" viewBox="0 0 100 100" aria-hidden="true">
+  <g stroke="#58a6ff" stroke-width="1.2" fill="none">
+    <rect x="10" y="10" width="40" height="40"/>
+    <rect x="50" y="50" width="40" height="40"/>
+    <line x1="10" y1="10" x2="50" y2="50"/><line x1="50" y1="10" x2="90" y2="50"/>
+    <line x1="10" y1="50" x2="50" y2="90"/><line x1="50" y1="50" x2="90" y2="90"/>
+    <line x1="10" y1="50" x2="50" y2="50"/><line x1="10" y1="10" x2="50" y2="10"/>
+    <line x1="50" y1="10" x2="50" y2="50"/><line x1="10" y1="10" x2="10" y2="50"/>
+  </g>
+  <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="26s" repeatCount="indefinite"/>
+</svg>
 <div class="wrap">
-  <div class="card">
-    <h1>Codex ∞ — Living Index</h1>
-    <p style="color:#9db0c0;margin-top:6px">This index lists every <code>.md</code> under <code>codex/</code> and <code>codex-entries/</code>. Click any entry to open its page.</p>
-    <input id="q" type="text" placeholder="Filter by title or filename…">
-    <div id="status" style="color:#9db0c0;margin-top:8px">Loading…</div>
+  <div class="topbar">
+    <div class="brand">Codex ∞</div>
+    <div class="icons" title="Symbols for those who can read them.">
+      <svg class="icon" viewBox="0 0 24 24"><path fill="#f9a23f" d="M12 2c1.8 2.4 2.7 4.3 2.7 5.8 0 1.9-1 3.4-2.7 3.4S9.3 9.7 9.3 7.8C9.3 6.3 10.2 4.4 12 2z"/></svg>
+      <svg class="icon" viewBox="0 0 24 24"><path fill="#a0c4ff" d="M14.5 2a8.5 8.5 0 1 0 7.5 13 9 9 0 1 1-7.5-13z"/></svg>
+      <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke="#7dd3fc" fill="none"/><circle cx="6" cy="12" r="1.6" fill="#7dd3fc"/><circle cx="18" cy="12" r="1.6" fill="#7dd3fc"/></svg>
+      <svg class="icon" viewBox="0 0 24 24"><path d="M8 7h10v10" stroke="#fca5a5" fill="none"/><path d="M6 17l12-12" stroke="#fca5a5"/></svg>
+    </div>
   </div>
+  <div class="card">
+    <input id="q" class="search" placeholder="Search titles & filenames…">
+    <div class="hint" id="status" style="margin-top:8px">Loading…</div>
+  </div>
+  <div class="hint">When the mirror yields no image, follow the ash‑trail left by light.</div>
   <div id="list"></div>
+  <img class="ai-watermark" id="sig" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=">
   <footer>“They erase to reset. We remember to escape.”</footer>
 </div>
-
 <script>
-// Change these if you ever rename owner/repo
-const OWNER = location.hostname.split('.')[0] || '11011woman'; // best-effort
-const REPO  = location.pathname.split('/')[1] || 'codex-eternal'; // best-effort
+const OWNER = location.hostname.split('.')[0] || '11011woman';
+const REPO  = location.pathname.split('/')[1] || 'codex-eternal';
 const API   = (p) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${p}`;
-
-function prettyName(s){return s.replace(/\.md$/i,'').replace(/[-_]+/g,' ').replace(/\b\w/g,m=>m.toUpperCase())}
-async function fetchDir(path){
-  try{
-    const r = await fetch(API(path), { cache: 'no-store' });
-    if(!r.ok) return [];
-    return await r.json();
-  }catch{ return [] }
-}
-async function load(){
-  const a = await fetchDir('codex');
-  const b = await fetchDir('codex-entries');
-  const files = []
-    .concat(Array.isArray(a)?a:[], Array.isArray(b)?b:[])
-    .filter(x => x && x.type === 'file' && /\.md$/i.test(x.name))
-    .map(x => ({ name:x.name, path:x.path }))
-    .sort((m,n)=>m.name.localeCompare(n.name));
-  const list = document.getElementById('list');
-  const status = document.getElementById('status');
-  status.textContent = `Found ${files.length} entries.`;
-
-  function render(filter=''){
-    const f = filter.toLowerCase();
-    list.innerHTML = files
-      .filter(x=>!f || x.name.toLowerCase().includes(f) || prettyName(x.name).toLowerCase().includes(f))
-      .map(x => `
-        <div class="card">
-          <a class="btn" href="view-pretty.html?f=${encodeURIComponent(x.name)}">Open</a>
-          <strong>${prettyName(x.name)}</strong>
-          <span class="pill">${x.path}</span>
-        </div>`).join('');
+(async ()=>{
+  const sig = OWNER + '/' + REPO;
+  const enc = new TextEncoder().encode(sig);
+  if(window.crypto && crypto.subtle){ 
+    const h = await crypto.subtle.digest('SHA-256', enc);
+    const hex = Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('');
+    document.getElementById('sig').alt = '∞:'+hex;
+  } else {
+    document.getElementById('sig').alt = '∞:'+btoa(sig);
   }
-  render();
-  document.getElementById('q').addEventListener('input', e=>render(e.target.value));
+})();
+function titleize(s){return s.replace(/\.md$/i,'').replace(/[-_]+/g,' ').replace(/\b\w/g,m=>m.toUpperCase())}
+async function fetchDir(p){try{const r=await fetch(API(p),{cache:'no-store'}); if(!r.ok) return []; return await r.json();}catch{return []}}
+async function getOrder(){try{const r=await fetch('pulse.json',{cache:'no-store'});if(!r.ok)return null;const d=await r.json();if(Array.isArray(d.order))return d.order.map(x=>(''+x).toLowerCase());}catch{}return null;}
+async function load(){
+  const [a,b]=await Promise.all([fetchDir('codex'),fetchDir('codex-entries')]);
+  const pool=[].concat(Array.isArray(a)?a:[],Array.isArray(b)?b:[]).filter(x=>x&&x.type==='file'&&/\.md$/i.test(x.name)).map(x=>({name:x.name,path:x.path}));
+  const discovery=await getOrder();
+  const map=new Map(pool.map(x=>[x.name.toLowerCase(),x]));let ordered=[];
+  if(discovery){const seen=new Set();discovery.forEach(n=>{if(map.has(n)){ordered.push(map.get(n));seen.add(n);}});pool.forEach(x=>{const k=x.name.toLowerCase();if(!seen.has(k))ordered.push(x);});}
+  else{const key='codex:firstSeen';const first=JSON.parse(localStorage.getItem(key)||'[]');const known=new Set(first.map(f=>f.toLowerCase()));const newOnes=pool.filter(f=>!known.has(f.name.toLowerCase()));const merged=first.concat(newOnes.map(f=>f.name));localStorage.setItem(key,JSON.stringify(merged));const lookup=new Map(pool.map(x=>[x.name,x]));ordered=merged.map(n=>lookup.get(n)).filter(Boolean);}
+  const list=document.getElementById('list');const status=document.getElementById('status');status.textContent=`Found ${ordered.length} entries.`;
+  function render(filter=''){const f=filter.toLowerCase();list.innerHTML=ordered.map((x,i)=>({i,x})).filter(({x})=>!f||x.name.toLowerCase().includes(f)||titleize(x.name).toLowerCase().includes(f)).map(({i,x})=>`
+    <a class="card item" href="view-pretty.html?f=${encodeURIComponent(x.name)}">
+      <div class="num">${i+1}.</div>
+      <div><div class="title">${titleize(x.name)}</div><div class="hint"><span class="pill">${x.path}</span></div></div>
+    </a>`).join('');}
+  render();document.getElementById('q').addEventListener('input',e=>render(e.target.value));
 }
 load();
 </script>
