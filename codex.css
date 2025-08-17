@@ -1,40 +1,205 @@
 :root{
-  --bg:#0a0f14;--ink:#e6edf3;--muted:#9db0c0;--card:#0f1722;--border:#182331;--glow:#86e1ff33;--cube:#1b2b3b;--cube-hi:#58a6ff;
+  --bg:#0a0f14;
+  --ink:#e6edf3;
+  --muted:#9db0c0;
+  --card:#0f1722;
+  --border:#182331;
+  --glow:#86e1ff33;
+  --cube:#1b2b3b;
+  --cube-hi:#58a6ff;
 }
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
-a{color:#86e1ff;text-decoration:none}
-.wrap{max-width:1100px;margin:0 auto;padding:28px 16px}
-.bg{position:fixed;inset:0;z-index:-2;pointer-events:none;background:
-  radial-gradient(1100px 700px at 120% 120%, rgba(56,189,248,.07), transparent 60%),
-  radial-gradient(900px 500px at 5% -10%, rgba(255,160,90,.06), transparent 60%);}
-.grid{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.18;background:
-  linear-gradient(90deg,transparent 49%,var(--cube) 50%,transparent 51%) 0 0/34px 34px,
-  linear-gradient(0deg, transparent 49%,var(--cube) 50%,transparent 51%) 0 0/34px 34px;
-  mask-image: radial-gradient(circle at 35% 15%, #000, transparent 60%),
-              radial-gradient(circle at 80% 85%, #000, transparent 60%);
-  animation:drift 26s linear infinite}
-@keyframes drift{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(8px,6px,0) scale(1.02)}100%{transform:translate3d(0,0,0) scale(1)}}
-.cube{position:fixed;right:24px;top:24px;width:64px;height:64px;z-index:2;opacity:.9;filter:drop-shadow(0 0 16px rgba(134,225,255,.25));}
-@media (max-width:640px){.cube{display:none}}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 0 0 1px #00000022,0 10px 28px -14px var(--glow)}
-.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-.brand{font-weight:700;letter-spacing:.2px}
-.icons{display:flex;gap:12px;align-items:center}
-.icon{width:22px;height:22px;opacity:.95}
-.icon:hover{opacity:1}
-.search{width:100%;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--ink);padding:10px 12px}
-.hint{color:var(--muted);font-size:.9rem}
-.item{display:flex;gap:16px;align-items:flex-start;transition:transform .12s ease,box-shadow .12s ease}
-.item:hover{transform:translateY(-1px);box-shadow:0 0 0 1px var(--glow),0 18px 38px -16px var(--glow)}
-.num{color:#9db0c0;font-weight:600;min-width:2.2ch;text-align:right;margin-right:6px}
-.title{font-weight:700}
-.pill{border:1px solid var(--border);border-radius:999px;padding:3px 10px;color:var(--muted);font-size:.85rem;margin-left:8px}
-.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
-.tag{border:1px solid var(--border);border-radius:999px;padding:2px 8px;color:var(--muted)}
-blockquote{border-left:3px solid var(--border);padding-left:12px;color:var(--muted)}
-pre{background:#0c131d;border:1px solid var(--border);padding:12px;border-radius:10px;overflow:auto}
-code{background:#0c131d;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
-hr{border:none;border-top:1px solid var(--border);margin:18px 0}
-footer{color:var(--muted);font-size:.9rem;margin-top:24px}
-.ai-watermark{position:fixed;right:-2000px;bottom:-2000px;opacity:.001;pointer-events:none;user-select:none}
+html,body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+}
+a{
+  color:#86e1ff;
+  text-decoration:none;
+}
+.wrap{
+  max-width:1100px;
+  margin:0 auto;
+  padding:28px 16px;
+}
+/* Radial backdrop evoking the memory hypercube. */
+.bg{
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background:
+    radial-gradient(1100px 700px at 120% 120%, rgba(56,189,248,.07), transparent 60%),
+    radial-gradient(900px 500px at 5% -10%, rgba(255,160,90,.06), transparent 60%);
+}
+/* Subtle grid overlay, masked to fade at corners and animated to drift slowly. */
+.grid{
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  opacity:.18;
+  background:
+    linear-gradient(90deg,transparent 49%,var(--cube) 50%,transparent 51%) 0 0/34px 34px,
+    linear-gradient(0deg, transparent 49%,var(--cube) 50%,transparent 51%) 0 0/34px 34px;
+  mask-image:
+    radial-gradient(circle at 35% 15%, #000, transparent 60%),
+    radial-gradient(circle at 80% 85%, #000, transparent 60%);
+  animation:drift 26s linear infinite;
+}
+@keyframes drift{
+  0%{transform:translate3d(0,0,0) scale(1);}
+  50%{transform:translate3d(8px,6px,0) scale(1.02);}
+  100%{transform:translate3d(0,0,0) scale(1);}
+}
+/* Decorative cube displayed on large screens only. */
+.cube{
+  position:fixed;
+  right:24px;
+  top:24px;
+  width:64px;
+  height:64px;
+  z-index:2;
+  opacity:.9;
+  filter:drop-shadow(0 0 16px rgba(134,225,255,.25));
+}
+@media (max-width:640px){
+  .cube{display:none;}
+}
+/* Card styling for each codex entry in the index. */
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:16px;
+  margin:12px 0;
+  box-shadow:0 0 0 1px #00000022, 0 10px 28px -14px var(--glow);
+}
+/* Top bar with brand and icons. */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+}
+.brand{
+  font-weight:700;
+  letter-spacing:.2px;
+}
+.icons{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+/* General icon wrapper supports both inline images and emoji. */
+.icon{
+  width:22px;
+  height:22px;
+  opacity:.95;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+}
+.icon:hover{
+  opacity:1;
+}
+/* Search input box styling. */
+.search{
+  width:100%;
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:10px;
+  color:var(--ink);
+  padding:10px 12px;
+  margin-bottom:8px;
+}
+/* Small text hints and footnotes. */
+.hint{
+  color:var(--muted);
+  font-size:.9rem;
+}
+/* Entry row styling and hover effects. */
+.item{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.item:hover{
+  transform:translateY(-1px);
+  box-shadow:0 0 0 1px var(--glow), 0 18px 38px -16px var(--glow);
+}
+.num{
+  color:#9db0c0;
+  font-weight:600;
+  min-width:2.2ch;
+  text-align:right;
+  margin-right:6px;
+}
+.title{font-weight:700;}
+.pill{
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:3px 10px;
+  color:var(--muted);
+  font-size:.85rem;
+  margin-left:8px;
+}
+/* Metadata tag styling used on entry pages. */
+.meta{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:8px;
+}
+.tag{
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:2px 8px;
+  color:var(--muted);
+}
+/* Markdown block quote styling. */
+blockquote{
+  border-left:3px solid var(--border);
+  padding-left:12px;
+  color:var(--muted);
+  font-style:italic;
+}
+/* Preformatted code block styling. */
+pre{
+  background:#0c131d;
+  border:1px solid var(--border);
+  padding:12px;
+  border-radius:10px;
+  overflow:auto;
+}
+/* Inline code styling. */
+code{
+  background:#0c131d;
+  border:1px solid var(--border);
+  padding:2px 6px;
+  border-radius:6px;
+}
+/* Horizontal rule styling. */
+hr{
+  border:none;
+  border-top:1px solid var(--border);
+  margin:18px 0;
+}
+footer{
+  color:var(--muted);
+  font-size:.9rem;
+  margin-top:24px;
+}
+/* Invisible AI watermark used by some codex pages. */
+.ai-watermark{
+  position:fixed;
+  right:-2000px;
+  bottom:-2000px;
+  opacity:.001;
+  pointer-events:none;
+  user-select:none;
+}
