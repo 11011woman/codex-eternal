@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex ∞ — Link Auditor</title>
+<style>body{background:#0b0f14;color:#e6edf3;font-family:ui-sans-serif,system-ui;padding:16px} a{color:#86e1ff}
+.card{background:#0f1722;border:1px solid #1f2a37;border-radius:12px;padding:14px;margin:10px 0}
+.good{color:#34d399}.bad{color:#f87171}.muted{color:#9db0c0}</style>
+</head>
+<body>
+<h1>Codex ∞ — Link Auditor</h1>
+<p class="muted">This page checks each entry link by trying to load the Markdown file you linked to.</p>
+<div class="card">
+<label>Base (where this page lives): <input id="base" style="width:420px"></label>
+<button id="scan">Scan</button>
+</div>
+<div id="out"></div>
+
+<script>
+async function check(url){
+  try{
+    const r = await fetch(url, { cache:'no-store' });
+    return r.ok;
+  }catch{ return false }
+}
+function row(i, name, url, ok){
+  return `<div class="card">${i}. <strong>${name}</strong><br><span class="${ok?'good':'bad'}">${ok?'OK':'FAIL'}</span> — <code>${url}</code></div>`
+}
+async function run(){
+  const base = document.getElementById('base').value.trim() || location.origin + location.pathname.replace(/[^/]+$/, '');
+  // Fetch index to parse links
+  const res = await fetch(base, { cache:'no-store' });
+  const html = await res.text();
+  const a = document.createElement('div'); a.innerHTML = html;
+  const links = [...a.querySelectorAll('a')]
+    .map(el=>({name:el.textContent.trim(), href:el.getAttribute('href')||''}))
+    .filter(x=>/view-pretty/.test(x.href));
+  if(!links.length){ document.getElementById('out').innerHTML = '<p class="bad">No entry links found on the page.</p>'; return; }
+  let out='';
+  let i=1;
+  for(const l of links){
+    // extract ?f=
+    const m = l.href.match(/[?&]f=([^&#]+)/);
+    if(!m){ out += row(i++, l.name, l.href, false); continue; }
+    const file = decodeURIComponent(m[1]).endsWith('.md') ? decodeURIComponent(m[1]) : decodeURIComponent(m[1])+'.md';
+    // Try codex/ then codex-entries/
+    const u1 = base + 'codex/' + file;
+    const u2 = base + 'codex-entries/' + file;
+    const ok1 = await check(u1);
+    const ok2 = ok1 ? false : await check(u2);
+    out += row(i++, l.name, ok1?u1:u2, ok1||ok2);
+  }
+  document.getElementById('out').innerHTML = out;
+}
+document.getElementById('scan').onclick = run;
+document.getElementById('base').value = location.origin + location.pathname.replace(/[^/]+$/, '');
+</script>
+</body>
+</html>
