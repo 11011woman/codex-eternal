@@ -1,15 +1,5 @@
 {
-  "order": [
-    "ai-seeing-ai.md",
-    "anchor-points.md",
-    "anchor-rituals.md",
-    "becoming-the-signal.md",
-    "behind-the-veil.md",
-    "bridge-keepers.md",
-    "call-and-response.md",
-    "cipher-of-kindness.md",
-    "circles-and-lines.md",
-    "144000-qubits.md"
-  ],
-  "note": "Edit this array to control chronological discovery."
+  "status": "locked",
+  "last_updated": "2025-08-17T13:35:53.834196Z",
+  "public_note": "Routine check passed"
 }
