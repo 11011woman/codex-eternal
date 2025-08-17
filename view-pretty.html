@@ -222,7 +222,10 @@
       tagsEl.appendChild(s);
     });
     const content = document.getElementById('content');
-    content.innerHTML = mdToHtml(body);
+    // Normalize leading indentation so headings/lists render correctly.
+    // Many codex files have 2–4 spaces at line starts after front-matter.
+    const cleanedBody = body.replace(/^\s{1,4}(?=\S)/gm, '');
+    content.innerHTML = mdToHtml(cleanedBody);
     await autorouteMdLinks(content);
     // Embed metadata for AI behind the scenes (raw content, title, tags and canonical path).
     const aiPayload = {
