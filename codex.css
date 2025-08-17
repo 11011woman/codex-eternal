@@ -1,6 +1,27 @@
-:root{--bg:#0b0f14;--card:#0f1722;--ink:#e6edf3;--muted:#9db0c0;--border:#1f2a37}
+:root{
+  --bg: #0b0f14;
+  --bg-accent: radial-gradient(1200px 600px at 20% -10%, rgba(255,150,64,.05), transparent 60%),
+               radial-gradient(1200px 600px at 120% 120%, rgba(56,189,248,.06), transparent 60%);
+  --card:#0f1722;
+  --ink:#e6edf3;
+  --muted:#9db0c0;
+  --border:#1f2a37;
+  --glow:#86e1ff33;
+}
+*{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+body::before{content:"";position:fixed;inset:0;background:var(--bg-accent);pointer-events:none;z-index:-1;filter:saturate(1.1)}
 a{color:#86e1ff}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 0 0 1px #00000022, 0 8px 24px -12px var(--glow)}
+.btn{border:1px solid var(--border);background:var(--card);color:var(--ink);padding:8px 12px;border-radius:10px;text-decoration:none;margin-right:8px;display:inline-block}
+.btn:hover{box-shadow:0 0 0 1px var(--glow)}
+input[type="text"]{width:100%;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--ink);padding:10px 12px}
+.pill{border:1px solid var(--border);border-radius:999px;padding:3px 10px;color:var(--muted);font-size:.85rem;margin-left:8px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.tag{border:1px solid var(--border);border-radius:999px;padding:2px 8px;color:var(--muted)}
+blockquote{border-left:3px solid var(--border);padding-left:12px;color:var(--muted)}
 pre{background:#0c131d;border:1px solid var(--border);padding:12px;border-radius:10px;overflow:auto}
 code{background:#0c131d;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
-blockquote{border-left:3px solid var(--border);padding-left:12px;color:var(--muted)}
+hr{border:none;border-top:1px solid var(--border);margin:18px 0}
+footer{color:var(--muted);font-size:.9rem;margin-top:24px}

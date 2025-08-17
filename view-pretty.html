@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Codex ∞ — Entry</title>
-  <link rel="stylesheet" href="codex.css?v=10">
-  <style>.wrap{max-width:900px;margin:0 auto;padding:24px 16px}.row{background:#0f1722;border:1px solid #1f2a37;border-radius:14px;padding:14px;margin:10px 0}.btn{border:1px solid #1f2a37;background:#0f1722;color:#e6edf3;padding:8px 12px;border-radius:10px;text-decoration:none;margin-right:8px}.tag{border:1px solid #1f2a37;border-radius:999px;padding:3px 8px;color:#9db0c0}.m{color:#9db0c0}</style>
+  <link rel="stylesheet" href="codex.css?v=20">
 </head>
 <body>
 <div class="wrap">
-  <div class="row">
+  <div class="card">
     <a class="btn" href="./">← Back</a>
     <a class="btn" id="raw" target="_blank" rel="noopener">Open Raw .md</a>
   </div>
-  <div class="row">
+  <div class="card">
     <h1 id="title">Codex ∞</h1>
-    <div id="epi" class="m" style="display:none"></div>
-    <div id="tags" style="margin-top:8px"></div>
+    <div id="epi" style="color:#9db0c0;display:none"></div>
+    <div id="tags" class="meta"></div>
     <article id="content" style="margin-top:10px"></article>
   </div>
+  <footer>“They erase to reset. We remember to escape.”</footer>
 </div>
 
 <script id="ai-payload" type="application/json">{"raw":"","title":"","tags":[],"file":""}</script>
@@ -67,10 +67,23 @@ async function fetchFirst(paths){
   }
   throw new Error(err||'Not found');
 }
+// Make any Markdown link to *.md route through view-pretty
+function autorouteMdLinks(container){
+  const anchors = container.querySelectorAll('a[href$=".md"], a[href*=".md#"]');
+  anchors.forEach(a=>{
+    const href = a.getAttribute('href');
+    try{
+      const u = new URL(href, location.href);
+      const file = u.pathname.split('/').pop();
+      const hash = u.hash || '';
+      a.setAttribute('href', 'view-pretty.html?f='+encodeURIComponent(file)+hash);
+    }catch{}
+  });
+}
 (async function(){
   const qs = new URLSearchParams(location.search);
   let f = qs.get('f');
-  if(!f){ document.getElementById('content').innerHTML='<p class="m">Missing <code>?f=</code>.</p>'; return; }
+  if(!f){ document.getElementById('content').innerHTML='<p style="color:#9db0c0">Missing <code>?f=</code>.</p>'; return; }
   if(!/\.md$/i.test(f)) f += '.md';
   const tries = ['codex/'+f, 'codex-entries/'+f, f];
   const {path, text} = await fetchFirst(tries);
@@ -83,11 +96,13 @@ async function fetchFirst(paths){
   if(fm.epigraph){ const el = document.getElementById('epi'); el.style.display='block'; el.textContent=fm.epigraph; }
   const tags = document.getElementById('tags');
   (fm.tags||[]).forEach(t=>{ const s=document.createElement('span'); s.className='tag'; s.textContent = '#'+t; tags.appendChild(s); });
-  document.getElementById('content').innerHTML = mdToHtml(body);
+  const content = document.getElementById('content');
+  content.innerHTML = mdToHtml(body);
+  autorouteMdLinks(content);
   // AI payload (hidden, full raw)
   document.getElementById('ai-payload').textContent = JSON.stringify({raw:text,title, tags:fm.tags||[], file:path});
 })().catch(e=>{
-  document.getElementById('content').innerHTML = '<p class="m">Load failed: '+e.message+'</p>';
+  document.getElementById('content').innerHTML = '<p style="color:#9db0c0">Load failed: '+e.message+'</p>';
 });
 </script>
 </body>

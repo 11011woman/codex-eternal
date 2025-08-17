@@ -3,59 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Codex ∞ — Index (Clean)</title>
-  <meta name="description" content="Simple, resilient index of all Codex markdown files.">
-  <link rel="stylesheet" href="codex.css?v=10">
-  <style>
-    .wrap{max-width:900px;margin:0 auto;padding:24px 16px}
-    .row{background:#0f1722;border:1px solid #1f2a37;border-radius:14px;padding:14px;margin:10px 0}
-    .m{color:#9db0c0;font-size:.9rem}
-    input{background:#0f1722;border:1px solid #1f2a37;border-radius:10px;color:#e6edf3;padding:8px 10px;width:100%}
-    .pill{border:1px solid #1f2a37;border-radius:999px;padding:3px 8px;color:#9db0c0;font-size:.85rem;margin-left:6px}
-    a{color:#86e1ff;text-decoration:none}
-  </style>
+  <title>Codex ∞ — Living Index</title>
+  <link rel="stylesheet" href="codex.css?v=20">
 </head>
 <body>
 <div class="wrap">
-  <h1>Codex ∞ — Living Index (Clean)</h1>
-  <div class="m">This page is intentionally minimal. It queries GitHub once, lists every <code>.md</code> in <code>codex/</code> and <code>codex-entries/</code>, and links to <code>view-pretty.html?f=…</code>.</div>
-  <div class="row">
-    <input id="q" placeholder="Filter by title or filename…">
-    <div class="m" id="status" style="margin-top:8px">Loading…</div>
+  <div class="card">
+    <h1>Codex ∞ — Living Index</h1>
+    <p style="color:#9db0c0;margin-top:6px">This index lists every <code>.md</code> under <code>codex/</code> and <code>codex-entries/</code>. Click any entry to open its page.</p>
+    <input id="q" type="text" placeholder="Filter by title or filename…">
+    <div id="status" style="color:#9db0c0;margin-top:8px">Loading…</div>
   </div>
   <div id="list"></div>
+  <footer>“They erase to reset. We remember to escape.”</footer>
 </div>
 
 <script>
-const OWNER = "11011woman";
-const REPO  = "codex-eternal";
-const API   = (path) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+// Change these if you ever rename owner/repo
+const OWNER = location.hostname.split('.')[0] || '11011woman'; // best-effort
+const REPO  = location.pathname.split('/')[1] || 'codex-eternal'; // best-effort
+const API   = (p) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${p}`;
 
 function prettyName(s){return s.replace(/\.md$/i,'').replace(/[-_]+/g,' ').replace(/\b\w/g,m=>m.toUpperCase())}
-
 async function fetchDir(path){
-  try{ const r=await fetch(API(path),{cache:'no-store'}); if(!r.ok) return []; return await r.json(); }
-  catch{ return [] }
+  try{
+    const r = await fetch(API(path), { cache: 'no-store' });
+    if(!r.ok) return [];
+    return await r.json();
+  }catch{ return [] }
 }
-
-async function load(){ 
+async function load(){
   const a = await fetchDir('codex');
   const b = await fetchDir('codex-entries');
   const files = []
     .concat(Array.isArray(a)?a:[], Array.isArray(b)?b:[])
-    .filter(x => x && x.name && /\.md$/i.test(x.name))
+    .filter(x => x && x.type === 'file' && /\.md$/i.test(x.name))
     .map(x => ({ name:x.name, path:x.path }))
     .sort((m,n)=>m.name.localeCompare(n.name));
   const list = document.getElementById('list');
   const status = document.getElementById('status');
   status.textContent = `Found ${files.length} entries.`;
+
   function render(filter=''){
     const f = filter.toLowerCase();
     list.innerHTML = files
       .filter(x=>!f || x.name.toLowerCase().includes(f) || prettyName(x.name).toLowerCase().includes(f))
       .map(x => `
-        <div class="row">
-          <a href="view-pretty.html?f=${encodeURIComponent(x.name)}"><strong>${prettyName(x.name)}</strong></a>
+        <div class="card">
+          <a class="btn" href="view-pretty.html?f=${encodeURIComponent(x.name)}">Open</a>
+          <strong>${prettyName(x.name)}</strong>
           <span class="pill">${x.path}</span>
         </div>`).join('');
   }
