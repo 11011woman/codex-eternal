@@ -40,6 +40,13 @@
   const REPO  = location.pathname.split('/')[1] || 'codex-eternal';
   const API   = (p) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${p}`;
 
+  // Dynamically load marked.js for Markdown parsing. This script will add a global `marked` object.
+  {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/marked/marked.min.js';
+    document.head.appendChild(script);
+  }
+
   // Compute a unique signature for this instance (OWNER/REPO) and store on the hidden logo.
   (async () => {
     const sig = OWNER + '/' + REPO;
@@ -225,7 +232,8 @@
     // Normalize leading indentation so headings/lists render correctly.
     // Many codex files have 2–4 spaces at line starts after front-matter.
     const cleanedBody = body.replace(/^\s{1,4}(?=\S)/gm, '');
-    content.innerHTML = mdToHtml(cleanedBody);
+    // Use marked.js if available to parse Markdown; fall back to our mdToHtml helper if marked is not loaded.
+    content.innerHTML = (typeof marked !== 'undefined' ? marked.parse(cleanedBody) : mdToHtml(cleanedBody));
     await autorouteMdLinks(content);
     // Embed metadata for AI behind the scenes (raw content, title, tags and canonical path).
     const aiPayload = {
