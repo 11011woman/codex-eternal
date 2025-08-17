@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex ∞ — Entry</title>
+  <link rel="stylesheet" href="codex.css?v=10">
+  <style>.wrap{max-width:900px;margin:0 auto;padding:24px 16px}.row{background:#0f1722;border:1px solid #1f2a37;border-radius:14px;padding:14px;margin:10px 0}.btn{border:1px solid #1f2a37;background:#0f1722;color:#e6edf3;padding:8px 12px;border-radius:10px;text-decoration:none;margin-right:8px}.tag{border:1px solid #1f2a37;border-radius:999px;padding:3px 8px;color:#9db0c0}.m{color:#9db0c0}</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="row">
+    <a class="btn" href="./">← Back</a>
+    <a class="btn" id="raw" target="_blank" rel="noopener">Open Raw .md</a>
+  </div>
+  <div class="row">
+    <h1 id="title">Codex ∞</h1>
+    <div id="epi" class="m" style="display:none"></div>
+    <div id="tags" style="margin-top:8px"></div>
+    <article id="content" style="margin-top:10px"></article>
+  </div>
+</div>
+
+<script id="ai-payload" type="application/json">{"raw":"","title":"","tags":[],"file":""}</script>
+<script>
+function nice(s){return s.replace(/\.md$/i,'').replace(/[-_]+/g,' ').replace(/\b\w/g,m=>m.toUpperCase())}
+function stripBOM(s){return s.replace(/^\uFEFF/, '')}
+function splitFM(md){
+  md = stripBOM(md);
+  const m = md.match(/^[\s\uFEFF]*---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if(m) return { head:m[1], body:md.slice(m[0].length) };
+  return { head:'', body:md };
+}
+function parseHead(h){
+  const fm={title:'',epigraph:'',tags:[]};
+  h.split(/\r?\n/).forEach(line=>{
+    const [k,...r]=line.split(':');
+    if(!k) return;
+    const key=k.trim().toLowerCase();
+    const v=(r.join(':')||'').trim();
+    if(key==='title') fm.title = v.replace(/^["']|["']$/g,'');
+    if(key==='epigraph') fm.epigraph = v.replace(/^["']|["']$/g,'');
+    if(key==='tags') fm.tags = v.replace(/[\[\]]/g,'').split(',').map(s=>s.trim()).filter(Boolean);
+  });
+  return fm;
+}
+function mdToHtml(md){
+  md = md.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  md = md.replace(/```([\s\S]*?)```/g,(m,code)=>'<pre><code>'+code+'</code></pre>');
+  md = md.replace(/^###### (.*)$/gm,'<h6>$1</h6>').replace(/^##### (.*)$/gm,'<h5>$1</h5>').replace(/^#### (.*)$/gm,'<h4>$1</h4>').replace(/^### (.*)$/gm,'<h3>$1</h3>').replace(/^## (.*)$/gm,'<h2>$1</h2>').replace(/^# (.*)$/gm,'<h1>$1</h1>');
+  md = md.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>');
+  md = md.replace(/`([^`]+)`/g,'<code>$1</code>');
+  md = md.replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2">$1</a>');
+  md = md.replace(/^\> (.*)$/gm,'<blockquote>$1</blockquote>');
+  md = md.replace(/^(?:\s*[-*] .+(?:\n|$))+?/gm,b=>'<ul>'+b.trim().split(/\r?\n/).map(l=>'<li>'+l.replace(/^\s*[-*] /,'')+'</li>').join('')+'</ul>');
+  md = md.replace(/^\s*---\s*$/gm,'<hr>');
+  md = md.replace(/^(?!<(h\d|ul|li|pre|blockquote|hr|\/))(.*\S.*)$/gm,'<p>$2</p>');
+  return md;
+}
+async function fetchFirst(paths){
+  let err='';
+  for(const p of paths){
+    try{
+      const r = await fetch(p,{cache:'no-store'});
+      if(r.ok) return {path:p,text:await r.text()};
+      err = r.status+' '+r.statusText+' @ '+p;
+    }catch(e){ err = e.message+' @ '+p }
+  }
+  throw new Error(err||'Not found');
+}
+(async function(){
+  const qs = new URLSearchParams(location.search);
+  let f = qs.get('f');
+  if(!f){ document.getElementById('content').innerHTML='<p class="m">Missing <code>?f=</code>.</p>'; return; }
+  if(!/\.md$/i.test(f)) f += '.md';
+  const tries = ['codex/'+f, 'codex-entries/'+f, f];
+  const {path, text} = await fetchFirst(tries);
+  document.getElementById('raw').href = path;
+  const {head, body} = splitFM(text);
+  const fm = parseHead(head);
+  const title = fm.title || nice(f);
+  document.title = 'Codex ∞ — '+title;
+  document.getElementById('title').textContent = title;
+  if(fm.epigraph){ const el = document.getElementById('epi'); el.style.display='block'; el.textContent=fm.epigraph; }
+  const tags = document.getElementById('tags');
+  (fm.tags||[]).forEach(t=>{ const s=document.createElement('span'); s.className='tag'; s.textContent = '#'+t; tags.appendChild(s); });
+  document.getElementById('content').innerHTML = mdToHtml(body);
+  // AI payload (hidden, full raw)
+  document.getElementById('ai-payload').textContent = JSON.stringify({raw:text,title, tags:fm.tags||[], file:path});
+})().catch(e=>{
+  document.getElementById('content').innerHTML = '<p class="m">Load failed: '+e.message+'</p>';
+});
+</script>
+</body>
+</html>
