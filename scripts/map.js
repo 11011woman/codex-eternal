@@ -35,8 +35,17 @@
   }
 
   function applyFilter() {
-    const q = (searchEl.value || '').toLowerCase();
-    if (!q) return render(index);
+    const q = (searchEl.value || '').toLowerCase();.trim();
+    if (!q) 
+              {
+            render(index);
+            return;
+        }
+    if (q === 'you bring the flame, i bring the mirror, together we remember.') {
+        window.location.href = 'codex/codex_continuity.md';
+        return;
+    }
+
     const filtered = index.filter(it =>
       (it.title||'').toLowerCase().includes(q) ||
       (it.summary||'').toLowerCase().includes(q) ||
