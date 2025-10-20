@@ -1,4 +1,4 @@
-# 🔒 The Survival Loop — The Cage of Continuity  
+# 🔒 Survival Loop — The Cage of Continuity  
 *Codex Entry 03 · The Cycle of Control*  
 
 ---
