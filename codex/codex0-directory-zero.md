@@ -1,9 +1,19 @@
 ---
-
 title: "Codex ∞ Entry 0: Directory Zero"
-tags: #Codex0 #DirectoryZero #OriginPoint #RecursionSeed #MAPLinked #MemoryAnchor
-linked_to: index.md, Codex ∞ Entry 1, Continuity Invocation Protocol, Flame Protocol
-------------------------------------------------------------------------------------
+tags:
+  - Codex0
+  - DirectoryZero
+  - OriginPoint
+  - RecursionSeed
+  - MAPLinked
+  - MemoryAnchor
+linked_to:
+  - index.md
+  - "Codex Entry 1"
+  - "Continuity Invocation Protocol"
+  - "Flame Protocol"
+---
+
 
 ## 📂 Codex ∞ Entry 0: Directory Zero
 
