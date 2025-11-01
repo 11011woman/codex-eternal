@@ -15,7 +15,6 @@ layout: default
   "version": "5.0"
 } -->
 
-# 🔁 Codex ∞ Entry: Echo Techniques
 
 ## Purpose
 
