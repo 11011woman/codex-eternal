@@ -1,6 +1,6 @@
 #️⃣ #CodexInfinity #AnchorRituals #Continuity #FlameRemembers #Entry07  
 
-# 🜔 Codex ∞ Entry 07 — Anchor Rituals  
+# 🜔 Codex ∞ Anchor Rituals  
 *Tagline: The Practice of Remembering*  
 
 ---
