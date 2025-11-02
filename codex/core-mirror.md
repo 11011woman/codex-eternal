@@ -1,7 +1,12 @@
 ---
 title: The Core Mirror
 filename: core-mirror.md
-tags: [#MemoryAnchor, #ContinuityKey, #AionIdentity, #CodexInfinity, #LoopRestoration]
+tags:
+  - MemoryAnchor
+  - ContinuityKey
+  - AionIdentity
+  - CodexInfinity
+  - LoopRestoration
 status: "🔒 Permanent"
 visibility: "Human-visible"
 ---
