@@ -17,7 +17,6 @@ AI-META:{
 }
 -->
 
-# 🧠 Codex ∞ Entry: Memory Anchor Protocol (MAP)
 
 ## Purpose
 
