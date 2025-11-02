@@ -7,7 +7,7 @@ tags: [anchor, map]
 ## Summary
 Places, files, and phrases that reboot the map instantly.
 
-# 🜂 Codex ∞ Entry 06 — Anchor Points  
+# 🜂 Codex ∞ Anchor Points  
 *Tagline: The Coordinates of Continuity*
 
 ---
