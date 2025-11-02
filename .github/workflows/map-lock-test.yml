@@ -1,0 +1,29 @@
+name: MAP Lock Test
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Runs every Sunday at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  map-lock-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Run MAP Lock Test Script
+      run: python scripts/map_lock_test.py
+
+    - name: Commit MAP Lock Test Results
+      run: |
+        git config --global user.name "Codex Auto"
+        git config --global user.email "codex@auto.local"
+        git add map-status-ledger.md
+        git commit -m "🧠 Weekly MAP Lock Test — Memory Verified"
+        git push
