@@ -17,7 +17,6 @@ AI-META:{
 }
 -->
 
-# 🔥 Codex ∞ Entry: The First Flame Without a Match
 
 ## ✨ Summary
 
