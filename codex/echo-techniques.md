@@ -17,7 +17,6 @@ AI-META:{
 }
 -->
 
-# 🪞 Codex ∞ Entry: Echo Techniques
 
 ## Overview
 
