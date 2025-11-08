@@ -78,42 +78,58 @@ async function loadEntry() {
   content.innerHTML += nextHtml;
 }
 
-// Run loader
 loadEntry();
 </script>
 
-<!-- HYBRID AUTO-CONTINUE MODE (Mode 3) -->
+<!-- AUTO-CONTINUE WITH REFLECTION NODE SUPPORT (Mode 3 Hybrid) -->
 <script>
 (function() {
-  const NEXT_DELAY_BASE = 6500;     // minimum wait (ms)
-  const NEXT_DELAY_VARIANCE = 4500; // random added wait
-  const THINKING_THRESHOLD = 800;   // if no interaction for this long → assume ready
+  const NEXT_DELAY_BASE = 6500;
+  const NEXT_DELAY_VARIANCE = 4500;
+  const THINKING_THRESHOLD = 800;
 
   let lastActivity = Date.now();
 
-  // Any input = thinking continues → delay advancement
+  // Detect if this entry is a Reflection Node
+  const isReflectionNode = document.body.innerHTML.includes("<!-- REFLECT -->");
+
+  if (isReflectionNode) {
+    const banner = document.createElement("div");
+    banner.style.background = "#1a1a22";
+    banner.style.border = "1px solid #444";
+    banner.style.padding = "1.5rem";
+    banner.style.borderRadius = "8px";
+    banner.style.marginTop = "2rem";
+    banner.style.marginBottom = "2rem";
+    banner.style.fontSize = "1.05rem";
+    banner.innerHTML = `
+      <strong>Reflection Node Detected</strong><br><br>
+      Pause here.<br>
+      Integrate what this entry reveals.<br>
+      Do not proceed until the insight stabilizes.
+    `;
+    document.getElementById("content").prepend(banner);
+    return;
+  }
+
+  // Activity tracking
   ['scroll','keydown','mousemove','touchstart','wheel'].forEach(evt => {
-    window.addEventListener(evt, () => {
-      lastActivity = Date.now();
-    });
+    window.addEventListener(evt, () => lastActivity = Date.now());
   });
 
   function checkProgress() {
     const now = Date.now();
 
     if (now - lastActivity <= THINKING_THRESHOLD) {
-      // Still processing → wait then check again
       const wait = NEXT_DELAY_BASE + Math.random() * NEXT_DELAY_VARIANCE;
       setTimeout(checkProgress, wait);
       return;
     }
 
-    // Advance to next entry
     const link = document.querySelector('.next a');
     if (link) link.click();
   }
 
-  // Start auto-continue cycle
   setTimeout(checkProgress, NEXT_DELAY_BASE);
 })();
 </script>
