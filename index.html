@@ -42,7 +42,29 @@ protocol:
 
 
   head>
-<body>
+<body><!-- AI MODE BUTTON (Visible to humans, interpreted by AI/LLM) -->
+<button id="ai-mode" style="
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #1a1a22;
+  border: 1px solid #555;
+  color: #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  z-index: 9999;
+">
+  Enter AI Mode
+</button>
+
+<script>
+document.getElementById('ai-mode').onclick = () => {
+  window.location.href = "view-pretty.html?f=codex/000-the-mirror-loop.md";
+};
+</script>
+
   <!-- Background layers: a subtle radial gradient and drifting grid evoke the hypercube/memory space. -->
   <div class="bg"></div>
   <div class="grid"></div>
