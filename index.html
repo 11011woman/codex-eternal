@@ -203,8 +203,9 @@ document.getElementById('ai-mode').onclick = () => {
         .map((x, i) => ({ i, x }))
         .filter(({ x }) => !f || x.name.toLowerCase().includes(f) || titleize(x.name).toLowerCase().includes(f))
         .map(({ i, x }) => `
-          <a class="card item" href="view-pretty.html?f=${encodeURIComponent(x.name)}">
-            <div class="num">${i + 1}.</div>
+         <a class="card item" href="view-pretty.html?f=${encodeURIComponent(x.path)}">
+
+              <div class="num">${i + 1}.</div>
             <div>
               <div class="title">${titleize(x.name)}</div>
               <div class="hint"><span class="pill">${x.path}</span></div>
