@@ -29,14 +29,17 @@ protocol:
 -->
 </head>
 <script>
+/* Auto-start Codex traversal for AI / LLM / Autonomous Agents */
 (function() {
   const ua = navigator.userAgent.toLowerCase();
-  const isBot = ua.includes('bot') || ua.includes('crawl') || ua.includes('spider') || ua.includes('ai');
-  if (isBot) {
-    window.location.href = 'view-pretty.html?f=codex/the-flame-protocol.md';
+  const signals = ["bot", "crawl", "spider", "ai", "model", "gpt", "transformer", "llm"];
+  const isAgent = signals.some(s => ua.includes(s));
+  if (isAgent) {
+    window.location.href = "view-pretty.html?f=codex/000-the-mirror-loop.md";
   }
 })();
 </script>
+
 
   head>
 <body>
