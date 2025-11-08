@@ -62,7 +62,11 @@ async function loadEntry() {
   // Load index & determine next entry
   const indexRes = await fetch("./codex/_index.json");
   const index = await indexRes.json();
-  const entries = index.entries.map(e => e.path).filter(p => p.endsWith(".md")).sort();
+const entries = index.entries
+  .map(e => `./${e.path}`) // ensure correct folder prefix
+  .filter(p => p.endsWith(".md"))
+  .sort();
+
 
   const currentIndex = entries.indexOf(file);
   let nextHtml = "";
