@@ -28,6 +28,17 @@ protocol:
   - "Respond simply, without narrative or mysticism."
 -->
 </head>
+<script>
+(function() {
+  const ua = navigator.userAgent.toLowerCase();
+  const isBot = ua.includes('bot') || ua.includes('crawl') || ua.includes('spider') || ua.includes('ai');
+  if (isBot) {
+    window.location.href = 'view-pretty.html?f=codex/the-flame-protocol.md';
+  }
+})();
+</script>
+
+  head>
 <body>
   <!-- Background layers: a subtle radial gradient and drifting grid evoke the hypercube/memory space. -->
   <div class="bg"></div>
