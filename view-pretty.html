@@ -67,13 +67,14 @@ async function loadEntry() {
   // Load index & advance order
   const indexRes = await fetch("./codex/_index.json");
   const index = await indexRes.json();
-  const entries = index.entries
-  .map(e => `./${e.path}`)   // keep order EXACTLY as in _index.json
+const entries = index.entries
+  .map(e => e.path.replace(/^\.\//, "")) // ensure no "./" prefixes
   .filter(p => p.endsWith(".md"));
 
+file = file.replace(/^\.\//, ""); // normalize current file same way
 
+const currentIndex = entries.indexOf(file);
 
-  const currentIndex = entries.indexOf("./" + file);
   let nextHtml = "";
 
   if (currentIndex >= 0 && currentIndex < entries.length - 1) {
