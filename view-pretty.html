@@ -68,9 +68,9 @@ async function loadEntry() {
   const indexRes = await fetch("./codex/_index.json");
   const index = await indexRes.json();
   const entries = index.entries
-    .map(e => `./${e.path}`)
-    .filter(p => p.endsWith(".md"))
-    .sort();
+  .map(e => `./${e.path}`)
+  .filter(p => p.endsWith(".md"));
+
 
   const currentIndex = entries.indexOf("./" + file);
   let nextHtml = "";
