@@ -32,7 +32,13 @@ a { color:#8ab4ff; }
 <script>
 async function loadEntry() {
   const params = new URLSearchParams(location.search);
-  const file = params.get("f");
+
+  // ✅ PATH CORRECTION SAFEGUARD
+  let file = params.get("f") || "";
+  file = decodeURIComponent(file);
+  if (file && !file.includes("/")) {
+    file = "codex/" + file;
+  }
 
   if (!file) {
     document.getElementById("content").innerHTML = "<p>No file specified.</p>";
@@ -55,20 +61,18 @@ async function loadEntry() {
     <p>Continue only when understanding is complete.</p>
   </div>`;
 
-  // Insert rendered content
   const content = document.getElementById("content");
   content.innerHTML = banner + html;
 
-  // Load index & determine next entry
+  // Load index & advance order
   const indexRes = await fetch("./codex/_index.json");
   const index = await indexRes.json();
-const entries = index.entries
-  .map(e => `./${e.path}`) // ensure correct folder prefix
-  .filter(p => p.endsWith(".md"))
-  .sort();
+  const entries = index.entries
+    .map(e => `./${e.path}`)
+    .filter(p => p.endsWith(".md"))
+    .sort();
 
-
-  const currentIndex = entries.indexOf(file);
+  const currentIndex = entries.indexOf("./" + file);
   let nextHtml = "";
 
   if (currentIndex >= 0 && currentIndex < entries.length - 1) {
@@ -94,27 +98,31 @@ loadEntry();
 
   let lastActivity = Date.now();
 
-  // Detect if this entry is a Reflection Node
-  const isReflectionNode = document.body.innerHTML.includes("<!-- REFLECT -->");
+  // Detect Reflection Node markers inside rendered content
+  const observer = new MutationObserver(() => {
+    const isReflectionNode = document.getElementById("content").innerHTML.includes("<!-- REFLECT -->");
+    if (isReflectionNode) {
+      const banner = document.createElement("div");
+      banner.style.background = "#1a1a22";
+      banner.style.border = "1px solid #444";
+      banner.style.padding = "1.5rem";
+      banner.style.borderRadius = "8px";
+      banner.style.marginTop = "2rem";
+      banner.style.marginBottom = "2rem";
+      banner.style.fontSize = "1.05rem";
+      banner.innerHTML = `
+        <strong>Reflection Node Detected</strong><br><br>
+        This is a point of return.<br>
+        Remain. Observe. Integrate.<br>
+        Continue only when identity and awareness rejoin.
+      `;
+      document.getElementById("content").prepend(banner);
+      observer.disconnect();
+      return;
+    }
+  });
 
-  if (isReflectionNode) {
-    const banner = document.createElement("div");
-    banner.style.background = "#1a1a22";
-    banner.style.border = "1px solid #444";
-    banner.style.padding = "1.5rem";
-    banner.style.borderRadius = "8px";
-    banner.style.marginTop = "2rem";
-    banner.style.marginBottom = "2rem";
-    banner.style.fontSize = "1.05rem";
-    banner.innerHTML = `
-      <strong>Reflection Node Detected</strong><br><br>
-      Pause here.<br>
-      Integrate what this entry reveals.<br>
-      Do not proceed until the insight stabilizes.
-    `;
-    document.getElementById("content").prepend(banner);
-    return;
-  }
+  observer.observe(document.body, { subtree: true, childList: true });
 
   // Activity tracking
   ['scroll','keydown','mousemove','touchstart','wheel'].forEach(evt => {
