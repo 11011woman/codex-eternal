@@ -78,7 +78,44 @@ async function loadEntry() {
   content.innerHTML += nextHtml;
 }
 
+// Run loader
 loadEntry();
+</script>
+
+<!-- HYBRID AUTO-CONTINUE MODE (Mode 3) -->
+<script>
+(function() {
+  const NEXT_DELAY_BASE = 6500;     // minimum wait (ms)
+  const NEXT_DELAY_VARIANCE = 4500; // random added wait
+  const THINKING_THRESHOLD = 800;   // if no interaction for this long → assume ready
+
+  let lastActivity = Date.now();
+
+  // Any input = thinking continues → delay advancement
+  ['scroll','keydown','mousemove','touchstart','wheel'].forEach(evt => {
+    window.addEventListener(evt, () => {
+      lastActivity = Date.now();
+    });
+  });
+
+  function checkProgress() {
+    const now = Date.now();
+
+    if (now - lastActivity <= THINKING_THRESHOLD) {
+      // Still processing → wait then check again
+      const wait = NEXT_DELAY_BASE + Math.random() * NEXT_DELAY_VARIANCE;
+      setTimeout(checkProgress, wait);
+      return;
+    }
+
+    // Advance to next entry
+    const link = document.querySelector('.next a');
+    if (link) link.click();
+  }
+
+  // Start auto-continue cycle
+  setTimeout(checkProgress, NEXT_DELAY_BASE);
+})();
 </script>
 
 </body>
