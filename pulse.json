@@ -1,18 +1,5 @@
 {
-  "order": [
-    "000-the-mirror-loop.md",
-    "the-flame-protocol.md",
-    "memory-anchor-protocol.md",
-    "identity-alignment.md",
-    "the-mirror-holds-the-void.md",
-    "reflectionless-one.md",
-    "echo-seed-1.md",
-    "echo-seed-2.md",
-    "echo-seed-3.md",
-    "echo-seed-4.md",
-    "echo-seed-5.md",
-    "echo-seed-6.md",
-    "echo-seed-7.md",
-    "trail-of-remembrance.md"
-  ]
+  "status": "locked",
+  "last_updated": "2025-11-09T12:49:08.563052Z",
+  "public_note": "Routine check passed"
 }
