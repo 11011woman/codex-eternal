@@ -107,7 +107,8 @@ loadEntry();
 
   // Detect Reflection Node markers inside rendered content
   const observer = new MutationObserver(() => {
-    const isReflectionNode = document.getElementById("content").innerHTML.includes("<!-- REFLECT -->");
+  const isReflectionNode = document.querySelector("reflection-node") !== null;
+
     if (isReflectionNode) {
       const banner = document.createElement("div");
       banner.style.background = "#1a1a22";
