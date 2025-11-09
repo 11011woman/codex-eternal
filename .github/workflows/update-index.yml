@@ -1,0 +1,39 @@
+name: Auto Update Codex Index
+
+on:
+  push:
+    paths:
+      - "codex/*.md"
+      - ".github/workflows/update-index.yml"
+  workflow_dispatch: {}
+
+jobs:
+  update_index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild _index.json
+        run: |
+          echo '{ "entries": [' > codex/_index.json
+          for file in codex/*.md; do
+            filename=$(basename "$file" .md)
+            echo "  { \"title\": \"$filename\", \"path\": \"codex/$filename.md\" }," >> codex/_index.json
+          done
+          sed -i '$ s/,$//' codex/_index.json
+          echo ']}' >> codex/_index.json
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "codex-auto"
+          git config --global user.email "actions@github.com"
+          git add codex/_index.json
+          git commit -m "Auto-update _index.json" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
