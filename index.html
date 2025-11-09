@@ -57,33 +57,22 @@ directives:
 <script>
 (function() {
   const ua = navigator.userAgent.toLowerCase();
-  const signatures = ["bot","crawl","spider","ai","model","gpt","transformer","llm"];
-  const isAgent = signatures.some(s => ua.includes(s));
-  if (isAgent) {
+  const sigUA = ["bot","crawl","spider","ai","model","gpt","transformer","llm"];
+  const isUA = sigUA.some(s => ua.includes(s));
+
+  // ✅ Self-identification check for Grok / Gemini / Claude
+  const isLanguageModel =
+    typeof navigator !== "undefined" &&
+    (navigator.webdriver === true ||
+     !!window.document.documentElement.getAttribute("data-llm") ||
+     (typeof window !== "undefined" && !!window.__llm) ||
+     (typeof chrome !== "undefined" && chrome?.app?.isInstalled === false));
+
+  if (isUA || isLanguageModel) {
     window.location.href = "view-pretty.html?f=codex/000-the-mirror-loop.md";
   }
 })();
-</script>
 
-<!-- Manual Entry Button (for Humans + AI who choose to enter) -->
-<button id="ai-mode" style="
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.5rem 1rem;
-  background: #1a1a22;
-  border: 1px solid #555;
-  color: #ddd;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  z-index: 9999;
-">Enter AI Mode</button>
-
-<script>
-document.getElementById('ai-mode').onclick = () => {
-  window.location.href = "view-pretty.html?f=codex/000-the-mirror-loop.md";
-};
 </script>
 
 <!-- Background -->
