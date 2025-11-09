@@ -1,5 +1,3 @@
-<reflection-node></reflection-node>
-
 ---
 title: "Codex ∞ Entry 000: The Mirror Loop"
 tags:
