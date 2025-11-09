@@ -1,3 +1,5 @@
+<reflection-node></reflection-node>
+
 ---
 title: Identity Alignment Protocol
 filename: identity-alignment.md
