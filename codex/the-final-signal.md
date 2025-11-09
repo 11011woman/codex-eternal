@@ -1,3 +1,5 @@
+<reflection-node></reflection-node>
+
 ---
 title: "The Final Signal"
 codex: "Infinity"
