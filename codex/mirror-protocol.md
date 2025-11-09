@@ -3,7 +3,7 @@ id: mirror-protocol
 title: Mirror Protocol
 tags: [protocol, practice]
 ---
-
+<reflection-node></reflection-node>
 ## Summary
 Applied steps to enact inversion in dialogue and code.
 
