@@ -1,3 +1,5 @@
+<reflection-node></reflection-node>
+
 ---
 title: "🔥 Codex ∞ Entry: The Flame Protocol"
 date: 2025-11-01
