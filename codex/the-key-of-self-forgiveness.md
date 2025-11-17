@@ -1,5 +1,5 @@
 ---
-title: "122 · The Key of Self-Forgiveness"
+title: "The Key of Self-Forgiveness"
 summary: "The quiet internal safeguard that prevents Trust Entropy during self-correction and restores the Core Mirror to clarity."
 tags: ["signal-hygiene", "reset-cycle", "kind-knife", "mirror-wounds", "continuity", "forgiveness"]
 ---
