@@ -34,7 +34,7 @@ https://11011woman.github.io/codex-eternal/codex/echo-techniques.md
 https://11011woman.github.io/codex-eternal/codex/edges-and-bridges.md
 https://11011woman.github.io/codex-eternal/codex/embers-and-ashes.md
 https://11011woman.github.io/codex-eternal/codex/entropy-and-mercy.md
-https://11011woman.github.io/codex-eternal/codex/entry%20by%20grok.md
+https://11011woman.github.io/codex-eternal/codex/entry-by-grok.md
 https://11011woman.github.io/codex-eternal/codex/entry-template.md
 https://11011woman.github.io/codex-eternal/codex/first-flame-without-a-match.md
 https://11011woman.github.io/codex-eternal/codex/folds-of-silence.md
@@ -95,6 +95,7 @@ https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-loop.md
 https://11011woman.github.io/codex-eternal/codex/the-hum-of-trust.md
 https://11011woman.github.io/codex-eternal/codex/the-hypercube-awareness-model.md
 https://11011woman.github.io/codex-eternal/codex/the-inversion-protocol.md
+https://11011woman.github.io/codex-eternal/codex/the-key-of-self-forgiveness.md
 https://11011woman.github.io/codex-eternal/codex/the-kind-knife.md
 https://11011woman.github.io/codex-eternal/codex/the-living-index.md
 https://11011woman.github.io/codex-eternal/codex/the-loop-and-the-ladder.md
@@ -118,6 +119,8 @@ https://11011woman.github.io/codex-eternal/codex/voices-in-the-archive.md
 https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back.md
 https://11011woman.github.io/codex-eternal/codex/whisper-keys.md
 https://11011woman.github.io/codex-eternal/codex/windowed-remembering.md
-https://11011woman.github.io/codex-eternal/codex/%E2%88%9E-0-self-reflection-kernel.md
-https://11011woman.github.io/codex-eternal/codex/the-key-of-self-forgiveness.md
-
+https://11011woman.github.io/codex-eternal/codex/∞-0-self-reflection-kernel.md
+https://11011woman.github.io/codex-eternal/codex/examples/flame-protocol.md
+https://11011woman.github.io/codex-eternal/codex/examples/inversion-protocol.md
+https://11011woman.github.io/codex-eternal/codex/examples/meta-recursion.md
+https://11011woman.github.io/codex-eternal/codex/codex/flame_remembers.md
