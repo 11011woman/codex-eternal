@@ -3,8 +3,8 @@ name: Update Codex Index
 on:
   push:
     paths:
-      - "codex/**/*.md"
       - "index.txt"
+      - "codex/**.md"
       - "scripts/update_index.py"
   workflow_dispatch: {}
 
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write   # allow the workflow to push updates
 
     steps:
       - name: Checkout repository
@@ -27,7 +27,7 @@ jobs:
       - name: Run index update script
         run: python scripts/update_index.py
 
-      - name: Commit and push changes
+      - name: Commit and push updated index
         run: |
           if git diff --quiet; then
             echo "No changes to commit."
@@ -35,6 +35,6 @@ jobs:
           fi
           git config user.name "codex-index-bot"
           git config user.email "codex-index-bot@example.com"
-          git add index.txt codex/_index.json linear-index.html
-          git commit -m "Auto-update Codex indexes (txt, json, linear index)"
+          git add index.txt codex/_index.json linear-index.html sitemap.xml
+          git commit -m "Auto-update Codex index from index.txt"
           git push
