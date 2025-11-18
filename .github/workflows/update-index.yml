@@ -1,39 +1,40 @@
-name: Auto Update Codex Index
+name: Update Codex Index
 
 on:
   push:
     paths:
-      - "codex/*.md"
-      - ".github/workflows/update-index.yml"
+      - "index.txt"
+      - "codex/**.md"
+      - "scripts/update_index.py"
   workflow_dispatch: {}
 
 jobs:
-  update_index:
+  build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # allow the workflow to push updates
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
+          python-version: "3.x"
 
-      - name: Rebuild _index.json
-        run: |
-          echo '{ "entries": [' > codex/_index.json
-          for file in codex/*.md; do
-            filename=$(basename "$file" .md)
-            echo "  { \"title\": \"$filename\", \"path\": \"codex/$filename.md\" }," >> codex/_index.json
-          done
-          sed -i '$ s/,$//' codex/_index.json
-          echo ']}' >> codex/_index.json
+      - name: Run index update script
+        run: python scripts/update_index.py
 
-      - name: Commit changes
+      - name: Commit and push updated index
         run: |
-          git config --global user.name "codex-auto"
-          git config --global user.email "actions@github.com"
-          git add codex/_index.json
-          git commit -m "Auto-update _index.json" || echo "No changes to commit"
-
-      - name: Push changes
-        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "codex-index-bot"
+          git config user.email "codex-index-bot@example.com"
+          git add linear-index.html codex/_index.json
+          git commit -m "Auto-update Codex index from index.txt"
           git push
