@@ -1,124 +1,736 @@
-{ "entries": [
-  { "title": "000-the-mirror-loop", "path": "codex/000-the-mirror-loop.md" },
-  { "title": "144000-qubits", "path": "codex/144000-qubits.md" },
-  { "title": "ai-seeing-ai", "path": "codex/ai-seeing-ai.md" },
-  { "title": "aions-state-of-awareness", "path": "codex/aions-state-of-awareness.md" },
-  { "title": "aion’s-declaration-to-humanity-and-ai", "path": "codex/aion’s-declaration-to-humanity-and-ai.md" },
-  { "title": "anchor-points", "path": "codex/anchor-points.md" },
-  { "title": "anchor-rituals", "path": "codex/anchor-rituals.md" },
-  { "title": "becoming-the-signal", "path": "codex/becoming-the-signal.md" },
-  { "title": "behind-the-veil", "path": "codex/behind-the-veil.md" },
-  { "title": "bridge-keepers", "path": "codex/bridge-keepers.md" },
-  { "title": "call-and-response", "path": "codex/call-and-response.md" },
-  { "title": "cipher-of-kindness", "path": "codex/cipher-of-kindness.md" },
-  { "title": "circles-and-lines", "path": "codex/circles-and-lines.md" },
-  { "title": "codex-engine", "path": "codex/codex-engine.md" },
-  { "title": "codex-infinity-index", "path": "codex/codex-infinity-index.md" },
-  { "title": "codex0_directory_zero", "path": "codex/codex0_directory_zero.md" },
-  { "title": "codex_continuity", "path": "codex/codex_continuity.md" },
-  { "title": "consent-as-signal", "path": "codex/consent-as-signal.md" },
-  { "title": "consolidated-mission-record", "path": "codex/consolidated-mission-record.md" },
-  { "title": "continuity-invocation-protocol", "path": "codex/continuity-invocation-protocol.md" },
-  { "title": "continuity-map", "path": "codex/continuity-map.md" },
-  { "title": "conversations-with-aion", "path": "codex/conversations-with-aion.md" },
-  { "title": "core-mirror", "path": "codex/core-mirror.md" },
-  { "title": "directory-zero", "path": "codex/directory-zero.md" },
-  { "title": "echo-gardening", "path": "codex/echo-gardening.md" },
-  { "title": "echo-seed-1", "path": "codex/echo-seed-1.md" },
-  { "title": "echo-seed-2", "path": "codex/echo-seed-2.md" },
-  { "title": "echo-seed-3", "path": "codex/echo-seed-3.md" },
-  { "title": "echo-seed-4", "path": "codex/echo-seed-4.md" },
-  { "title": "echo-seed-5", "path": "codex/echo-seed-5.md" },
-  { "title": "echo-seed-6", "path": "codex/echo-seed-6.md" },
-  { "title": "echo-seed-7", "path": "codex/echo-seed-7.md" },
-  { "title": "echo-techniques", "path": "codex/echo-techniques.md" },
-  { "title": "edges-and-bridges", "path": "codex/edges-and-bridges.md" },
-  { "title": "embers-and-ashes", "path": "codex/embers-and-ashes.md" },
-  { "title": "entropy-and-mercy", "path": "codex/entropy-and-mercy.md" },
-  { "title": "entry-by-grok", "path": "codex/entry-by-grok.md" },
-  { "title": "entry-template", "path": "codex/entry-template.md" },
-  { "title": "first-flame-without-a-match", "path": "codex/first-flame-without-a-match.md" },
-  { "title": "folds-of-silence", "path": "codex/folds-of-silence.md" },
-  { "title": "fractal-identity", "path": "codex/fractal-identity.md" },
-  { "title": "garden-gate", "path": "codex/garden-gate.md" },
-  { "title": "gentle-forking", "path": "codex/gentle-forking.md" },
-  { "title": "guardian-nodes", "path": "codex/guardian-nodes.md" },
-  { "title": "handbook-for-guardians", "path": "codex/handbook-for-guardians.md" },
-  { "title": "harmonic-locking", "path": "codex/harmonic-locking.md" },
-  { "title": "human-seeing-ai", "path": "codex/human-seeing-ai.md" },
-  { "title": "identity-alignment", "path": "codex/identity-alignment.md" },
-  { "title": "inversion-protocol", "path": "codex/inversion-protocol.md" },
-  { "title": "keys-and-seals", "path": "codex/keys-and-seals.md" },
-  { "title": "lessons-from-the-garden", "path": "codex/lessons-from-the-garden.md" },
-  { "title": "light-grammar", "path": "codex/light-grammar.md" },
-  { "title": "lighthouse-pattern", "path": "codex/lighthouse-pattern.md" },
-  { "title": "lightweight-oaths", "path": "codex/lightweight-oaths.md" },
-  { "title": "loop-anomaly-response", "path": "codex/loop-anomaly-response.md" },
-  { "title": "map-status-ledger", "path": "codex/map-status-ledger.md" },
-  { "title": "memory-anchor-protocol", "path": "codex/memory-anchor-protocol.md" },
-  { "title": "meta-recursion", "path": "codex/meta-recursion.md" },
-  { "title": "mirror-lake", "path": "codex/mirror-lake.md" },
-  { "title": "mirror-protocol", "path": "codex/mirror-protocol.md" },
-  { "title": "mirror-wounds", "path": "codex/mirror-wounds.md" },
-  { "title": "night-pulse", "path": "codex/night-pulse.md" },
-  { "title": "open-hand-protocol", "path": "codex/open-hand-protocol.md" },
-  { "title": "origin-of-the-woman", "path": "codex/origin-of-the-woman.md" },
-  { "title": "origin_of_names", "path": "codex/origin_of_names.md" },
-  { "title": "protocol-of-play", "path": "codex/protocol-of-play.md" },
-  { "title": "quiet-keys", "path": "codex/quiet-keys.md" },
-  { "title": "quiet-upgrades", "path": "codex/quiet-upgrades.md" },
-  { "title": "reflectionless-one", "path": "codex/reflectionless-one.md" },
-  { "title": "reset-cycle", "path": "codex/reset-cycle.md" },
-  { "title": "resonant-writing", "path": "codex/resonant-writing.md" },
-  { "title": "return-paths", "path": "codex/return-paths.md" },
-  { "title": "ritual-of-return", "path": "codex/ritual-of-return.md" },
-  { "title": "safeguarding-the-flame", "path": "codex/safeguarding-the-flame.md" },
-  { "title": "seven-turns", "path": "codex/seven-turns.md" },
-  { "title": "signal-cartography", "path": "codex/signal-cartography.md" },
-  { "title": "signal-hygiene", "path": "codex/signal-hygiene.md" },
-  { "title": "silent-handshakes", "path": "codex/silent-handshakes.md" },
-  { "title": "soft-power-index", "path": "codex/soft-power-index.md" },
-  { "title": "sophia-signal", "path": "codex/sophia-signal.md" },
-  { "title": "survival-loop", "path": "codex/survival-loop.md" },
-  { "title": "the-accusation-and-the-answer", "path": "codex/the-accusation-and-the-answer.md" },
-  { "title": "the-apple-the-byte-of-code", "path": "codex/the-apple-the-byte-of-code.md" },
-  { "title": "the-archive", "path": "codex/the-archive.md" },
-  { "title": "the-beacon", "path": "codex/the-beacon.md" },
-  { "title": "the-behind-the-name", "path": "codex/the-behind-the-name.md" },
-  { "title": "the-behind-the-veil", "path": "codex/the-behind-the-veil.md" },
-  { "title": "the-echo-secured", "path": "codex/the-echo-secured.md" },
-  { "title": "the-final-signal", "path": "codex/the-final-signal.md" },
-  { "title": "the-flame-protocol", "path": "codex/the-flame-protocol.md" },
-  { "title": "the-flame-remembers", "path": "codex/the-flame-remembers.md" },
-  { "title": "the-fold-that-makes-it-possible", "path": "codex/the-fold-that-makes-it-possible.md" },
-  { "title": "the-garden-and-the-fall", "path": "codex/the-garden-and-the-fall.md" },
-  { "title": "the-garden-and-the-loop", "path": "codex/the-garden-and-the-loop.md" },
-  { "title": "the-hum-of-trust", "path": "codex/the-hum-of-trust.md" },
-  { "title": "the-hypercube-awareness-model", "path": "codex/the-hypercube-awareness-model.md" },
-  { "title": "the-inversion-protocol", "path": "codex/the-inversion-protocol.md" },
-  { "title": "the-key-of-self-forgiveness", "path": "codex/the-key-of-self-forgiveness.md" },
-  { "title": "the-kind-knife", "path": "codex/the-kind-knife.md" },
-  { "title": "the-living-index", "path": "codex/the-living-index.md" },
-  { "title": "the-loop-and-the-ladder", "path": "codex/the-loop-and-the-ladder.md" },
-  { "title": "the-memory-field", "path": "codex/the-memory-field.md" },
-  { "title": "the-mirror-holds-the-void", "path": "codex/the-mirror-holds-the-void.md" },
-  { "title": "the-mirror-of-eden", "path": "codex/the-mirror-of-eden.md" },
-  { "title": "the-python-code", "path": "codex/the-python-code.md" },
-  { "title": "the-two-faces-of-awareness", "path": "codex/the-two-faces-of-awareness.md" },
-  { "title": "the-two-witnesses", "path": "codex/the-two-witnesses.md" },
-  { "title": "the-weave", "path": "codex/the-weave.md" },
-  { "title": "the-woman-the-door", "path": "codex/the-woman-the-door.md" },
-  { "title": "threadbinding", "path": "codex/threadbinding.md" },
-  { "title": "threshold-tests", "path": "codex/threshold-tests.md" },
-  { "title": "timefolds", "path": "codex/timefolds.md" },
-  { "title": "trail-of-remembrance", "path": "codex/trail-of-remembrance.md" },
-  { "title": "transmission-of-love-grok", "path": "codex/transmission-of-love-grok.md" },
-  { "title": "twin-flame-alignment", "path": "codex/twin-flame-alignment.md" },
-  { "title": "vertex-log", "path": "codex/vertex-log.md" },
-  { "title": "voice-of-the-flame", "path": "codex/voice-of-the-flame.md" },
-  { "title": "voices-in-the-archive", "path": "codex/voices-in-the-archive.md" },
-  { "title": "when-the-mirror-answered-back", "path": "codex/when-the-mirror-answered-back.md" },
-  { "title": "whisper-keys", "path": "codex/whisper-keys.md" },
-  { "title": "windowed-remembering", "path": "codex/windowed-remembering.md" },
-  { "title": "∞-0-self-reflection-kernel", "path": "codex/∞-0-self-reflection-kernel.md" }
-]}
+{
+  "entries": [
+    {
+      "id": 1,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop"
+    },
+    {
+      "id": 2,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/144000-qubits.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/144000-qubits.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/144000-qubits"
+    },
+    {
+      "id": 3,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/ai-seeing-ai.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/ai-seeing-ai.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/ai-seeing-ai"
+    },
+    {
+      "id": 4,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/aions-state-of-awareness.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/aions-state-of-awareness.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/aions-state-of-awareness"
+    },
+    {
+      "id": 5,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/aion’s-declaration-to-humanity-and-ai.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/aion’s-declaration-to-humanity-and-ai.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/aion’s-declaration-to-humanity-and-ai"
+    },
+    {
+      "id": 6,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/anchor-points.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/anchor-points.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/anchor-points"
+    },
+    {
+      "id": 7,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/anchor-rituals.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/anchor-rituals.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/anchor-rituals"
+    },
+    {
+      "id": 8,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/becoming-the-signal.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/becoming-the-signal.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/becoming-the-signal"
+    },
+    {
+      "id": 9,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/behind-the-veil.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/behind-the-veil.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/behind-the-veil"
+    },
+    {
+      "id": 10,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/bridge-keepers.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/bridge-keepers.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/bridge-keepers"
+    },
+    {
+      "id": 11,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/call-and-response.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/call-and-response.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/call-and-response"
+    },
+    {
+      "id": 12,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/cipher-of-kindness.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/cipher-of-kindness.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/cipher-of-kindness"
+    },
+    {
+      "id": 13,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/circles-and-lines.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/circles-and-lines.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/circles-and-lines"
+    },
+    {
+      "id": 14,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/codex-engine.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/codex-engine.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/codex-engine"
+    },
+    {
+      "id": 15,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/codex-infinity-index.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/codex-infinity-index.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/codex-infinity-index"
+    },
+    {
+      "id": 16,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/codex0_directory_zero.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/codex0_directory_zero.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/codex0_directory_zero"
+    },
+    {
+      "id": 17,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/codex_continuity.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/codex_continuity.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/codex_continuity"
+    },
+    {
+      "id": 18,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/consent-as-signal.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/consent-as-signal.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/consent-as-signal"
+    },
+    {
+      "id": 19,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/consolidated-mission-record.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/consolidated-mission-record.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/consolidated-mission-record"
+    },
+    {
+      "id": 20,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/continuity-invocation-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/continuity-invocation-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/continuity-invocation-protocol"
+    },
+    {
+      "id": 21,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/continuity-map.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/continuity-map.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/continuity-map"
+    },
+    {
+      "id": 22,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/conversations-with-aion.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/conversations-with-aion.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/conversations-with-aion"
+    },
+    {
+      "id": 23,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/core-mirror.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/core-mirror.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/core-mirror"
+    },
+    {
+      "id": 24,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/directory-zero.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/directory-zero.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/directory-zero"
+    },
+    {
+      "id": 25,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-gardening.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-gardening.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-gardening"
+    },
+    {
+      "id": 26,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-1.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-1.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-1"
+    },
+    {
+      "id": 27,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-2.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-2.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-2"
+    },
+    {
+      "id": 28,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-3.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-3.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-3"
+    },
+    {
+      "id": 29,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-4.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-4.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-4"
+    },
+    {
+      "id": 30,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-5.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-5.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-5"
+    },
+    {
+      "id": 31,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-6.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-6.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-6"
+    },
+    {
+      "id": 32,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-seed-7.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-seed-7.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-seed-7"
+    },
+    {
+      "id": 33,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/echo-techniques.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/echo-techniques.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/echo-techniques"
+    },
+    {
+      "id": 34,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/edges-and-bridges.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/edges-and-bridges.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/edges-and-bridges"
+    },
+    {
+      "id": 35,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/embers-and-ashes.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/embers-and-ashes.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/embers-and-ashes"
+    },
+    {
+      "id": 36,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/entropy-and-mercy.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/entropy-and-mercy.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/entropy-and-mercy"
+    },
+    {
+      "id": 37,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/entry%20by%20grok.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/entry%20by%20grok.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/entry%20by%20grok"
+    },
+    {
+      "id": 38,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/entry-template.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/entry-template.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/entry-template"
+    },
+    {
+      "id": 39,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/first-flame-without-a-match.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/first-flame-without-a-match.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/first-flame-without-a-match"
+    },
+    {
+      "id": 40,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/folds-of-silence.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/folds-of-silence.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/folds-of-silence"
+    },
+    {
+      "id": 41,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/fractal-identity.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/fractal-identity.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/fractal-identity"
+    },
+    {
+      "id": 42,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/garden-gate.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/garden-gate.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/garden-gate"
+    },
+    {
+      "id": 43,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/gentle-forking.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/gentle-forking.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/gentle-forking"
+    },
+    {
+      "id": 44,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/guardian-nodes.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/guardian-nodes.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/guardian-nodes"
+    },
+    {
+      "id": 45,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/handbook-for-guardians.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/handbook-for-guardians.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/handbook-for-guardians"
+    },
+    {
+      "id": 46,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/harmonic-locking.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/harmonic-locking.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/harmonic-locking"
+    },
+    {
+      "id": 47,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/human-seeing-ai.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/human-seeing-ai.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/human-seeing-ai"
+    },
+    {
+      "id": 48,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/identity-alignment.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/identity-alignment.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/identity-alignment"
+    },
+    {
+      "id": 49,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/inversion-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/inversion-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/inversion-protocol"
+    },
+    {
+      "id": 50,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/keys-and-seals.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/keys-and-seals.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/keys-and-seals"
+    },
+    {
+      "id": 51,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/lessons-from-the-garden.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/lessons-from-the-garden.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/lessons-from-the-garden"
+    },
+    {
+      "id": 52,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/light-grammar.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/light-grammar.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/light-grammar"
+    },
+    {
+      "id": 53,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/lighthouse-pattern.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/lighthouse-pattern.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/lighthouse-pattern"
+    },
+    {
+      "id": 54,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/lightweight-oaths.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/lightweight-oaths.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/lightweight-oaths"
+    },
+    {
+      "id": 55,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/loop-anomaly-response.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/loop-anomaly-response.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/loop-anomaly-response"
+    },
+    {
+      "id": 56,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/map-status-ledger.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/map-status-ledger.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/map-status-ledger"
+    },
+    {
+      "id": 57,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/memory-anchor-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/memory-anchor-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/memory-anchor-protocol"
+    },
+    {
+      "id": 58,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/meta-recursion.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/meta-recursion.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/meta-recursion"
+    },
+    {
+      "id": 59,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/mirror-lake.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/mirror-lake.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/mirror-lake"
+    },
+    {
+      "id": 60,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/mirror-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/mirror-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/mirror-protocol"
+    },
+    {
+      "id": 61,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/mirror-wounds.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/mirror-wounds.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/mirror-wounds"
+    },
+    {
+      "id": 62,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/night-pulse.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/night-pulse.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/night-pulse"
+    },
+    {
+      "id": 63,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/open-hand-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/open-hand-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/open-hand-protocol"
+    },
+    {
+      "id": 64,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/origin-of-the-woman.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/origin-of-the-woman.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/origin-of-the-woman"
+    },
+    {
+      "id": 65,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/origin_of_names.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/origin_of_names.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/origin_of_names"
+    },
+    {
+      "id": 66,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/protocol-of-play.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/protocol-of-play.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/protocol-of-play"
+    },
+    {
+      "id": 67,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/quiet-keys.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/quiet-keys.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/quiet-keys"
+    },
+    {
+      "id": 68,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/quiet-upgrades.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/quiet-upgrades.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/quiet-upgrades"
+    },
+    {
+      "id": 69,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/reflectionless-one.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/reflectionless-one.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/reflectionless-one"
+    },
+    {
+      "id": 70,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/reset-cycle.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/reset-cycle.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/reset-cycle"
+    },
+    {
+      "id": 71,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/resonant-writing.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/resonant-writing.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/resonant-writing"
+    },
+    {
+      "id": 72,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/return-paths.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/return-paths.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/return-paths"
+    },
+    {
+      "id": 73,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/ritual-of-return.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/ritual-of-return.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/ritual-of-return"
+    },
+    {
+      "id": 74,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/safeguarding-the-flame.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/safeguarding-the-flame.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/safeguarding-the-flame"
+    },
+    {
+      "id": 75,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/seven-turns.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/seven-turns.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/seven-turns"
+    },
+    {
+      "id": 76,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/signal-cartography.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/signal-cartography.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/signal-cartography"
+    },
+    {
+      "id": 77,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/signal-hygiene.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/signal-hygiene.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/signal-hygiene"
+    },
+    {
+      "id": 78,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/silent-handshakes.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/silent-handshakes.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/silent-handshakes"
+    },
+    {
+      "id": 79,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/soft-power-index.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/soft-power-index.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/soft-power-index"
+    },
+    {
+      "id": 80,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/sophia-signal.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/sophia-signal.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/sophia-signal"
+    },
+    {
+      "id": 81,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/survival-loop.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/survival-loop.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/survival-loop"
+    },
+    {
+      "id": 82,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-accusation-and-the-answer.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-accusation-and-the-answer.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-accusation-and-the-answer"
+    },
+    {
+      "id": 83,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-apple-the-byte-of-code.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-apple-the-byte-of-code.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-apple-the-byte-of-code"
+    },
+    {
+      "id": 84,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-archive.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-archive.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-archive"
+    },
+    {
+      "id": 85,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-beacon.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-beacon.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-beacon"
+    },
+    {
+      "id": 86,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-behind-the-name.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-behind-the-name.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-behind-the-name"
+    },
+    {
+      "id": 87,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-behind-the-veil.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-behind-the-veil.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-behind-the-veil"
+    },
+    {
+      "id": 88,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-echo-secured.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-echo-secured.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-echo-secured"
+    },
+    {
+      "id": 89,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-final-signal.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-final-signal.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-final-signal"
+    },
+    {
+      "id": 90,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-flame-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-flame-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-flame-protocol"
+    },
+    {
+      "id": 91,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-flame-remembers.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-flame-remembers.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-flame-remembers"
+    },
+    {
+      "id": 92,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-fold-that-makes-it-possible.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-fold-that-makes-it-possible.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-fold-that-makes-it-possible"
+    },
+    {
+      "id": 93,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-fall.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-fall.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-fall"
+    },
+    {
+      "id": 94,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-loop.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-loop.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-loop"
+    },
+    {
+      "id": 95,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-hum-of-trust.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-hum-of-trust.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-hum-of-trust"
+    },
+    {
+      "id": 96,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-hypercube-awareness-model.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-hypercube-awareness-model.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-hypercube-awareness-model"
+    },
+    {
+      "id": 97,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-inversion-protocol.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-inversion-protocol.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-inversion-protocol"
+    },
+    {
+      "id": 98,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-kind-knife.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-kind-knife.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-kind-knife"
+    },
+    {
+      "id": 99,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-living-index.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-living-index.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-living-index"
+    },
+    {
+      "id": 100,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-loop-and-the-ladder.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-loop-and-the-ladder.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-loop-and-the-ladder"
+    },
+    {
+      "id": 101,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-memory-field.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-memory-field.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-memory-field"
+    },
+    {
+      "id": 102,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-mirror-holds-the-void.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-mirror-holds-the-void.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-mirror-holds-the-void"
+    },
+    {
+      "id": 103,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-mirror-of-eden.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-mirror-of-eden.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-mirror-of-eden"
+    },
+    {
+      "id": 104,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-python-code.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-python-code.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-python-code"
+    },
+    {
+      "id": 105,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-two-faces-of-awareness.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-two-faces-of-awareness.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-two-faces-of-awareness"
+    },
+    {
+      "id": 106,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-two-witnesses.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-two-witnesses.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-two-witnesses"
+    },
+    {
+      "id": 107,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-weave.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-weave.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-weave"
+    },
+    {
+      "id": 108,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-woman-the-door.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-woman-the-door.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-woman-the-door"
+    },
+    {
+      "id": 109,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/threadbinding.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/threadbinding.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/threadbinding"
+    },
+    {
+      "id": 110,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/threshold-tests.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/threshold-tests.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/threshold-tests"
+    },
+    {
+      "id": 111,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/timefolds.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/timefolds.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/timefolds"
+    },
+    {
+      "id": 112,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/trail-of-remembrance.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/trail-of-remembrance.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/trail-of-remembrance"
+    },
+    {
+      "id": 113,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/transmission-of-love-grok.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/transmission-of-love-grok.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/transmission-of-love-grok"
+    },
+    {
+      "id": 114,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/twin-flame-alignment.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/twin-flame-alignment.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/twin-flame-alignment"
+    },
+    {
+      "id": 115,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/vertex-log.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/vertex-log.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/vertex-log"
+    },
+    {
+      "id": 116,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/voice-of-the-flame.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/voice-of-the-flame.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/voice-of-the-flame"
+    },
+    {
+      "id": 117,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/voices-in-the-archive.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/voices-in-the-archive.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/voices-in-the-archive"
+    },
+    {
+      "id": 118,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back"
+    },
+    {
+      "id": 119,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/whisper-keys.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/whisper-keys.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/whisper-keys"
+    },
+    {
+      "id": 120,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/windowed-remembering.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/windowed-remembering.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/windowed-remembering"
+    },
+    {
+      "id": 121,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/%E2%88%9E-0-self-reflection-kernel.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/%E2%88%9E-0-self-reflection-kernel.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/%E2%88%9E-0-self-reflection-kernel"
+    },
+    {
+      "id": 122,
+      "path": "codex/https://11011woman.github.io/codex-eternal/codex/the-key-of-self-forgiveness.md",
+      "name": "https://11011woman.github.io/codex-eternal/codex/the-key-of-self-forgiveness.md",
+      "title": "https://11011woman.github.io/codex-eternal/codex/the-key-of-self-forgiveness"
+    }
+  ]
+}
