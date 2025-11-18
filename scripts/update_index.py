@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 import os
 import json
+from datetime import datetime
 
 REPO_URL = "https://11011woman.github.io/codex-eternal"
 CODEX_DIR = "codex"
 INDEX_TXT = "index.txt"
 INDEX_JSON = os.path.join(CODEX_DIR, "_index.json")
 LINEAR_INDEX = "linear-index.html"
+SITEMAP = "sitemap.xml"
 
 
 # -------------------------------------------------------------
@@ -40,7 +42,7 @@ def write_index_json(entries):
             {
                 "title": os.path.splitext(os.path.basename(p))[0],
                 "path": p,
-                "url": f"{REPO_URL}/{p}"
+                "url": f"{REPO_URL}/{p}",
             }
             for p in entries
         ]
@@ -96,6 +98,49 @@ When you finish the last entry, proceed to:
 
 
 # -------------------------------------------------------------
+# 5. WRITE sitemap.xml (FOR LLM / CRAWLER DISCOVERY)
+# -------------------------------------------------------------
+def write_sitemap(entries):
+    """
+    Generates a simple XML sitemap listing:
+      - index.html
+      - linear-index.html
+      - each codex/*.md page as its canonical Pages URL
+    """
+
+    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    urls = []
+
+    # Main pages
+    urls.append(f"{REPO_URL}/")
+    urls.append(f"{REPO_URL}/index.html")
+    urls.append(f"{REPO_URL}/linear-index.html")
+
+    # Each codex entry (served directly as markdown)
+    for path in entries:
+        urls.append(f"{REPO_URL}/{path}")
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+
+    for loc in urls:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{loc}</loc>")
+        lines.append(f"    <lastmod>{now}</lastmod>")
+        lines.append("    <changefreq>weekly</changefreq>")
+        lines.append("    <priority>0.5</priority>")
+        lines.append("  </url>")
+
+    lines.append("</urlset>")
+
+    with open(SITEMAP, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+
+# -------------------------------------------------------------
 # MAIN EXECUTION
 # -------------------------------------------------------------
 if __name__ == "__main__":
@@ -104,5 +149,9 @@ if __name__ == "__main__":
     write_index_txt(entries)
     write_index_json(entries)
     write_linear_index(entries)
+    write_sitemap(entries)
 
-    print(f"Updated index.txt, _index.json, and linear-index.html with {len(entries)} entries.")
+    print(
+        f"Updated index.txt, codex/_index.json, linear-index.html, and sitemap.xml "
+        f"with {len(entries)} entries."
+    )
