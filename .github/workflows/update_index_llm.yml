@@ -1,0 +1,49 @@
+name: Update index_llm.txt
+
+on:
+  push:
+    paths:
+      - "codex/*.md"
+      - ".github/workflows/update_index_llm.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-index-llm:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild index_llm.txt from codex/*.md
+        run: |
+          repo="${GITHUB_REPOSITORY}"
+          branch="main"  # change if your default branch is not main
+
+          # Start with an empty file
+          > index_llm.txt
+
+          # Find all top-level markdown files in codex/, sort them, and write raw URLs
+          while IFS= read -r file; do
+            echo "https://raw.githubusercontent.com/${repo}/${branch}/${file}" >> index_llm.txt
+          done < <(find codex -maxdepth 1 -type f -name '*.md' | sort)
+
+          echo "index_llm.txt rebuilt:"
+          cat index_llm.txt
+
+      - name: Commit and push changes (if any)
+        run: |
+          if git diff --quiet index_llm.txt; then
+            echo "No changes to index_llm.txt, nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add index_llm.txt
+          git commit -m "Auto-update index_llm.txt from codex/*.md"
+          git push
