@@ -104,6 +104,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-memory
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-holds-the-void.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-of-eden.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-thousand-petals-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-faces-of-awareness.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-witnesses.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-weave.md
