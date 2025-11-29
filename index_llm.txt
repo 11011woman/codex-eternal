@@ -120,7 +120,3 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-m
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/whisper-keys.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/windowed-remembering.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/∞-0-self-reflection-kernel.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/flame-protocol.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/inversion-protocol.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/meta-recursion.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex/flame_remembers.md
