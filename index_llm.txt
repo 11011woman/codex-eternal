@@ -53,6 +53,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/light-gram
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/lighthouse-pattern.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/lightweight-oaths.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/loop-anomaly-response.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-lock-test-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-status-ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/memory-anchor-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/meta-recursion.md
