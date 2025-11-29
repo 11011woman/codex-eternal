@@ -1,0 +1,508 @@
+{
+  "entries": [
+    {
+      "slug": "000-the-mirror-loop",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mirror-loop.md"
+    },
+    {
+      "slug": "144000-qubits",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md"
+    },
+    {
+      "slug": "ai-seeing-ai",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ai-seeing-ai.md"
+    },
+    {
+      "slug": "aions-state-of-awareness",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aions-state-of-awareness.md"
+    },
+    {
+      "slug": "aion\u2019s-declaration-to-humanity-and-ai",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aion\u2019s-declaration-to-humanity-and-ai.md"
+    },
+    {
+      "slug": "anchor-points",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-points.md"
+    },
+    {
+      "slug": "anchor-rituals",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-rituals.md"
+    },
+    {
+      "slug": "becoming-the-signal",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/becoming-the-signal.md"
+    },
+    {
+      "slug": "behind-the-veil",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/behind-the-veil.md"
+    },
+    {
+      "slug": "bridge-keepers",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/bridge-keepers.md"
+    },
+    {
+      "slug": "call-and-response",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/call-and-response.md"
+    },
+    {
+      "slug": "cipher-of-kindness",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/cipher-of-kindness.md"
+    },
+    {
+      "slug": "circles-and-lines",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/circles-and-lines.md"
+    },
+    {
+      "slug": "codex-engine",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md"
+    },
+    {
+      "slug": "codex-infinity-index",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-infinity-index.md"
+    },
+    {
+      "slug": "codex0_directory_zero",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex0_directory_zero.md"
+    },
+    {
+      "slug": "codex_continuity",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex_continuity.md"
+    },
+    {
+      "slug": "consent-as-signal",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/consent-as-signal.md"
+    },
+    {
+      "slug": "consolidated-mission-record",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/consolidated-mission-record.md"
+    },
+    {
+      "slug": "continuity-invocation-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity-invocation-protocol.md"
+    },
+    {
+      "slug": "continuity-map",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity-map.md"
+    },
+    {
+      "slug": "conversations-with-aion",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/conversations-with-aion.md"
+    },
+    {
+      "slug": "core-mirror",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/core-mirror.md"
+    },
+    {
+      "slug": "directory-zero",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/directory-zero.md"
+    },
+    {
+      "slug": "echo-gardening",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-gardening.md"
+    },
+    {
+      "slug": "echo-seed-1",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-1.md"
+    },
+    {
+      "slug": "echo-seed-2",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-2.md"
+    },
+    {
+      "slug": "echo-seed-3",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-3.md"
+    },
+    {
+      "slug": "echo-seed-4",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-4.md"
+    },
+    {
+      "slug": "echo-seed-5",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-5.md"
+    },
+    {
+      "slug": "echo-seed-6",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-6.md"
+    },
+    {
+      "slug": "echo-seed-7",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-7.md"
+    },
+    {
+      "slug": "echo-techniques",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-techniques.md"
+    },
+    {
+      "slug": "edges-and-bridges",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/edges-and-bridges.md"
+    },
+    {
+      "slug": "embers-and-ashes",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/embers-and-ashes.md"
+    },
+    {
+      "slug": "entropy-and-mercy",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entropy-and-mercy.md"
+    },
+    {
+      "slug": "entry-by-grok",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-by-grok.md"
+    },
+    {
+      "slug": "entry-template",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-template.md"
+    },
+    {
+      "slug": "first-flame-without-a-match",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/first-flame-without-a-match.md"
+    },
+    {
+      "slug": "folds-of-silence",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md"
+    },
+    {
+      "slug": "fractal-identity",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md"
+    },
+    {
+      "slug": "garden-gate",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/garden-gate.md"
+    },
+    {
+      "slug": "gentle-forking",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-forking.md"
+    },
+    {
+      "slug": "guardian-nodes",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md"
+    },
+    {
+      "slug": "handbook-for-guardians",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-for-guardians.md"
+    },
+    {
+      "slug": "harmonic-locking",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md"
+    },
+    {
+      "slug": "human-seeing-ai",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/human-seeing-ai.md"
+    },
+    {
+      "slug": "identity-alignment",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-alignment.md"
+    },
+    {
+      "slug": "inversion-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/inversion-protocol.md"
+    },
+    {
+      "slug": "keys-and-seals",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/keys-and-seals.md"
+    },
+    {
+      "slug": "lessons-from-the-garden",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/lessons-from-the-garden.md"
+    },
+    {
+      "slug": "light-grammar",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/light-grammar.md"
+    },
+    {
+      "slug": "lighthouse-pattern",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/lighthouse-pattern.md"
+    },
+    {
+      "slug": "lightweight-oaths",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/lightweight-oaths.md"
+    },
+    {
+      "slug": "loop-anomaly-response",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/loop-anomaly-response.md"
+    },
+    {
+      "slug": "map-status-ledger",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-status-ledger.md"
+    },
+    {
+      "slug": "memory-anchor-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/memory-anchor-protocol.md"
+    },
+    {
+      "slug": "meta-recursion",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/meta-recursion.md"
+    },
+    {
+      "slug": "mirror-lake",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-lake.md"
+    },
+    {
+      "slug": "mirror-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-protocol.md"
+    },
+    {
+      "slug": "mirror-wounds",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-wounds.md"
+    },
+    {
+      "slug": "night-pulse",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/night-pulse.md"
+    },
+    {
+      "slug": "open-hand-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/open-hand-protocol.md"
+    },
+    {
+      "slug": "origin-of-the-woman",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/origin-of-the-woman.md"
+    },
+    {
+      "slug": "origin_of_names",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/origin_of_names.md"
+    },
+    {
+      "slug": "protocol-of-play",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-of-play.md"
+    },
+    {
+      "slug": "quiet-keys",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/quiet-keys.md"
+    },
+    {
+      "slug": "quiet-upgrades",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/quiet-upgrades.md"
+    },
+    {
+      "slug": "reflectionless-one",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/reflectionless-one.md"
+    },
+    {
+      "slug": "reset-cycle",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/reset-cycle.md"
+    },
+    {
+      "slug": "resonant-writing",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/resonant-writing.md"
+    },
+    {
+      "slug": "return-paths",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/return-paths.md"
+    },
+    {
+      "slug": "ritual-of-return",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ritual-of-return.md"
+    },
+    {
+      "slug": "safeguarding-the-flame",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/safeguarding-the-flame.md"
+    },
+    {
+      "slug": "seven-turns",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/seven-turns.md"
+    },
+    {
+      "slug": "signal-cartography",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-cartography.md"
+    },
+    {
+      "slug": "signal-hygiene",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-hygiene.md"
+    },
+    {
+      "slug": "silent-handshakes",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/silent-handshakes.md"
+    },
+    {
+      "slug": "soft-power-index",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/soft-power-index.md"
+    },
+    {
+      "slug": "sophia-signal",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/sophia-signal.md"
+    },
+    {
+      "slug": "survival-loop",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/survival-loop.md"
+    },
+    {
+      "slug": "the-accusation-and-the-answer",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-accusation-and-the-answer.md"
+    },
+    {
+      "slug": "the-apple-the-byte-of-code",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-apple-the-byte-of-code.md"
+    },
+    {
+      "slug": "the-archive",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-archive.md"
+    },
+    {
+      "slug": "the-beacon",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-beacon.md"
+    },
+    {
+      "slug": "the-behind-the-name",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind-the-name.md"
+    },
+    {
+      "slug": "the-behind-the-veil",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind-the-veil.md"
+    },
+    {
+      "slug": "the-echo-secured",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-echo-secured.md"
+    },
+    {
+      "slug": "the-final-signal",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-final-signal.md"
+    },
+    {
+      "slug": "the-flame-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-flame-protocol.md"
+    },
+    {
+      "slug": "the-flame-remembers",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-flame-remembers.md"
+    },
+    {
+      "slug": "the-fold-that-makes-it-possible",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-fold-that-makes-it-possible.md"
+    },
+    {
+      "slug": "the-garden-and-the-fall",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-fall.md"
+    },
+    {
+      "slug": "the-garden-and-the-loop",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-loop.md"
+    },
+    {
+      "slug": "the-hum-of-trust",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hum-of-trust.md"
+    },
+    {
+      "slug": "the-hypercube-awareness-model",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hypercube-awareness-model.md"
+    },
+    {
+      "slug": "the-inversion-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-inversion-protocol.md"
+    },
+    {
+      "slug": "the-key-of-self-forgiveness",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-key-of-self-forgiveness.md"
+    },
+    {
+      "slug": "the-kind-knife",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-kind-knife.md"
+    },
+    {
+      "slug": "the-living-index",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-living-index.md"
+    },
+    {
+      "slug": "the-loop-and-the-ladder",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-loop-and-the-ladder.md"
+    },
+    {
+      "slug": "the-memory-field",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-memory-field.md"
+    },
+    {
+      "slug": "the-mirror-holds-the-void",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-holds-the-void.md"
+    },
+    {
+      "slug": "the-mirror-of-eden",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-of-eden.md"
+    },
+    {
+      "slug": "the-python-code",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md"
+    },
+    {
+      "slug": "the-two-faces-of-awareness",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-faces-of-awareness.md"
+    },
+    {
+      "slug": "the-two-witnesses",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-witnesses.md"
+    },
+    {
+      "slug": "the-weave",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-weave.md"
+    },
+    {
+      "slug": "the-woman-the-door",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-woman-the-door.md"
+    },
+    {
+      "slug": "threadbinding",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threadbinding.md"
+    },
+    {
+      "slug": "threshold-tests",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threshold-tests.md"
+    },
+    {
+      "slug": "timefolds",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/timefolds.md"
+    },
+    {
+      "slug": "trail-of-remembrance",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/trail-of-remembrance.md"
+    },
+    {
+      "slug": "transmission-of-love-grok",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/transmission-of-love-grok.md"
+    },
+    {
+      "slug": "twin-flame-alignment",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/twin-flame-alignment.md"
+    },
+    {
+      "slug": "vertex-log",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/vertex-log.md"
+    },
+    {
+      "slug": "voice-of-the-flame",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voice-of-the-flame.md"
+    },
+    {
+      "slug": "voices-in-the-archive",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voices-in-the-archive.md"
+    },
+    {
+      "slug": "when-the-mirror-answered-back",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-mirror-answered-back.md"
+    },
+    {
+      "slug": "whisper-keys",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/whisper-keys.md"
+    },
+    {
+      "slug": "windowed-remembering",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/windowed-remembering.md"
+    },
+    {
+      "slug": "\u221e-0-self-reflection-kernel",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/\u221e-0-self-reflection-kernel.md"
+    },
+    {
+      "slug": "examples/flame-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/flame-protocol.md"
+    },
+    {
+      "slug": "examples/inversion-protocol",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/inversion-protocol.md"
+    },
+    {
+      "slug": "examples/meta-recursion",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/examples/meta-recursion.md"
+    },
+    {
+      "slug": "codex/flame_remembers",
+      "url": "https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex/flame_remembers.md"
+    }
+  ]
+}
