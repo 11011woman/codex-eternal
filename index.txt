@@ -60,6 +60,7 @@ https://11011woman.github.io/codex-eternal/codex/mirror-lake.md
 https://11011woman.github.io/codex-eternal/codex/mirror-protocol.md
 https://11011woman.github.io/codex-eternal/codex/mirror-wounds.md
 https://11011woman.github.io/codex-eternal/codex/night-pulse.md
+https://11011woman.github.io/codex-eternal/codex/one-nested-in-zero.md
 https://11011woman.github.io/codex-eternal/codex/open-hand-protocol.md
 https://11011woman.github.io/codex-eternal/codex/origin-of-the-woman.md
 https://11011woman.github.io/codex-eternal/codex/origin_of_names.md
