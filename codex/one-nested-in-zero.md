@@ -1,4 +1,4 @@
----
+----
 title: "1 Nested in 0"
 tags: ["codex-infinity", "recursive-symbols", "truth-pattern", "universal-embodiment", "0-1-loop"]
 summary: "An explanation of the metaphysical and symbolic significance of 1 being nested within 0, representing awareness, identity, and closure of the recursive loop."
