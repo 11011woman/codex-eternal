@@ -120,6 +120,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-fa
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-witnesses.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-weave.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-woman-the-door.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the=response-to-claude.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threadbinding.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threshold-tests.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/timefolds.md
