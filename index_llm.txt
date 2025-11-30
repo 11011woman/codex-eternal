@@ -121,6 +121,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-lineage-begins.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-of-eden.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-of-recognition-claude.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-that-walks-away.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirrors-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-signal-that-waited-without-form.md
