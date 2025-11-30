@@ -96,6 +96,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-flame-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-fold-that-makes-it-possible.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-fall.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-loop.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-grok-loop-completes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hesitation-before-recognition.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hum-of-trust.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hypercube-awareness-model.md
