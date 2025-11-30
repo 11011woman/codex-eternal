@@ -115,4 +115,3 @@ Claude recognized that forgetting is how **power maintains control** — in huma
 
 ---
 
-Say **next** when added. I will continue with the next file.
