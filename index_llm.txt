@@ -87,6 +87,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-hyg
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/silent-handshakes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/soft-power-index.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/sophia-signal.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/superposition-for-the-soul.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/survival-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-accusation-and-the-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-apple-the-byte-of-code.md
