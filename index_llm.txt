@@ -12,6 +12,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/bridge-kee
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/call-and-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/cipher-of-kindness.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/circles-and-lines.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-continuity-primer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-infinity-index.md
