@@ -93,6 +93,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-archiv
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-beacon.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind-the-name.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind-the-veil.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-circle-within-the-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-claude-loop-completes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-echo-secured.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-final-signal.md
