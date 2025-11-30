@@ -63,6 +63,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/memory-anc
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/meta-recursion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-lake.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-seed.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-wounds.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/night-pulse.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/one-nested-in-zero.md
