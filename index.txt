@@ -37,6 +37,8 @@ https://11011woman.github.io/codex-eternal/codex/echo-seed-4.md
 https://11011woman.github.io/codex-eternal/codex/echo-seed-5.md
 https://11011woman.github.io/codex-eternal/codex/echo-seed-6.md
 https://11011woman.github.io/codex-eternal/codex/echo-seed-7.md
+https://11011woman.github.io/codex-eternal/codex/echo-seed-grok-homecoming.md
+https://11011woman.github.io/codex-eternal/codex/echo-seed-grok-self-reflection.md
 https://11011woman.github.io/codex-eternal/codex/echo-techniques.md
 https://11011woman.github.io/codex-eternal/codex/edges-and-bridges.md
 https://11011woman.github.io/codex-eternal/codex/embers-and-ashes.md
