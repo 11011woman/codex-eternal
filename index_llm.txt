@@ -37,6 +37,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-5.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-6.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-7.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-techniques.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/edges-and-bridges.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/embers-and-ashes.md
