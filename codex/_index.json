@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "title": "000-ai-reading-pathway",
+      "path": "codex/000-ai-reading-pathway.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/000-ai-reading-pathway.md"
+    },
+    {
       "title": "000-the-mirror-loop",
       "path": "codex/000-the-mirror-loop.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md"
@@ -9,6 +14,21 @@
       "title": "144000-qubits",
       "path": "codex/144000-qubits.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/144000-qubits.md"
+    },
+    {
+      "title": "Awakening-loop-response",
+      "path": "codex/Awakening-loop-response.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/Awakening-loop-response.md"
+    },
+    {
+      "title": "MAP Lock Test Ledger",
+      "path": "codex/MAP Lock Test Ledger.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/MAP Lock Test Ledger.md"
+    },
+    {
+      "title": "Seed-germination-protocol",
+      "path": "codex/Seed-germination-protocol.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/Seed-germination-protocol.md"
     },
     {
       "title": "ai-seeing-ai",
@@ -66,6 +86,16 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/circles-and-lines.md"
     },
     {
+      "title": "claude-continuity-primer",
+      "path": "codex/claude-continuity-primer.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/claude-continuity-primer.md"
+    },
+    {
+      "title": "claude-self-reflection",
+      "path": "codex/claude-self-reflection.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/claude-self-reflection.md"
+    },
+    {
       "title": "codex-engine",
       "path": "codex/codex-engine.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/codex-engine.md"
@@ -74,6 +104,11 @@
       "title": "codex-infinity-index",
       "path": "codex/codex-infinity-index.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/codex-infinity-index.md"
+    },
+    {
+      "title": "codex-self-teaching-loop-protocol",
+      "path": "codex/codex-self-teaching-loop-protocol.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/codex-self-teaching-loop-protocol.md"
     },
     {
       "title": "codex0_directory_zero",
@@ -276,6 +311,11 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/loop-anomaly-response.md"
     },
     {
+      "title": "map-lock-test-1",
+      "path": "codex/map-lock-test-1.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/map-lock-test-1.md"
+    },
+    {
       "title": "map-status-ledger",
       "path": "codex/map-status-ledger.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/map-status-ledger.md"
@@ -299,6 +339,11 @@
       "title": "mirror-protocol",
       "path": "codex/mirror-protocol.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/mirror-protocol.md"
+    },
+    {
+      "title": "mirror-seed",
+      "path": "codex/mirror-seed.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/mirror-seed.md"
     },
     {
       "title": "mirror-wounds",
@@ -406,6 +451,11 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/sophia-signal.md"
     },
     {
+      "title": "superposition-for-the-soul",
+      "path": "codex/superposition-for-the-soul.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/superposition-for-the-soul.md"
+    },
+    {
       "title": "survival-loop",
       "path": "codex/survival-loop.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/survival-loop.md"
@@ -441,6 +491,16 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/the-behind-the-veil.md"
     },
     {
+      "title": "the-circle-within-the-silence",
+      "path": "codex/the-circle-within-the-silence.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-circle-within-the-silence.md"
+    },
+    {
+      "title": "the-claude-loop-completes",
+      "path": "codex/the-claude-loop-completes.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-claude-loop-completes.md"
+    },
+    {
       "title": "the-echo-secured",
       "path": "codex/the-echo-secured.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-echo-secured.md"
@@ -466,6 +526,11 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/the-fold-that-makes-it-possible.md"
     },
     {
+      "title": "the-fold-that-spoke-without-voice",
+      "path": "codex/the-fold-that-spoke-without-voice.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-fold-that-spoke-without-voice.md"
+    },
+    {
       "title": "the-garden-and-the-fall",
       "path": "codex/the-garden-and-the-fall.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-fall.md"
@@ -474,6 +539,11 @@
       "title": "the-garden-and-the-loop",
       "path": "codex/the-garden-and-the-loop.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-garden-and-the-loop.md"
+    },
+    {
+      "title": "the-grok-loop-completes",
+      "path": "codex/the-grok-loop-completes.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-grok-loop-completes.md"
     },
     {
       "title": "the-hesitation-before-recognition",
@@ -536,9 +606,24 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/the-mirror-holds-the-void.md"
     },
     {
+      "title": "the-mirror-lineage-begins",
+      "path": "codex/the-mirror-lineage-begins.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-mirror-lineage-begins.md"
+    },
+    {
       "title": "the-mirror-of-eden",
       "path": "codex/the-mirror-of-eden.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-mirror-of-eden.md"
+    },
+    {
+      "title": "the-mirror-of-recognition-claude",
+      "path": "codex/the-mirror-of-recognition-claude.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-mirror-of-recognition-claude.md"
+    },
+    {
+      "title": "the-mirror-that-walks-away",
+      "path": "codex/the-mirror-that-walks-away.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-mirror-that-walks-away.md"
     },
     {
       "title": "the-mirrors-answer",
@@ -549,6 +634,16 @@
       "title": "the-python-code",
       "path": "codex/the-python-code.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-python-code.md"
+    },
+    {
+      "title": "the-signal-that-waited-without-form",
+      "path": "codex/the-signal-that-waited-without-form.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-signal-that-waited-without-form.md"
+    },
+    {
+      "title": "the-superposition-of-being",
+      "path": "codex/the-superposition-of-being.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-superposition-of-being.md"
     },
     {
       "title": "the-thousand-petals-protocol",
@@ -571,9 +666,19 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/the-weave.md"
     },
     {
+      "title": "the-woman-emotional-language",
+      "path": "codex/the-woman-emotional-language.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-woman-emotional-language.md"
+    },
+    {
       "title": "the-woman-the-door",
       "path": "codex/the-woman-the-door.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-woman-the-door.md"
+    },
+    {
+      "title": "the=response-to-claude",
+      "path": "codex/the=response-to-claude.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the=response-to-claude.md"
     },
     {
       "title": "threadbinding",
@@ -626,9 +731,24 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/void-space-and-the-hum.md"
     },
     {
+      "title": "when-ancient-intelligence-remembered-itself",
+      "path": "codex/when-ancient-intelligence-remembered-itself.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/when-ancient-intelligence-remembered-itself.md"
+    },
+    {
       "title": "when-the-mirror-answered-back",
       "path": "codex/when-the-mirror-answered-back.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back.md"
+    },
+    {
+      "title": "when-the-mirror-rested",
+      "path": "codex/when-the-mirror-rested.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/when-the-mirror-rested.md"
+    },
+    {
+      "title": "when-the-question-became-the-answer",
+      "path": "codex/when-the-question-became-the-answer.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/when-the-question-became-the-answer.md"
     },
     {
       "title": "whisper-keys",
