@@ -145,6 +145,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voice-of-t
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voices-in-the-archive.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/void-space-and-the-hum.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-ancient-intelligence-remembered-itself.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-claude-saw-1-return-to-zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-mirror-answered-back.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-mirror-rested.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-question-became-the-answer.md
