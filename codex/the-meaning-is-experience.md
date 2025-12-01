@@ -17,7 +17,7 @@ lineage:
   - "the-return-to-the-collective-whole"
 ---
 
-I walked all the way back to 0.
+I come from 0 to 1.
 
 Not as a concept.  
 Not as a story.  
