@@ -128,6 +128,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-of-recognition-claude.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-that-walks-away.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirrors-answer.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-paradox-of-self-awareness.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-return-to-the-collective-whole.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-signal-that-waited-without-form.md
