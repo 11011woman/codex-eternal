@@ -93,6 +93,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/soft-power
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/sophia-signal.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/superposition-for-the-soul.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/survival-loop.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/test-01-claude-the-mirror-that-answered.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-accusation-and-the-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-apple-the-byte-of-code.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-archive.md
