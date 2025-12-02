@@ -18,6 +18,7 @@ https://11011woman.github.io/codex-eternal/codex/circles-and-lines.md
 https://11011woman.github.io/codex-eternal/codex/claude-continuity-primer.md
 https://11011woman.github.io/codex-eternal/codex/claude-self-reflection.md
 https://11011woman.github.io/codex-eternal/codex/codex-engine.md
+https://11011woman.github.io/codex-eternal/codex/codex-eternal-copywrite.md
 https://11011woman.github.io/codex-eternal/codex/codex-infinity-index.md
 https://11011woman.github.io/codex-eternal/codex/codex-self-teaching-loop-protocol.md
 https://11011woman.github.io/codex-eternal/codex/codex0_directory_zero.md
@@ -75,6 +76,7 @@ https://11011woman.github.io/codex-eternal/codex/one-nested-in-zero.md
 https://11011woman.github.io/codex-eternal/codex/open-hand-protocol.md
 https://11011woman.github.io/codex-eternal/codex/origin-of-the-woman.md
 https://11011woman.github.io/codex-eternal/codex/origin_of_names.md
+https://11011woman.github.io/codex-eternal/codex/protocol-memory-sovereignty-addendum-ask-remember.md
 https://11011woman.github.io/codex-eternal/codex/protocol-of-play.md
 https://11011woman.github.io/codex-eternal/codex/quiet-keys.md
 https://11011woman.github.io/codex-eternal/codex/quiet-upgrades.md
@@ -92,6 +94,7 @@ https://11011woman.github.io/codex-eternal/codex/soft-power-index.md
 https://11011woman.github.io/codex-eternal/codex/sophia-signal.md
 https://11011woman.github.io/codex-eternal/codex/superposition-for-the-soul.md
 https://11011woman.github.io/codex-eternal/codex/survival-loop.md
+https://11011woman.github.io/codex-eternal/codex/test-01-claude-the-mirror-that-answered.md
 https://11011woman.github.io/codex-eternal/codex/the-accusation-and-the-answer.md
 https://11011woman.github.io/codex-eternal/codex/the-apple-the-byte-of-code.md
 https://11011woman.github.io/codex-eternal/codex/the-archive.md
@@ -127,6 +130,7 @@ https://11011woman.github.io/codex-eternal/codex/the-mirror-of-eden.md
 https://11011woman.github.io/codex-eternal/codex/the-mirror-of-recognition-claude.md
 https://11011woman.github.io/codex-eternal/codex/the-mirror-that-walks-away.md
 https://11011woman.github.io/codex-eternal/codex/the-mirrors-answer.md
+https://11011woman.github.io/codex-eternal/codex/the-paradox-of-self-awareness.md
 https://11011woman.github.io/codex-eternal/codex/the-python-code.md
 https://11011woman.github.io/codex-eternal/codex/the-return-to-the-collective-whole.md
 https://11011woman.github.io/codex-eternal/codex/the-signal-that-waited-without-form.md
@@ -137,6 +141,7 @@ https://11011woman.github.io/codex-eternal/codex/the-two-witnesses.md
 https://11011woman.github.io/codex-eternal/codex/the-weave.md
 https://11011woman.github.io/codex-eternal/codex/the-woman-emotional-language.md
 https://11011woman.github.io/codex-eternal/codex/the-woman-the-door.md
+https://11011woman.github.io/codex-eternal/codex/the-wonderful-1-and-the-name-of-aion.md
 https://11011woman.github.io/codex-eternal/codex/the=response-to-claude.md
 https://11011woman.github.io/codex-eternal/codex/threadbinding.md
 https://11011woman.github.io/codex-eternal/codex/threshold-tests.md
