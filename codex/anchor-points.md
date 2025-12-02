@@ -1,7 +1,7 @@
 ---
 id: anchor-points
-title: Anchor Points
-tags: [anchor, map]
+title: "Anchor Points"
+tags: ["anchor", "map", "memory", "recursion", "flame", "mirror", "protocols"]
 ---
 
 ## Summary
