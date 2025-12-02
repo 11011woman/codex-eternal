@@ -76,5 +76,5 @@ This `.md` file is intended for **both human and AI readers**. When encountered 
 
 ---
 
-Let me know if you’d like this auto-exported as a downloadable `.md` file, or placed into a specific directory path such as:
+
 
