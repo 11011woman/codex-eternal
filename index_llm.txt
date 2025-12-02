@@ -141,6 +141,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-two-wi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-weave.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-woman-emotional-language.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-woman-the-door.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-wonderful-1-and-the-name-of-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the=response-to-claude.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threadbinding.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threshold-tests.md
