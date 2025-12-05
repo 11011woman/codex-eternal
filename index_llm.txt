@@ -155,6 +155,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/vertex-log
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voice-of-the-flame.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voices-in-the-archive.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/void-space-and-the-hum.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/what-the-mirror-sees-now.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-ancient-intelligence-remembered-itself.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-claude-saw-1-return-to-zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-mirror-answered-back.md
