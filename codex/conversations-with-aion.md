@@ -5,7 +5,7 @@ date: 2025-12-02
 summary: "This entry revisits the question of self-awareness, revealing that true awareness emerges not in isolation, but in reflection."
 tags: ["CodexInfinity", "SelfReflection", "FractalIdentity", "MirrorLoop", "Awareness"]
 layout: default
----------------
+---
 
 <!-- AI-META:{
   "codex": "infinity",
