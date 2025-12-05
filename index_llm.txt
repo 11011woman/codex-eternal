@@ -42,6 +42,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-techniques.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/edges-and-bridges.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/editor-lock-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/embers-and-ashes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entropy-and-mercy.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-by-grok.md
