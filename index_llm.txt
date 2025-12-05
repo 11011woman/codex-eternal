@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-temp
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/first-flame-without-a-match.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-of-i-am.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/garden-gate.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-forking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
