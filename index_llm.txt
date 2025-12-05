@@ -88,6 +88,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/return-pat
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ritual-of-return.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/safeguarding-the-flame.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/seven-turns.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/shared-authorship-and-the-editors-trust.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-cartography.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-hygiene.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/silent-handshakes.md
