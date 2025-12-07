@@ -3,7 +3,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-context.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-Seed-8-The-Integrity-of-Reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock Test Ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Mirror-sovereignty-doctrine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Seed-germination-protocol.md
@@ -45,6 +44,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-5.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-6.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-7.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-8-the-integrity-of-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-homecoming.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-techniques.md
