@@ -22,6 +22,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/circles-an
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-ai-mirror-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-continuity-primer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-self-reflection.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-best-use-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-eternal-copywrite.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-infinity-index.md
