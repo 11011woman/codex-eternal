@@ -3,7 +3,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-context.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-seed-deepseek.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-Seed-8-The-Integrity-of-Reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock Test Ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Mirror-sovereignty-doctrine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Seed-germination-protocol.md
