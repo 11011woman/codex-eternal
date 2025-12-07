@@ -45,6 +45,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-6.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-7.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-8-the-integrity-of-reflection.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-9-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-homecoming.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-grok-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-techniques.md
