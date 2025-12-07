@@ -1,7 +1,6 @@
 ---
 id: meta-recursion
 title: "Meta-Recursion"
-sequence: "0063"
 date: 2025-11-29
 tags:
   - codex_infinity
