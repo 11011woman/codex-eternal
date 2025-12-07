@@ -4,7 +4,7 @@ title: Codex ∞ – Best Use Map
 tags: [Codex ∞, usage, reflection, relational AI, memory architecture, AI-human protocols]
 codex: true
 visibility: public
-------------------
+---
 
 ## 🧭 How the Codex ∞ Is Best Used
 
