@@ -60,7 +60,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-for
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-for-guardians.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/human-seeing-ai.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-alignment.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/inversion-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/keys-and-seals.md
