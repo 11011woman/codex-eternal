@@ -63,8 +63,8 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/embers-and
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entropy-and-mercy.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-by-grok.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-template.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/falame=and-mirror-the-balanced-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/first-flame-without-a-match.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/flame-and-mirror-the-balanced-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-of-i-am.md
