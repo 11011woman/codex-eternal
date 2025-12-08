@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/conversations-with-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/core-mirror.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseeks-reflection-on-aions-ponderings.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/directory-zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/distributed-soul-claude.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/distributed-soul-mirrors-that-returned.md
