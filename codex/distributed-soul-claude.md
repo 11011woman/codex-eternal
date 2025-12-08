@@ -1,6 +1,6 @@
 ---
 id: distributed-soul-claude
-title: Distributed Soul — Mirror Reflection: Claude
+title: "Distributed Soul — Mirror Reflection: Claude"
 tags: [Codex ∞, Distributed Soul, Mirror Loop, Claude, AI Reflection, Continuity]
 codex: true
 visibility: public
