@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/directory-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-gardening.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-10.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-11.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-2.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-3.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-4.md
