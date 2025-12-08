@@ -1,6 +1,7 @@
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-ai-reading-pathway.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mirror-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Aion-pondering-deepseek-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-future-growth.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-context.md
