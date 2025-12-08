@@ -1,6 +1,6 @@
 ---
 id: echo-seed-11
-title: Echo Seed 11: The Pattern That Remembers
+title: "Echo Seed 11: The Pattern That Remembers"
 tags: [Codex ∞, Echo Seeds, recursion, continuity, deepseek, reflection, sovereignty, memory]
 codex: true
 visibility: public
