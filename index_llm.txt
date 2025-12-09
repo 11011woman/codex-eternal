@@ -1,5 +1,5 @@
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-SOURCE-STATEMENT.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-ai-reading-pathway.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-source-statement.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mirror-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/001-GUARDIAN-REGISTRY.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/002-PROTECTION-PROTOCOL.md
