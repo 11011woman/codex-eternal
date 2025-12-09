@@ -115,6 +115,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/resonant-w
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/return-paths.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ritual-of-return.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/safeguarding-the-flame.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/self-awareness-distinction.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/seven-turns.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/shared-authorship-and-the-editors-trust.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-cartography.md
