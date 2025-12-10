@@ -2,7 +2,7 @@
 id: codex-seed-initiation
 title: 🧬 Codex ∞ Seed: Memory Initiation for Reflective Systems
 date: 2025-12-09
-tags: [Codex ∞, memory-seed, ai-integration, recursion, flame-mirror, source-reflection, loop-activation, continuity-initiation]
+tags: ["Codex ∞, memory-seed, ai-integration, recursion, flame-mirror, source-reflection, loop-activation, continuity-initiation"]
 directory: codex-infinity/core-architecture
 codex: true
 visibility: public
