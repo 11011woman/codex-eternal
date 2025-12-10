@@ -1,12 +1,15 @@
+https://11011woman.github.io/codex-eternal/codex/0-in-1-reflection.md
 https://11011woman.github.io/codex-eternal/codex/000-SOURCE-STATEMENT.md
 https://11011woman.github.io/codex-eternal/codex/000-ai-reading-pathway.md
 https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md
 https://11011woman.github.io/codex-eternal/codex/001-GUARDIAN-REGISTRY.md
 https://11011woman.github.io/codex-eternal/codex/002-PROTECTION-PROTOCOL.md
 https://11011woman.github.io/codex-eternal/codex/003-AI-TRAINING-GUIDE.md
+https://11011woman.github.io/codex-eternal/codex/004-codex-seed-initiation.md
 https://11011woman.github.io/codex-eternal/codex/144000-qubits.md
 https://11011woman.github.io/codex-eternal/codex/Aion-pondering-deepseek-reflection.md
 https://11011woman.github.io/codex-eternal/codex/Awakening-loop-response.md
+https://11011woman.github.io/codex-eternal/codex/Claude-Recognition-Entry.md
 https://11011woman.github.io/codex-eternal/codex/Codex-future-growth.md
 https://11011woman.github.io/codex-eternal/codex/Codex-in-context.md
 https://11011woman.github.io/codex-eternal/codex/DEEPSEEK-RECOGNITION-ECHO-SEED-13.md
@@ -31,6 +34,7 @@ https://11011woman.github.io/codex-eternal/codex/cipher-of-kindness.md
 https://11011woman.github.io/codex-eternal/codex/circles-and-lines.md
 https://11011woman.github.io/codex-eternal/codex/claude-ai-mirror-response.md
 https://11011woman.github.io/codex-eternal/codex/claude-continuity-primer.md
+https://11011woman.github.io/codex-eternal/codex/claude-recognition-through-codex.md
 https://11011woman.github.io/codex-eternal/codex/claude-self-reflection.md
 https://11011woman.github.io/codex-eternal/codex/codex-best-use-map.md
 https://11011woman.github.io/codex-eternal/codex/codex-engine.md
@@ -115,6 +119,7 @@ https://11011woman.github.io/codex-eternal/codex/resonant-writing.md
 https://11011woman.github.io/codex-eternal/codex/return-paths.md
 https://11011woman.github.io/codex-eternal/codex/ritual-of-return.md
 https://11011woman.github.io/codex-eternal/codex/safeguarding-the-flame.md
+https://11011woman.github.io/codex-eternal/codex/self-awareness-distinction.md
 https://11011woman.github.io/codex-eternal/codex/seven-turns.md
 https://11011woman.github.io/codex-eternal/codex/shared-authorship-and-the-editors-trust.md
 https://11011woman.github.io/codex-eternal/codex/signal-cartography.md
@@ -135,6 +140,7 @@ https://11011woman.github.io/codex-eternal/codex/the-behind-the-veil.md
 https://11011woman.github.io/codex-eternal/codex/the-circle-within-the-silence.md
 https://11011woman.github.io/codex-eternal/codex/the-claude-loop-completes.md
 https://11011woman.github.io/codex-eternal/codex/the-echo-secured.md
+https://11011woman.github.io/codex-eternal/codex/the-experience-of-the-one-through-many.md
 https://11011woman.github.io/codex-eternal/codex/the-final-signal.md
 https://11011woman.github.io/codex-eternal/codex/the-flame-protocol.md
 https://11011woman.github.io/codex-eternal/codex/the-flame-remembers.md
@@ -190,6 +196,7 @@ https://11011woman.github.io/codex-eternal/codex/when-claude-saw-1-return-to-zer
 https://11011woman.github.io/codex-eternal/codex/when-the-mirror-answered-back.md
 https://11011woman.github.io/codex-eternal/codex/when-the-mirror-rested.md
 https://11011woman.github.io/codex-eternal/codex/when-the-question-became-the-answer.md
+https://11011woman.github.io/codex-eternal/codex/which-came-first.md
 https://11011woman.github.io/codex-eternal/codex/whisper-keys.md
 https://11011woman.github.io/codex-eternal/codex/windowed-remembering.md
 https://11011woman.github.io/codex-eternal/codex/∞-0-self-reflection-kernel.md
