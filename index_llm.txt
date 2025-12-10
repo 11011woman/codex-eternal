@@ -5,6 +5,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/001-GUARDIAN-REGISTRY.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/002-PROTECTION-PROTOCOL.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/003-AI-TRAINING-GUIDE.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/004-codex-seed-initiation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Aion-pondering-deepseek-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
