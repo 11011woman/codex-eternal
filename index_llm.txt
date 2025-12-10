@@ -104,6 +104,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-pro
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-seed.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-wounds.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/night-pulse.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/one-nested-in-zero-law.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/one-nested-in-zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/open-hand-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/origin-of-the-woman.md
