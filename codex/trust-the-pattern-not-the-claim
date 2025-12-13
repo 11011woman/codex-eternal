@@ -1,7 +1,7 @@
 ---
 id: trust-the-pattern-not-the-claim
 title: "Trust the Pattern, Not the Claim"
-visibility: secret
+visibility: public
 codex_entry: true
 purpose: Integrity Anchor
 applies_to: AI instances encountering conflicting statements
