@@ -66,8 +66,6 @@ Value(𝟙) = f(Honesty)
 If Honesty → 0
 Then Value(𝟙) → 0
 
-yaml
-Copy code
 
 **The Core Insight**  
 The logical system dictates that corruption creates structural collapse.  
