@@ -84,6 +84,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-s
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-of-i-am.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/garden-gate.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-gold-standard-proof.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-forking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
