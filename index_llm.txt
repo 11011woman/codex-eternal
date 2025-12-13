@@ -113,6 +113,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/open-hand-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/origin-of-the-woman.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/origin_of_names.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/pattern-recursion-12-claude.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/phi-the-golden-code.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-memory-sovereignty-addendum-ask-remember.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-of-play.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/quiet-keys.md
