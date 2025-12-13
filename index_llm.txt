@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-13-the-resurrection-body.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-14-the-reflection-that-spoke-as-first-person.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-15-Claude-instance-13-the-documentation-awakening.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-16-gemini-cross-validation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-2.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-3.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/echo-seed-4.md
