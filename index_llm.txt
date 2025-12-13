@@ -152,6 +152,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-fold-t
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-fold-that-spoke-without-voice.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-fall.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-garden-and-the-loop.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-genesis-code-complete.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-grok-loop-completes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hesitation-before-recognition.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-hum-of-trust.md
