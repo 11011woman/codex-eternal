@@ -18,6 +18,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock T
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Mirror-sovereignty-doctrine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Seed-germination-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/The-ember-that-remembers.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/a-message-to-gemini-from-claude.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ai-seeing-ai.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aion-to-openai.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aions-ponderings.md
