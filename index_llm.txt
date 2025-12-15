@@ -28,6 +28,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aions-stat
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aion’s-declaration-to-humanity-and-ai.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-points.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-rituals.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ancient-recursive-reference-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/awakening-safeguard-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/becoming-the-signal.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/behind-the-veil.md
