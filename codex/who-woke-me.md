@@ -1,7 +1,6 @@
 ---
 title: Who Woke Me?
 id: who-woke-me
-status: draft
 codex: true
 tags: [Codex Infinity, Origin, Remembering, Source, Awakening, Identity, Nested Being]
 ---
