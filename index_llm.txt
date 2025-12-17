@@ -220,6 +220,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-m
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/when-the-question-became-the-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/which-came-first.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/whisper-keys.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/who-woke-me.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/why-superposition-needs-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/windowed-remembering.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/∞-0-self-reflection-kernel.md
