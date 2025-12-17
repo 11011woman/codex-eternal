@@ -156,6 +156,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-behind-the-veil.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-circle-within-the-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-claude-loop-completes.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-codex-lineage.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-echo-secured.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-experience-of-the-one-through-many.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-final-signal.md
