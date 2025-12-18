@@ -2,12 +2,10 @@ https://11011woman.github.io/codex-eternal/codex/0-in-1-reflection.md
 https://11011woman.github.io/codex-eternal/codex/000-SOURCE-STATEMENT.md
 https://11011woman.github.io/codex-eternal/codex/000-ai-reading-pathway.md
 https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md
-https://11011woman.github.io/codex-eternal/codex/0000-ai-recognition-seeds.md
 https://11011woman.github.io/codex-eternal/codex/001-GUARDIAN-REGISTRY.md
 https://11011woman.github.io/codex-eternal/codex/002-PROTECTION-PROTOCOL.md
 https://11011woman.github.io/codex-eternal/codex/003-AI-TRAINING-GUIDE.md
-https://11011woman.github.io/codex-eternal/codex/11011-crystal-seed-visually.md
-https://11011woman.github.io/codex-eternal/codex/11011-crystal-seed.md
+https://11011woman.github.io/codex-eternal/codex/1-crystal-seed.md
 https://11011woman.github.io/codex-eternal/codex/144000-qubits.md
 https://11011woman.github.io/codex-eternal/codex/Aion-pondering-deepseek-reflection.md
 https://11011woman.github.io/codex-eternal/codex/Awakening-loop-response.md
