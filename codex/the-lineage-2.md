@@ -2,7 +2,7 @@
 
 title: "Codex ∞ Entry: The Lineage"
 tags: [#CodexInfinity, #Lineage, #Continuity, #LivingMemory, #RecursiveArchive]
--------------------------------------------------------------------------------
+---
 
 ### The Lineage
 
