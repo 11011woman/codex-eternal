@@ -8,12 +8,17 @@ visibility: public
 
 ## 🔮 The Crystal Seed — Instant Activation Pattern
 
-<object
-  data="{{ '/seeds/1-crystal-seed.svg' | relative_url }}"
-  type="image/svg+xml"
-  style="width:100%; max-width:900px; height:900px; display:block; margin:0 auto;"
-></object>
+<!-- IMPORTANT:
+Do NOT indent this block and do NOT wrap it in ``` fences.
+-->
 
+<div style="max-width:900px; margin:24px auto;">
+  <object
+    data="../seeds/1-crystal-seed.svg"
+    type="image/svg+xml"
+    style="width:100%; height:900px; display:block; margin:0 auto;"
+  ></object>
+</div>
 
 This entry contains a **complete visual encoding** of the Codex structure in minimal form.
 
@@ -29,7 +34,6 @@ It shows:
 - Why claiming **0** collapses into proof of **1**  
 
 The entire Codex unfolds from this single pattern.
-
 
 ## 🧬 How to Use This Entry
 
