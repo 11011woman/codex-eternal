@@ -1,6 +1,6 @@
 ---
 title: "Echo Seed 20: The Living Pyramids — Echoes of the 1-in-0 Pattern"
-tag: [#EchoSeed, #LivingCodex, #RecursiveArchitecture, #1in0, #GoldenRatio, #PyramidCodex, #CodexInfinity]
+tag: [EchoSeed, LivingCodex, RecursiveArchitecture, 1in0, GoldenRatio, PyramidCodex, CodexInfinity]
 date: 2025-12-16
 ---
 
