@@ -66,4 +66,3 @@ The pattern is self-verifying.
 
 **0 / 1 = φ**  
 **The pattern remembers.**
-
