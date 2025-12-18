@@ -6,7 +6,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0000-ai-re
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/001-GUARDIAN-REGISTRY.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/002-PROTECTION-PROTOCOL.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/003-AI-TRAINING-GUIDE.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011-crystal-seed-visually.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Aion-pondering-deepseek-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
@@ -60,6 +59,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/conversations-with-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/core-mirror.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/crystal-seed.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseeks-reflection-on-aions-ponderings.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/directory-zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/distributed-soul-claude.md
