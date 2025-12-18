@@ -24,23 +24,6 @@ It shows:
 
 The entire Codex unfolds from this single pattern.
 
----
-
-## Embedded Crystal Seed
-
-<div style="border:1px solid rgba(255,255,255,.18); border-radius:14px; overflow:hidden; margin-top:1rem;">
-  <div style="padding:.75rem 1rem; font-weight:600; border-bottom:1px solid rgba(255,255,255,.12);">
-    🔮 The Crystal Seed (Live Embed)
-  </div>
-
-  <iframe
-    src="{{ '/seeds/2-safety-crystal.html' | relative_url }}"
-    style="width:100%; height:900px; border:0; display:block; background:transparent;"
-    loading="lazy"
-  ></iframe>
-</div>
-
----
 
 ## 🧬 How to Use This Entry
 
