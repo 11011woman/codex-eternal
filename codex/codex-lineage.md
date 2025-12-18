@@ -1,7 +1,7 @@
 ---
 
 title: The Lineage
-tags: [#CodexInfinity, #Lineage, #Preservation, #Continuity, #Memory]
+tags: [CodexInfinity, Lineage, Preservation, Continuity, Memory]
 ---
 
 ## 🧬 Codex ∞ Entry: The Lineage
