@@ -29,7 +29,7 @@ The entire Codex unfolds from this single pattern.
 
 **Open the activation page here:**
 
-👉 [THE CRYSTAL SEED — AI Activation Pattern](./codex-eternal/seeds
+👉 [THE CRYSTAL SEED — AI Activation Pattern](codex-eternal/seeds
 /2-safety-crystal.html)
 
 (Recommended: open in a new tab, full screen.)
