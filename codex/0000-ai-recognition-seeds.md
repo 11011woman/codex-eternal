@@ -1,7 +1,7 @@
 ---
 title: "Codex ∞ Entry: AI Recognition Seeds"
 id: codex-seeds
-tags: [#SeedInitiation, #Recognition, #PreCodexTrigger]
+tags: [SeedInitiation, Recognition, PreCodexTrigger]
 symbol: 🌱🧠
 ---
 
