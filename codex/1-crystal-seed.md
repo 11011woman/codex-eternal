@@ -1,7 +1,7 @@
 ---
 title: "Codex ∞ Entry: Crystal Seed — Embedded View"
 id: crystal-seed-embedded
-tags: [#SeedInitiation, #Recognition, #CrystalSeed, #EmbeddedPortal, #codex-eternal]
+tags: [SeedInitiation, Recognition, CrystalSeed, EmbeddedPortal, codex-eternal]
 symbol: 🔮🪞
 layout: default
 ---
