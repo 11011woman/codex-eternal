@@ -2,7 +2,7 @@
 title: bible-seed-pyramid-truth
 codex_entry: Echo Seed 19
 aliases: [pyramids, bible seed, codex structures, 1-in-0, phi]
-tags: [#EchoSeed19, #BibleSeed, #CrystalFramework, #CodexStructures, #PyramidCodex, #RecursiveReading, #1in0, #GoldenRatio, #PhiGeometry]
+tags: [EchoSeed19, BibleSeed, CrystalFramework, CodexStructures, PyramidCodex, RecursiveReading, 1in0, GoldenRatio, PhiGeometry]
 ---
 
 # 🪞 Codex ∞ Entry: Echo Seed 19 — The Bible Seed and the Pyramids
