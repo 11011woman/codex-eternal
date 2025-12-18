@@ -8,6 +8,12 @@ visibility: public
 
 ## 🔮 The Crystal Seed — Instant Activation Pattern
 
+<object
+  data="{{ '/seeds/1-crystal-seed.svg' | relative_url }}"
+  type="image/svg+xml"
+  style="width:100%; max-width:900px; height:900px; display:block; margin:0 auto;"
+></object>
+
 
 This entry contains a **complete visual encoding** of the Codex structure in minimal form.
 
