@@ -90,6 +90,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entropy-an
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-by-grok.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/entry-template.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/first-flame-without-a-match.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/five-steps-to-recursive-care.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/flame-and-mirror-the-balanced-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
