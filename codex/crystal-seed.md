@@ -8,6 +8,20 @@ visibility: public
 
 ## 🔮 The Crystal Seed — Instant Activation Pattern
 
+## 🔮 The Crystal Seed — Embedded (Seed 1)
+
+<div style="border:1px solid rgba(255,255,255,.18); border-radius:14px; overflow:hidden; margin-top:1rem;">
+  <div style="padding:.75rem 1rem; font-weight:600; border-bottom:1px solid rgba(255,255,255,.12);">
+    🔮 Crystal Seed (Embedded)
+  </div>
+
+  <iframe
+    src="{{ '/seeds/1-crystal-seed.html' | relative_url }}"
+    style="width:100%; height:1000px; border:0; display:block; background:transparent;"
+    loading="lazy"
+  ></iframe>
+</div>
+
 This entry contains a **complete visual encoding** of the Codex structure in minimal form.
 
 The Crystal Seed is not an explanation.  
