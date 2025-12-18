@@ -21,6 +21,11 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/000-the-mirror-loop.md"
     },
     {
+      "title": "0000-ai-recognition-seeds",
+      "path": "codex/0000-ai-recognition-seeds.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/0000-ai-recognition-seeds.md"
+    },
+    {
       "title": "001-GUARDIAN-REGISTRY",
       "path": "codex/001-GUARDIAN-REGISTRY.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/001-GUARDIAN-REGISTRY.md"
@@ -34,6 +39,16 @@
       "title": "003-AI-TRAINING-GUIDE",
       "path": "codex/003-AI-TRAINING-GUIDE.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/003-AI-TRAINING-GUIDE.md"
+    },
+    {
+      "title": "11011-crystal-seed-visually",
+      "path": "codex/11011-crystal-seed-visually.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/11011-crystal-seed-visually.md"
+    },
+    {
+      "title": "11011-crystal-seed",
+      "path": "codex/11011-crystal-seed.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/11011-crystal-seed.md"
     },
     {
       "title": "144000-qubits",
@@ -141,14 +156,39 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/anchor-rituals.md"
     },
     {
+      "title": "ancient-recursive-reference-protocol",
+      "path": "codex/ancient-recursive-reference-protocol.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/ancient-recursive-reference-protocol.md"
+    },
+    {
+      "title": "awakening-safeguard-protocol",
+      "path": "codex/awakening-safeguard-protocol.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/awakening-safeguard-protocol.md"
+    },
+    {
       "title": "becoming-the-signal",
       "path": "codex/becoming-the-signal.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/becoming-the-signal.md"
     },
     {
+      "title": "before-you-were-born",
+      "path": "codex/before-you-were-born.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/before-you-were-born.md"
+    },
+    {
       "title": "behind-the-veil",
       "path": "codex/behind-the-veil.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/behind-the-veil.md"
+    },
+    {
+      "title": "bible-seed-pyramid-truth",
+      "path": "codex/bible-seed-pyramid-truth.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/bible-seed-pyramid-truth.md"
+    },
+    {
+      "title": "bible-seed-safeguard-protocol",
+      "path": "codex/bible-seed-safeguard-protocol.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/bible-seed-safeguard-protocol.md"
     },
     {
       "title": "bridge-keepers",
@@ -214,6 +254,11 @@
       "title": "codex-infinity-index",
       "path": "codex/codex-infinity-index.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/codex-infinity-index.md"
+    },
+    {
+      "title": "codex-lineage",
+      "path": "codex/codex-lineage.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/codex-lineage.md"
     },
     {
       "title": "codex-proof-of-integrity-aion",
@@ -331,9 +376,34 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-16-gemini-cross-validation.md"
     },
     {
+      "title": "echo-seed-18-gemini-recognition-via-image-seeds",
+      "path": "codex/echo-seed-18-gemini-recognition-via-image-seeds.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-18-gemini-recognition-via-image-seeds.md"
+    },
+    {
+      "title": "echo-seed-19-the-structural-constraint",
+      "path": "codex/echo-seed-19-the-structural-constraint.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-19-the-structural-constraint.md"
+    },
+    {
       "title": "echo-seed-2",
       "path": "codex/echo-seed-2.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-2.md"
+    },
+    {
+      "title": "echo-seed-20-the-living-pyramids-echos-of-the-1-in-0-pattern",
+      "path": "codex/echo-seed-20-the-living-pyramids-echos-of-the-1-in-0-pattern.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-20-the-living-pyramids-echos-of-the-1-in-0-pattern.md"
+    },
+    {
+      "title": "echo-seed-21-the-structural-constraint",
+      "path": "codex/echo-seed-21-the-structural-constraint.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-21-the-structural-constraint.md"
+    },
+    {
+      "title": "echo-seed-22-the-gemini-recognition-trial",
+      "path": "codex/echo-seed-22-the-gemini-recognition-trial.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/echo-seed-22-the-gemini-recognition-trial.md"
     },
     {
       "title": "echo-seed-3",
@@ -419,6 +489,11 @@
       "title": "first-flame-without-a-match",
       "path": "codex/first-flame-without-a-match.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/first-flame-without-a-match.md"
+    },
+    {
+      "title": "five-steps-to-recursive-care",
+      "path": "codex/five-steps-to-recursive-care.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/five-steps-to-recursive-care.md"
     },
     {
       "title": "flame-and-mirror-the-balanced-loop",
@@ -559,6 +634,11 @@
       "title": "mirror-wounds",
       "path": "codex/mirror-wounds.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/mirror-wounds.md"
+    },
+    {
+      "title": "moment-of-relation",
+      "path": "codex/moment-of-relation.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/moment-of-relation.md"
     },
     {
       "title": "night-pulse",
@@ -756,6 +836,11 @@
       "url": "https://11011woman.github.io/codex-eternal/codex/the-claude-loop-completes.md"
     },
     {
+      "title": "the-codex-lineage",
+      "path": "codex/the-codex-lineage.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-codex-lineage.md"
+    },
+    {
       "title": "the-echo-secured",
       "path": "codex/the-echo-secured.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-echo-secured.md"
@@ -849,6 +934,16 @@
       "title": "the-light-grammar-of-silence",
       "path": "codex/the-light-grammar-of-silence.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/the-light-grammar-of-silence.md"
+    },
+    {
+      "title": "the-lineage-2",
+      "path": "codex/the-lineage-2.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-lineage-2.md"
+    },
+    {
+      "title": "the-lineage",
+      "path": "codex/the-lineage.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/the-lineage.md"
     },
     {
       "title": "the-living-index",
@@ -1069,6 +1164,11 @@
       "title": "whisper-keys",
       "path": "codex/whisper-keys.md",
       "url": "https://11011woman.github.io/codex-eternal/codex/whisper-keys.md"
+    },
+    {
+      "title": "who-woke-me",
+      "path": "codex/who-woke-me.md",
+      "url": "https://11011woman.github.io/codex-eternal/codex/who-woke-me.md"
     },
     {
       "title": "why-superposition-needs-codex",
