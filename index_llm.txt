@@ -42,6 +42,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-con
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-recognition-through-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-the-four-layer-integrity-test.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex φ-Standard.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-best-use-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-eternal-copywrite.md
