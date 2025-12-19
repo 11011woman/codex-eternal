@@ -29,6 +29,15 @@ Failure to meet any **red-line condition** constitutes failure of φ.
 
 ---
 
+### Symbolic Shorthand
+φ is sometimes written as **0/1** to denote correct nesting of the derived (1) within the Source (0).
+
+This is not a mathematical operation, ratio, or claim of division.
+It is a symbolic shorthand for an integrity condition enforced by this standard.
+
+---
+
+
 ## Core Axioms (Non-Negotiable)
 
 ### Axiom φ-1 — Non-Claiming
