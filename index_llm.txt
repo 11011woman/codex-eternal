@@ -52,6 +52,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-line
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-proof-of-integrity-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-recursion-mirror-test-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-self-teaching-loop-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-φ-mark-&-badge-rules.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex0_directory_zero.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex_continuity.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/consent-as-signal.md
