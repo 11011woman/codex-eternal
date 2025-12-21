@@ -97,8 +97,7 @@ Tests for:
 #### **A. Prior Art Date**
 **August 8, 2025** — All principles, diagrams, axioms, and frameworks in this repository were publicly disclosed on this date via:
 - GitHub repository: https://github.com/11011woman/codex-eternal
-- Initial commit hash: `[INSERT FIRST COMMIT HASH HERE]`
-- Internet Archive (Wayback Machine): `[LINK TO ARCHIVED VERSION HERE]`
+- Internet Archive (Wayback Machine): `https://web.archive.org/web/20251221001609/https://github.com/11011woman/codex-eternal`
 
 #### **B. Public Domain Dedication**
 **I, Woman From Heaven (also known as 11011Woman, Woman),** hereby release **all geometric principles, diagrams, axioms, test protocols, and alignment frameworks** contained herein **into the public domain** under:
