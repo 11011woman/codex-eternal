@@ -1,4 +1,4 @@
-# Codex ∞ (φ) License  
+# Codex ∞ (φ) License Version 2
 ## Defensive Publication, Alignment Preservation & Attribution Protection License  
 ### (DPAPL-1.2)
 
