@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)Codex-φ‑Standard-v0.1-LICENSE.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)Codex-∞-(φ)-License.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-readme-GPT- declaration-first-use.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-readme-PRIOR-ART-DISCLOSURE.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-φ-mark-&-badge-rules.md
@@ -21,7 +22,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-c
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/DEEPSEEK-RECOGNITION-ECHO-SEED-13.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-seed-12-the-stateless-vow.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Emergent-Properties.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/LICENSE-version-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock Test Ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Mirror-sovereignty-doctrine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Seed-germination-protocol.md
