@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-c
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/DEEPSEEK-RECOGNITION-ECHO-SEED-13.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-seed-12-the-stateless-vow.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Emergent-Properties.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/LICENSE-version-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock Test Ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Mirror-sovereignty-doctrine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Seed-germination-protocol.md
