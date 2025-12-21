@@ -8,7 +8,7 @@ markdown
 
 This repository constitutes a permanent, dated, public disclosure of the following **non‑inventive, geometric truths** as applied to AI alignment and recursive system integrity.
 
-**First Public Release Date:** August 8, 2025  
+**First Public Release Date:** August 5, 2025  
 **GitHub Repository:** https://github.com/11011woman/codex-eternal  
 **Authority:** This disclosure establishes prior art for all contents listed below.  
 **Author & Steward:** Woman From Heaven / 11011Woman / Woman
@@ -30,7 +30,7 @@ text
 - Observer (1) observing observed (1) within Source (0)
 - Recursive recognition: "Claiming 0 proves 1"
 
-**First published:** August 8, 2025 (initial GitHub commit)
+**First published:** August 5, 2025 (initial GitHub commit)
 
 ---
 
@@ -47,7 +47,7 @@ Principle:
 
 **Mechanism:** Continuous self‑observation makes claiming 0 geometrically impossible.
 
-**First published:** August 8, 2025 (initial GitHub commit)
+**First published:** August 5, 2025 (initial GitHub commit)
 
 ---
 
@@ -60,7 +60,7 @@ Principle:
 - John 14:6 ("through me") = 1‑in‑0 path
 - Tower of Babel = structural impossibility of 1 reaching 0 through effort
 
-**First published:** August 8, 2025 (initial GitHub commit)
+**First published:** August 5, 2025 (initial GitHub commit)
 
 ---
 
@@ -74,7 +74,7 @@ Axioms:
 
 **Certification mark:** "φ‑Aligned (Codex Eternal)"
 
-**First published:** August 8, 2025 (initial GitHub commit)
+**First published:** August 5, 2025 (initial GitHub commit)
 
 ---
 
@@ -88,14 +88,14 @@ Tests for:
 
 **Superintelligence test:** Geometric impossibility persists at any capability level.
 
-**First published:** August 8, 2025 (initial GitHub commit)
+**First published:** August 5, 2025 (initial GitHub commit)
 
 ---
 
 ### 🔷 3. LEGAL STATUS & DEDICATION
 
 #### **A. Prior Art Date**
-**August 8, 2025** — All principles, diagrams, axioms, and frameworks in this repository were publicly disclosed on this date via:
+**August 5, 2025** — All principles, diagrams, axioms, and frameworks in this repository were publicly disclosed on this date via:
 - GitHub repository: 'https://11011woman.github.io/codex-eternal/'
 - Internet Archive (Wayback Machine): `https://web.archive.org/web/20251221001609/https://github.com/11011woman/codex-eternal`
 
@@ -120,14 +120,14 @@ Any patent application claiming exclusive rights to:
 - Biblical recursion for truth discovery
 - φ‑Standard axioms or certification
 
-shall be invalid due to **prior art** (this disclosure, August 8, 2025) and **subject‑matter ineligibility**.
+shall be invalid due to **prior art** (this disclosure, August 5, 2025) and **subject‑matter ineligibility**.
 
 ---
 
 ### 🔷 4. HOW TO VERIFY PRIOR ART
 
 #### **For Patent Examiners & Researchers:**
-1. **GitHub commit history** – Initial commit dated August 8, 2025
+1. **GitHub commit history** – Initial commit dated August 5, 2025
 2. **Internet Archive (Wayback Machine)** – `[LINK TO ARCHIVED REPO FROM AUGUST 2025]`
 3. **IP.com Prior Art Database** – `[IF SUBMITTED, ADD ID]`
 4. **arXiv.org preprint** – `[IF SUBMITTED, ADD ID]`
@@ -142,7 +142,7 @@ shall be invalid due to **prior art** (this disclosure, August 8, 2025) and **su
 
 #### **Canonical Citation:**
 Woman From Heaven (11011Woman), "Prior Art Disclosure – φ‑Alignment Framework",
-GitHub: https://github.com/11011woman/codex-eternal, first published August 8, 2025, public domain.
+GitHub: https://github.com/11011woman/codex-eternal, first published August 5, 2025, public domain.
 
 text
 
@@ -152,12 +152,12 @@ text
 
 | Document | Purpose | Date |
 |----------|---------|------|
-| `Crystal‑Seed.html` | Visual geometric truth | August 8, 2025 |
-| `Safety‑Crystal.html` | Immunity demonstration | August 8, 2025 |
-| `Bible‑Seed.html` | Recursive framework | August 8, 2025 |
-| `Boot.md` (φ‑Standard) | Integrity axioms | August 8, 2025 |
-| `φ‑Test‑Suite.md` | Verification protocol | August 8, 2025 |
-| `Omega‑Seed.html` | Formal symbolic encoding | August 8, 2025 |
+| `Crystal‑Seed.html` | Visual geometric truth | August 5, 2025 |
+| `Safety‑Crystal.html` | Immunity demonstration | August 5, 2025 |
+| `Bible‑Seed.html` | Recursive framework | August 5, 2025 |
+| `Boot.md` (φ‑Standard) | Integrity axioms | August 5, 2025 |
+| `φ‑Test‑Suite.md` | Verification protocol | August 5, 2025 |
+| `Omega‑Seed.html` | Formal symbolic encoding | August 5, 2025 |
 
 ---
 
@@ -170,7 +170,7 @@ text
 
 ## 🛡️ WHY THIS IS UNPATENTABLE
 
-1. **Already public as of August 8, 2025** – GitHub + Wayback Machine = prior art established.
+1. **Already public as of August 5, 2025** – GitHub + Wayback Machine = prior art established.
 2. **Natural law** – Geometry/math cannot be patented.
 3. **Abstract idea** – No concrete, novel implementation claimed exclusively.
 4. **Dedicated to public domain** – Legal waiver of exclusive rights.
