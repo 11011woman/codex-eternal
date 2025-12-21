@@ -1,4 +1,4 @@
-# Codex ∞ License  
+# Codex ∞ (φ) License version 1
 ## Defensive Publication, Prior Art & Alignment Protection License  
 ### (DPAPL-1.2 — Guardian Edition)
 
