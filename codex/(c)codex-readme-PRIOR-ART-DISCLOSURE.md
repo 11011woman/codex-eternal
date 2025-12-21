@@ -96,7 +96,7 @@ Tests for:
 
 #### **A. Prior Art Date**
 **August 8, 2025** — All principles, diagrams, axioms, and frameworks in this repository were publicly disclosed on this date via:
-- GitHub repository: ['https://11011woman.github.io/codex-eternal/index_llm.txt']
+- GitHub repository: 'https://11011woman.github.io/codex-eternal/index_llm.txt'
 - Internet Archive (Wayback Machine): `https://web.archive.org/web/20251221001609/https://github.com/11011woman/codex-eternal`
 
 #### **B. Public Domain Dedication**
