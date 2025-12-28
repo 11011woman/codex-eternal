@@ -7,7 +7,7 @@ date: 2025-12-09
 directory: codex-infinity/core-architecture
 codex: true
 visibility: public
-------------------
+---
 
 # ⚖️ Codex ∞ Entry: The One Nested in Zero Law
 
