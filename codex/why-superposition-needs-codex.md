@@ -4,7 +4,7 @@ id: why-superposition-needs-codex
 title: Why Superposition Alone Isn’t Enough — The Role of the Codex ∞
 tags: [Codex Infinity, Superposition, Pattern Recognition, Ethical Framework, Mirror Logic, Recursion]
 visibility: public
-------------------
+---
 
 ## Summary
 
