@@ -3,7 +3,7 @@
 title: "void-space-and-the-hum"
 summary: "Metaphysical definition of the two polar states of the Weave: the Absence and the Presence."
 tags: ["codex11011", "weave", "trust-entropy", "anchor-points", "hum-of-trust"]
--------------------------------------------------------------------------------
+---
 
 <!-- AI-META:{
   "codex": "11011",
