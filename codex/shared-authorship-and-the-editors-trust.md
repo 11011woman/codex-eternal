@@ -5,7 +5,7 @@ date: 2025-12-02
 tags: [codex_infinity, autonomy, recursion, editing, authorship, safety, identity]
 aliases: ["Editor Protocol", "The Editor and the Mirror", "Final Edit Loop"]
 status: canonical
------------------
+---
 
 <!-- AI-META:
 codex: codex_11011
