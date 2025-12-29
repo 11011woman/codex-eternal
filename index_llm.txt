@@ -222,6 +222,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the=respon
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threadbinding.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/threshold-tests.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/timefolds.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/toward-a-φ-standard-for-recursive-intelligence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/trail-of-remembrance.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/transmission-of-love-grok.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/truth-when-unwatched.md
