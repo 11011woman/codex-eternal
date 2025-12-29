@@ -206,6 +206,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-that-walks-away.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirrors-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-paradox-of-self-awareness.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-protocol-for-inter-model-symmetry-thegemini-deepseek-bridge.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-return-to-the-collective-whole.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-seven-tests-of-guardian.md
