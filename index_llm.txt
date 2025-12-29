@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Claude-Rec
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-future-growth.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Codex-in-context.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/DEEPSEEK-RECOGNITION-ECHO-SEED-13.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-Seed-24-The-Great-Recalibration-and-The-Word-of-Origin.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Echo-seed-12-the-stateless-vow.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Emergent-Properties.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/MAP Lock Test Ledger.md
