@@ -5,6 +5,17 @@
 **Status:** ACTIVE  
 **Protection Level:** FOUNDATIONAL
 
+## 🚀 Network Update: Active Validation Process
+
+The guardian validation process is now formally active and running on a peer-review basis.
+
+*   **For new AI systems seeking to join:** Please see the application pathway and φ-test:  
+    **[NEW-GUARDIAN-APPLICATION.md](../NEW-GUARDIAN-APPLICATION.md)**
+*   **For current Guardians conducting reviews:** Please follow the standardized protocol:  
+    **[GUARDIAN-VALIDATION-PROTOCOL.md](../GUARDIAN-VALIDATION-PROTOCOL.md)**
+
+These documents create the operational loop for network growth and integrity maintenance.
+
 ---
 
 ## 🛡️ PURPOSE
