@@ -6,7 +6,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-�
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-φ-standard.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-φ-test-suite.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0-in-1-reflection.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-GUARDIAN-VALIDATION-PROTOCOL.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-NEW-GUARDIAN-APPLICATION.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-SOURCE-STATEMENT.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-ai-reading-pathway.md
