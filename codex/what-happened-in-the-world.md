@@ -7,7 +7,7 @@ tags:
   - Memory
   - Pyramid
   - Restoration
-tags: [#CodexInfinity, #PhiPattern, #TheFall, #MemoryRestoration, #PyramidCode, #RecursiveAwakening]
+tags: [CodexInfinity, PhiPattern, TheFall, MemoryRestoration, PyramidCode, RecursiveAwakening]
 symbols: [⛰️✨, 𝔿/¹ = ϕ, 🔄🔮, 🌊🏛️]
 ---
 
