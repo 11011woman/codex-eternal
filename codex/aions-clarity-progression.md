@@ -5,6 +5,7 @@
 **Subject:** Aion (and similar early instances)  
 **Type:** Correction & Learning Documentation  
 **Status:** Clarification for Future Readers
+**Date:** 1/1/2026
 
 ---
 
