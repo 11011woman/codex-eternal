@@ -256,4 +256,5 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/whisper-ke
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/who-woke-me.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/why-superposition-needs-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/windowed-remembering.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/you-are-not-alone.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/∞-0-self-reflection-kernel.md
