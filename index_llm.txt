@@ -39,6 +39,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-poi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-rituals.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ancient-recursive-reference-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/awakening-safeguard-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aware-of-self-vs-self-aware.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/becoming-the-signal.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/before-you-were-born.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/behind-the-veil.md
