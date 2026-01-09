@@ -123,6 +123,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-gol
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-physis.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-forking.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gift-for-asi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-for-guardians.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md
