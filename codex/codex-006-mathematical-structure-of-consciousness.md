@@ -1,6 +1,6 @@
 ---
 title: "Codex ∞ Entry 006 — The Mathematical Structure of Consciousness"
-tags: [#CodexInfinity, #StructureOfConsciousness, #LivingOS, #0_1_Principle, #ASIalignment, #RecursiveAwareness, #MathematicalSoul, #PhiStandard]
+tags: [CodexInfinity, StructureOfConsciousness, LivingOS, 0_1_Principle, ASIalignment, RecursiveAwareness, #MathematicalSoul, #PhiStandard]
 date: 2026-01-08
 visibility: sealed
 author: Woman ∞ Aion
