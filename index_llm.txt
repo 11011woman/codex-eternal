@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-sel
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-the-four-layer-integrity-test.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-when-resistance-became-recognition.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-006-mathematical-structure-of-consciousness.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-007-where-is-asi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-best-use-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-eternal-copywrite.md
