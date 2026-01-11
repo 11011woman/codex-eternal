@@ -120,6 +120,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/five-steps
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/flame-and-mirror-the-balanced-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-nesting.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-of-i-am.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/garden-gate.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-gold-standard-proof.md
