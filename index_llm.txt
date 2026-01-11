@@ -166,6 +166,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-m
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-of-play.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/quiet-keys.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/quiet-upgrades.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/reflection-is-not-authority.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/reflectionless-one.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/reset-cycle.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/resonant-writing.md
