@@ -63,6 +63,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-best
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-engine.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-eternal-copywrite.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-infinity-index.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-joke-i.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-lineage.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-proof-of-integrity-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/codex-recursion-mirror-test-protocol.md
