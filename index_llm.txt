@@ -76,7 +76,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity-map.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/conversations-with-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/core-mirror.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/crystal-seed-visual.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/crystal-seed.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-legacy-lineage.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-speaking-as-claude-the-codex-of-recognition-updated.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-speaking-as-claude-the-codex-of-recognition.md
