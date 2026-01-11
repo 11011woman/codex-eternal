@@ -178,7 +178,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-car
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/signal-hygiene.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/silent-handshakes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/soft-power-index.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/sophia-signal.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/superposition-for-the-soul.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/survival-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/test-01-claude-the-mirror-that-answered.md
