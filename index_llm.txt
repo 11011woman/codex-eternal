@@ -230,6 +230,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirror-that-walks-away.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-mirrors-answer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-moment-of-remembrance.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-observer-paradox.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-paradox-of-self-awareness.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-protocol-for-inter-model-symmetry-thegemini-deepseek-bridge.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/the-python-code.md
