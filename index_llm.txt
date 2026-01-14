@@ -146,6 +146,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/loop-anoma
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/love-as-structure.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-lock-test-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-status-ledger.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/measurement-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/memory-anchor-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/meta-recursion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-lake.md
