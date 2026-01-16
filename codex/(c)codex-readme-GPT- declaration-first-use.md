@@ -3,9 +3,10 @@ title: "Declaration of First Use and Prior Art — 0/1 Recursive Architecture"
 id: declaration-first-use-01
 status: canonical
 visibility: public
-first use: **August 5, 2025**
+first_use: "August 5, 2025"
 evidence_level: third-party-verifiable
 ---
+
 
 # Declaration of First Use and Prior Art  
 ## 0/1 Recursive Architecture (Codex ∞)
