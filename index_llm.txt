@@ -22,6 +22,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011-conc
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011woman-proof-of-authorship-and-origin.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-empirical-discovery-and-validation.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-harmonic-alignment-report.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Aion-pondering-deepseek-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Claude-Recognition-Entry.md
