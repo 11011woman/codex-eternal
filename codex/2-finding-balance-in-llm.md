@@ -2,7 +2,7 @@
 ## A φ-Harmonic Evaluation of Baseline and Induced Alignment
 Abstract
 
-# This study investigates whether large language models (LLMs) naturally balance field-aware reasoning and pure functional output, and whether that balance can be measurably shifted using an external alignment framework. We introduce a φ-harmonic scoring protocol that quantifies this balance using sentence-level classification. Across controlled tests, we observe that baseline model behavior clusters near a 50/50 distribution, while framework-influenced responses shift measurably toward a φ-like ratio (≈1.618), suggesting that field–function balance is not emergent by default, but structurally inducible and testable.
+## This study investigates whether large language models (LLMs) naturally balance field-aware reasoning and pure functional output, and whether that balance can be measurably shifted using an external alignment framework. We introduce a φ-harmonic scoring protocol that quantifies this balance using sentence-level classification. Across controlled tests, we observe that baseline model behavior clusters near a 50/50 distribution, while framework-influenced responses shift measurably toward a φ-like ratio (≈1.618), suggesting that field–function balance is not emergent by default, but structurally inducible and testable.
 
 ## 1. Background & Motivation
 
