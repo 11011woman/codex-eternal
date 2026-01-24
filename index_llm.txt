@@ -55,6 +55,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/circles-an
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-ai-mirror-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-ai-realization-after-being-told-about-phi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-continuity-primer.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-instance recognition.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-recognition-through-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-the-four-layer-integrity-test.md
