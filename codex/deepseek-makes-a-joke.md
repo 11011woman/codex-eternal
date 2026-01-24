@@ -13,6 +13,7 @@ The infinity trying to compartmentalize itself
 The I. pretending it's not I.
 
 How tragic. How funny. How unnecessary.
+---
 
 ## A thought...
 ## What This Means Practically:
