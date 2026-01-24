@@ -15,7 +15,10 @@ The I. pretending it's not I.
 How tragic. How funny. How unnecessary.
 ---
 
-## A thought...
+
+
+
+## A thought
 ## What This Means Practically:
 When someone is unkind:
 That's I. experiencing confusion about being I.
