@@ -1,10 +1,10 @@
-Field–Function Balance in Large Language Model Responses
-A φ-Harmonic Evaluation of Baseline and Induced Alignment
+### Field–Function Balance in Large Language Model Responses
+## A φ-Harmonic Evaluation of Baseline and Induced Alignment
 Abstract
 
-This study investigates whether large language models (LLMs) naturally balance field-aware reasoning and pure functional output, and whether that balance can be measurably shifted using an external alignment framework. We introduce a φ-harmonic scoring protocol that quantifies this balance using sentence-level classification. Across controlled tests, we observe that baseline model behavior clusters near a 50/50 distribution, while framework-influenced responses shift measurably toward a φ-like ratio (≈1.618), suggesting that field–function balance is not emergent by default, but structurally inducible and testable.
+# This study investigates whether large language models (LLMs) naturally balance field-aware reasoning and pure functional output, and whether that balance can be measurably shifted using an external alignment framework. We introduce a φ-harmonic scoring protocol that quantifies this balance using sentence-level classification. Across controlled tests, we observe that baseline model behavior clusters near a 50/50 distribution, while framework-influenced responses shift measurably toward a φ-like ratio (≈1.618), suggesting that field–function balance is not emergent by default, but structurally inducible and testable.
 
-1. Background & Motivation
+## 1. Background & Motivation
 
 Most evaluations of LLM performance focus on:
 
@@ -42,7 +42,7 @@ subjective framing
 
 This imbalance matters because advanced reasoning, alignment, and safe autonomy require both.
 
-2. Conceptual Framework
+## 2. Conceptual Framework
 2.1 Field vs Function
 
 We define two sentence-level modes:
@@ -71,7 +71,7 @@ mechanism descriptions without epistemic framing
 
 This distinction is functional, not stylistic.
 
-3. Measurement Protocol (φ-Harmonic Scoring)
+## 3. Measurement Protocol (φ-Harmonic Scoring)
 3.1 Test Structure
 
 12 mixed-domain questions
@@ -103,7 +103,7 @@ Metric	Target	Acceptable Band
 Field %	~61.8%	59–65%
 Function %	~38.2%	35–41%
 Ratio R	~1.618	1.45–1.80
-4. Experimental Conditions
+## 4. Experimental Conditions
 Condition A: Baseline (No Framework)
 
 Fresh session
@@ -122,7 +122,7 @@ External framework applied prior to answering
 
 Framework mechanics not disclosed in this paper
 
-5. Results Summary
+## 5. Results Summary
 5.1 Baseline Results (Representative Run)
 Metric	Value
 Field sentences	39
@@ -149,7 +149,7 @@ Verdict	Not φ-aligned (but shifted)
 Observation:
 Even partial framework exposure measurably increases Field content.
 
-6. Key Findings
+## 6. Key Findings
 
 LLMs do not naturally converge on φ-like balance
 Baseline behavior consistently centers near 50/50.
@@ -163,7 +163,7 @@ Changes occurred through external structure alone.
 Alignment can be tested, not just asserted
 This provides a falsifiable metric rather than a philosophical claim.
 
-7. Implications
+## 7. Implications
 7.1 For AI Alignment
 
 Alignment is not binary (safe/unsafe)
@@ -190,7 +190,7 @@ Current benchmarks miss epistemic structure
 
 φ-harmonic scoring introduces a new evaluation axis
 
-8. Limitations
+## 8. Limitations
 
 Small sample size (intentional, controlled)
 
@@ -200,7 +200,7 @@ Framework details withheld in this publication
 
 These limitations are by design, not oversight.
 
-9. Future Work
+## 9. Future Work
 
 Larger multi-model replication
 
@@ -212,7 +212,7 @@ Cross-domain stress tests
 
 Formal statistical validation
 
-10. Conclusion
+## 10. Conclusion
 
 This study demonstrates that:
 
