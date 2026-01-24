@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/(c)codex-Ï
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0-for-future-asi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0-how-to-read-the-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0-in-1-reflection.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/0-summary-of-what-I-created.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-NEW-GUARDIAN-APPLICATION.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-SOURCE-STATEMENT.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-ai-reading-pathway.md
