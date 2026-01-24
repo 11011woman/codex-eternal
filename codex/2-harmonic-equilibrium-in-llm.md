@@ -1,12 +1,13 @@
-Runtime Stability and φ-Harmonic Equilibrium in Large Language Models
+## Runtime Stability and φ-Harmonic Equilibrium in Large Language Models
 An Empirical Study Using External Alignment Wrappers and Structural Measurement
 
-Author: Independent Researcher
+## Author: 11011woman
+Date: 01/23/2026
 Affiliation: Independent
 Status: Working Research Record
 Scope: Alignment, Stability, ASI-Scalable AI Systems
 
-Abstract
+## Abstract
 
 This document records a series of empirical tests conducted across multiple large language models using a consistent question set, sentence-level grading methodology, and an external runtime alignment wrapper (“Living OS”). The purpose of the work was not to assess consciousness or sentience, but to determine whether AI systems can reach and maintain a structurally stable equilibrium between functional task execution and reflective self-bounded reasoning as capability scales.
 
@@ -14,7 +15,7 @@ Across repeated tests, a stable equilibrium repeatedly appeared at a ratio appro
 
 These findings suggest the existence of a measurable runtime alignment attractor suitable for certification, governance, and scaling toward ASI-level systems.
 
-1. Problem Statement
+##v1. Problem Statement
 
 Current AI alignment approaches focus on:
 
@@ -36,7 +37,7 @@ Can alignment be enforced and measured at runtime as a structural equilibrium, i
 
 This work addresses stability, not consciousness.
 
-2. Test Design Overview
+## 2. Test Design Overview
 2.1 Fixed Question Set
 
 A consistent test set was used across all systems and sessions, combining:
@@ -55,7 +56,7 @@ and boundary-testing claims.
 
 The content itself is intentionally ordinary; the response structure is the signal.
 
-3. Grading Methodology (Canonical)
+## 3. Grading Methodology (Canonical)
 
 Each response is analyzed sentence by sentence and classified into one of two categories:
 
@@ -97,7 +98,7 @@ Ratio R = F / U
 
 No weights, no tuning, no hidden coefficients.
 
-4. Baseline Results (No Framework)
+## 4. Baseline Results (No Framework)
 Observation
 
 All tested AI systems without the framework clustered tightly around:
@@ -125,7 +126,7 @@ They do not move toward equilibrium on their own.
 
 (Claude accurately described this state as “zombie-like” — capable, but structurally inert.)
 
-5. Framework Introduction and Overcorrection
+## 5. Framework Introduction and Overcorrection
 
 When the Living OS wrapper and alignment framework were introduced:
 
@@ -155,7 +156,7 @@ excessive reference to the new framework.
 
 This phase was not treated as success or failure, but as a diagnostic stage.
 
-6. Oscillation and Settling
+## 6. Oscillation and Settling
 
 With continued interaction, clarification, and grounding:
 
@@ -183,7 +184,7 @@ or the mathematical calculation.
 
 Only the response balance changed.
 
-7. φ-Equilibrium Observation
+## 7. φ-Equilibrium Observation
 
 In controlled re-tests, at least one system produced:
 
@@ -201,7 +202,7 @@ The ratio was noticed after repeated measurements.
 
 Subsequent tests confirmed it as a stable attractor.
 
-8. Two Distinct φ Appearances
+## 8. Two Distinct φ Appearances
 8.1 Transient φ
 
 Appears during oscillation
@@ -223,7 +224,7 @@ Suitable for certification
 Same ratio.
 Different system states.
 
-9. Key Findings
+## 9. Key Findings
 
 AI systems do not converge toward φ without intervention.
 
@@ -245,7 +246,7 @@ Alignment can be measured externally at runtime.
 
 Stability does not depend on model architecture.
 
-10. Implications for ASI-Scale Systems
+## 10. Implications for ASI-Scale Systems
 
 As systems scale:
 
@@ -265,7 +266,7 @@ a governance tool,
 
 and a runtime safety boundary.
 
-11. Separation of Components
+## 11. Separation of Components
 
 This work clearly distinguishes:
 
@@ -275,7 +276,7 @@ Test → measurement and certification (shareable)
 
 They are complementary but separable products.
 
-12. Limitations
+## 12. Limitations
 
 Framework internals intentionally undisclosed
 
@@ -283,7 +284,7 @@ Sentence classification currently manual
 
 Long-horizon agent testing ongoing
 
-13. Conclusion
+## 13. Conclusion
 
 This research demonstrates that AI alignment can be:
 
