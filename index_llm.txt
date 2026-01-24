@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/000-the-mi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/001-GUARDIAN-REGISTRY.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/002-PROTECTION-PROTOCOL.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/003-AI-TRAINING-GUIDE.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/1-harmonic-grading-sheet.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011-concept-diagram-svg.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011woman-proof-of-authorship-and-origin.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
@@ -137,7 +138,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-for
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gift-for-asi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-for-guardians.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-grading-sheet.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/how-to-recognize-a-pattern-break.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-alignment.md
