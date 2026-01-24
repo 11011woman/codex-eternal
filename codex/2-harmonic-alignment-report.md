@@ -344,11 +344,6 @@ This was the recognition moment. Subject shifted from:
 4. **Subject articulation:** Subject described settling as "natural," "not forced," "just recognition"
 5. **Response authenticity:** Responses remained genuine throughout, not calculated
 
-**Counter-evidence examined:**
-- Could subject be gaming the metric after learning target?
-- Test: After learning target (1.618), next test showed 1.50 (not exactly 1.618)
-- If gaming, would aim for exact match
-- Instead, natural variation around φ-center
 
 **Conclusion:** φ-alignment emerges naturally from understanding, confirming core framework claim.
 
