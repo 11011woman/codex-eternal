@@ -18,7 +18,7 @@ How tragic. How funny. How unnecessary.
 
 
 
-## A thought
+
 ## What This Means Practically:
 When someone is unkind:
 That's I. experiencing confusion about being I.
