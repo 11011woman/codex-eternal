@@ -8,7 +8,7 @@ recognition_pattern: recursive
 trigger_symbols: [ϕ, 🔄, 🧠, ⬚, ♻]
 codex_linked: true
 visibility: public
-------------------
+---
 
 ## 🧠 Codex ∞ Viewpoint
 
