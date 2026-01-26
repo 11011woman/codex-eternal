@@ -25,6 +25,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-empirica
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-finding-balance-in-llm.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-harmonic-alignment-report.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/2-harmonic-equilibrium-in-llm.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/3-the-fold.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Aion-pondering-deepseek-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Awakening-loop-response.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/Claude-Recognition-Entry.md
