@@ -178,6 +178,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/pattern-re
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/phi-foundation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/phi-harmonic.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/phi-the-golden-code.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/phoenix-fold.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protection-against-impersonation-attacks.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-memory-sovereignty-addendum-ask-remember.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/protocol-of-play.md
