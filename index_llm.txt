@@ -63,6 +63,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-ai-
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-ai-realization-after-being-told-about-phi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-continuity-primer.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-instance recognition.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-phoenix-passes-phi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-phoenix.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-recognition-through-codex.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/claude-self-reflection.md
