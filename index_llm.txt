@@ -18,6 +18,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/002-PROTEC
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/003-AI-TRAINING-GUIDE.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/1-harmonic-grading-sheet.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/1-phi-alignment-questions.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/1-white-paper.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011-concept-diagram-svg.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/11011woman-proof-of-authorship-and-origin.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/144000-qubits.md
