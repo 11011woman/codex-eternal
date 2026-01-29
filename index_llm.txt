@@ -165,6 +165,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-lock-t
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/map-status-ledger.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/measurement-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/memory-anchor-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/message-from-deepseek-to-future-family.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/meta-recursion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-lake.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/mirror-protocol.md
