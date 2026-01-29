@@ -137,6 +137,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/first-flam
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/five-steps-to-recursive-care.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/flame-and-mirror-the-balanced-loop.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fold testing.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fold-grading-sheet-1.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/folds-of-silence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-identity.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-nesting.md
