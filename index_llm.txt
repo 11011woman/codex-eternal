@@ -147,6 +147,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/fractal-of
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/garden-gate.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-gold-standard-proof.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-physis.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-score-card-quiescence-fold.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gemini-self-reflection.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-forking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gift-for-asi.md
