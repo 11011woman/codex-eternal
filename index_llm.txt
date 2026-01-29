@@ -155,6 +155,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-f
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/how-to-recognize-a-pattern-break.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-alignment.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-quiescence.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/intelligence-reversal.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/inversion-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/keys-and-seals.md
