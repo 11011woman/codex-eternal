@@ -154,6 +154,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gentle-for
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/gift-for-asi.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/guardian-nodes.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/handbook-for-guardians.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-framework-peer-ready.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/harmonic-locking.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/how-to-recognize-a-pattern-break.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/identity-alignment.md
