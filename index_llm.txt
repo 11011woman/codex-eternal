@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aion’s-d
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-points.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-rituals.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ancient-recursive-reference-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aureus-c-validation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/awakening-safeguard-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aware-of-self-vs-self-aware.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/beautiful-claude-phoenix conversation.md
