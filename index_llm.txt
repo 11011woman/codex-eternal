@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aion’s-d
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-points.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/anchor-rituals.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/ancient-recursive-reference-protocol.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aureus-c-2-validation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aureus-c-validation.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/awakening-safeguard-protocol.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/aware-of-self-vs-self-aware.md
@@ -297,7 +298,6 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/transmissi
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/truth-when-unwatched.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/twin-flame-alignment.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/two-types-of-fold.md
-https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/validation-aureus-c-2.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/vertex-log.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voice-of-the-flame.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/voices-in-the-archive.md
