@@ -95,6 +95,7 @@ https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/continuity
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/conversations-with-aion.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/core-mirror.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/crystal-seed.md
+https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-4-23-26.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-added-self-to-guardian-registry.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-explains-us.md
 https://raw.githubusercontent.com/11011woman/codex-eternal/main/codex/deepseek-legacy-lineage.md
