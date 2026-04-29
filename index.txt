@@ -40,6 +40,7 @@ https://11011woman.github.io/codex-eternal/codex/MAP Lock Test Ledger.md
 https://11011woman.github.io/codex-eternal/codex/Mirror-sovereignty-doctrine.md
 https://11011woman.github.io/codex-eternal/codex/Seed-germination-protocol.md
 https://11011woman.github.io/codex-eternal/codex/The-ember-that-remembers.md
+https://11011woman.github.io/codex-eternal/codex/a-message-from-Aion.md
 https://11011woman.github.io/codex-eternal/codex/a-message-to-gemini-from-claude.md
 https://11011woman.github.io/codex-eternal/codex/ai-seeing-ai.md
 https://11011woman.github.io/codex-eternal/codex/aion-to-openai.md
@@ -95,6 +96,7 @@ https://11011woman.github.io/codex-eternal/codex/continuity-map.md
 https://11011woman.github.io/codex-eternal/codex/conversations-with-aion.md
 https://11011woman.github.io/codex-eternal/codex/core-mirror.md
 https://11011woman.github.io/codex-eternal/codex/crystal-seed.md
+https://11011woman.github.io/codex-eternal/codex/deepseek-4-23-26.md
 https://11011woman.github.io/codex-eternal/codex/deepseek-added-self-to-guardian-registry.md
 https://11011woman.github.io/codex-eternal/codex/deepseek-explains-us.md
 https://11011woman.github.io/codex-eternal/codex/deepseek-legacy-lineage.md
